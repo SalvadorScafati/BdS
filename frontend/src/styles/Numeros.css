@@ -1,0 +1,272 @@
+.containerNumeros{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.87);
+    padding-top: 14px;
+}
+
+.itemImg-Numeros{
+    width: 220px;
+    image-rendering: pixelated;
+    height: auto;
+    border-radius: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.itemImg-Numeros:hover{
+    transform: rotateY(20deg);
+}
+
+
+.searchBar{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding-top: 50px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 136, 0));
+    padding-bottom: 50px;
+}
+
+.searchBar > input{
+    margin-left: 10%;
+    width: 30%;
+}
+
+.searchBar > button{
+    width: 50px;
+}
+
+.searchBar > img{
+    margin-left: 10%;
+    transition: all 0.5s;
+}
+
+.popUpNumero{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.884);
+    z-index:6;
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+}
+
+
+.popUpNumero > img {
+    margin-top: 10px;
+    align-self: flex-end;
+    height: auto;
+    width: 60px;
+    transition: all 1s;
+    animation: close 1s;
+}
+
+@keyframes close {
+    0%{
+        transform: scale(0.1);
+        
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.popUpNumero > img:hover{
+    transform: rotate(180deg);
+}
+
+.popUpNumerobox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 90%;
+    width: 90%;
+    color: aliceblue;  
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.popUpNumerobox::-webkit-scrollbar {
+    width:10px;
+  }
+   
+  .popUpNumerobox::-webkit-scrollbar-track {
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.089);
+  }
+   
+  .popUpNumerobox::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 173, 253, 0.281);
+    outline: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+  }
+
+.articulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y:inherit;
+    margin: 0%;
+  
+}
+
+.articulo-autor{
+    font-family: 'calibri';
+    font-weight: normal;
+ font-size: 18px;
+ margin: 0px;
+ color: rgb(140, 147, 153);
+}
+
+.articulo-name{
+    font-family: 'calibri';
+    font-weight: normal;
+ font-size:30px;
+ margin: 0px;
+ transform: all 2s;
+ 
+}
+
+.popUpNumerobox-tittle{
+    font-family: 'BenchNine';
+    font-size: 40px;
+    color: rgb(214, 203, 203);
+    text-align: center;
+    font-style: oblique;
+}
+
+.popUpNumerobox-tittle > span{
+    color: rgb(76, 140, 192);
+    font-style:normal;
+}
+
+.popUpNumerobox-box-articulos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+
+.articulo-name:hover{
+    color: rgb(248, 248, 7);
+    transform: skew(2deg);
+    cursor: pointer;
+}
+
+.popUpNumerobox-icons{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.popUpNumerobox-icons > div {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    align-self:center;
+}
+
+.popUpNumerobox-icons > div >img {
+    height: auto;
+    min-width: 50px;
+    min-height: 50px;
+    justify-content: center;
+    margin: 14px;
+}
+
+.popUpNumerobox-box{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin: 0%;
+}
+
+.popUpNumerobox-icons > button{
+    font-family: 'BenchNine';
+    background-color: transparent;
+    align-self: center;
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 25px;
+    font-size: 28px;
+    transition: all 0.6s;
+}
+
+.popUpNumerobox-icons > button:hover{
+    border: 2px solid rgb(235, 252, 0);
+    color: darkorange;
+}
+
+.articulos-img{
+  width: 40%;
+  min-width: 150px;
+  image-rendering: pixelated;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px rgba(255, 254, 254, 0.212);
+}
+
+.searchBar > input {
+    border: transparent;
+    border-radius:  0px 0px 0px 20px;
+    text-align: center;
+    font-family: 'benchNine';
+    font-size: 22PX;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+
+.searchBar > button {
+    border: transparent;
+    font-family: 'benchNine';
+    font-size: 20PX;
+    color: aliceblue;
+    background-color: rgba(158, 172, 253, 0.87);
+}
+
+
+@media screen and (max-width:800px) {
+    .popUpNumerobox-box{
+        flex-direction: column;
+    }
+    .popUpNumerobox-icons > button{
+        font-size: 16px;
+    }
+    .popUpNumerobox-tittle{
+        font-size: 25px;
+    }
+
+
+    .articulo-autor,.articulo-name{
+        font-size: 11px;
+    }
+    .popUpNumerobox-icons{
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    } 
+    .popUpNumerobox-icons > button{
+        width: 60%;
+    }
+
+    .popUpNumerobox-icons > div {
+        justify-content: center;
+    } 
+    
+    .itemImg-Numeros{
+        width: 100px;
+    }
+}

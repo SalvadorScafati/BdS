@@ -1,0 +1,27 @@
+.containerPdf{
+    display: flex;
+    height: auto;
+}
+
+.PdfVisual-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;    
+    width: 100vw;
+}
+
+.PdfVisual{
+    margin-top: 2px;
+    box-shadow: 5px 5px black;
+}
+
+.pdfVisual-contents{
+    width: 20%;
+    height: 100%;
+    background-color: bisque;
+}
+
+.pdfImg{
+    width: 100%;
+    height: 700px;
+}

@@ -1,0 +1,126 @@
+.container-intro-redes{
+    display: flex;
+   justify-content: flex-end;
+   
+}
+
+.introContainer{
+    width: 100%;
+    font-family: 'BenchNine';
+    text-align: center;
+    background-color: rgba(216, 191, 216, 0.363);
+    border-radius: 0px 0px  25px 0px;
+}
+
+.intro-p{
+    width: 40%;
+    font-size: 30px;
+    margin-left: 30%;
+    justify-content: center;
+    text-align: justify;
+    animation: textanimation;
+    animation-duration: 1.3s;
+}
+
+.title{
+    animation:titleanimation;
+    animation-duration: 1s;
+}
+
+@keyframes titleanimation {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes textanimation {
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.redesContainer{
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -30px;
+    padding-bottom: 20px;
+    background-color: rgb(167, 223, 130);
+    border-radius: 25px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.redesicon{
+    justify-content: baseline;
+    z-index: 1;
+    width: 80px;
+    margin-right: 1px;
+    padding-right: 1%;
+    height: auto;
+    transition: all 0.2s;
+
+    
+}
+
+
+.redesicon:hover{
+    z-index: 1;
+    border-collapse: collapse;
+    transform: rotate(30deg);
+    transform:translate(-10px,-10px)
+}
+
+.miniNavBar{
+ margin-top: -14px;
+ z-index: 1;
+ display: flex;
+ width: 100%;
+ height: 50px;
+}
+.miniNavBarButton{
+   
+    border: transparent;
+    border-left: solid 2px black;
+    width: 100%;
+    font-size: 30px;
+    z-index: 2;
+    font-family: 'BenchNine';
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-color: rgb(120, 176, 240);
+}
+
+.miniNavBarButton:hover{
+    text-shadow: rgba(255, 255, 255, 0.76) 0px 0px 5px;
+}
+
+
+
+
+@media screen and (max-width: 420px) {
+    
+    .intro-p{
+        width: 60%;
+        font-size: 16px;
+        margin-left: 30%;
+    }
+    .miniNavBarButton{
+        font-size: 16px;
+    }
+    .redesicon{
+        width: 40px;
+    }
+}

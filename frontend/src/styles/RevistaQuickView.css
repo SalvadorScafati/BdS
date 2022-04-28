@@ -1,0 +1,64 @@
+.revistaContainer,.itemContainer{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.revistaContainer{
+    margin-top: 4%;
+   
+}
+
+
+.itemContainer{
+    width: 100%;
+    overflow-x: auto;
+    overflow: hidden ;
+    
+}
+
+.itemImg{
+    cursor: pointer;
+    transition: all 0.4s;
+    height:100%;
+    width: auto;
+    box-shadow: 0px 2px 27px -1px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 0px 2px 27px -1px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 2px 27px -1px rgba(0,0,0,0.69);
+}
+
+.itemImg:hover{
+    overflow: visible;
+    transform: scale(1.1);
+}
+
+
+.itemButtonLeft,.itemButtonRight{
+    position: absolute;
+    height: 400px;
+    z-index: 2;
+    background-color: transparent;
+    border: transparent;
+    width: 7%;
+}
+
+.itemButtonLeft{
+    left: 0;
+}
+
+.itemButtonRight{
+    right: 0;
+}
+
+.itemImgHidden{
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.13);
+    padding: 20px;
+}
+
+@media screen and (max-width:640px) {
+    .revistaContainer,.itemContainer{
+        height: 250px;
+    }
+}

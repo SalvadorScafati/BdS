@@ -1,0 +1,27 @@
+
+body::-webkit-scrollbar {
+  width:20px;
+}
+ 
+body::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.253);
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.089);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(17, 79, 161, 0.281);
+  border-radius: 22px;
+}
+
+body{
+  background-image: linear-gradient(to right, rgba(191, 240, 184, 0), rgb(111, 198, 238));
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
