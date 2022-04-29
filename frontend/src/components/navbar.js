@@ -22,7 +22,7 @@ class NavBar extends React.Component {
                 <div className='NavBarContainer'>
                     <h1 className='NavBarItem' onClick={()=>window.open("/", "_self")}>Inicio</h1>
                     <h1 className='NavBarItem' onClick={()=>window.open("/numeros", "_self")}>Numeros</h1>
-                    <h1 className='NavBarItem'  onClick={()=>window.open("http://www.bocadesapo.com.ar/revistas.html", "_blank")}>Reseñas</h1>
+                    <h1 className='NavBarItem'  onClick={()=>window.open("http://reseniasbds.blogspot.com/", "_blank")}>Reseñas</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("http://agendabds.blogspot.com/", "_blank")}>Agenda</h1>
                     <h1 className='NavBarItem'>Podcast</h1>
                     <h1 className='NavBarItem'>Contacto</h1>
@@ -35,7 +35,7 @@ class NavBar extends React.Component {
                     <div className='dropDown'>
                              <h1 className='NavBarItem'  onClick={()=>window.open("/", "_self")}>Inicio</h1>
                              <h1 className='NavBarItem'  onClick={()=>window.open("/numeros", "_self")}>Numeros</h1>
-                             <h1 className='NavBarItem'  onClick={()=>window.open("http://www.bocadesapo.com.ar/revistas.html", "_blank")}>Reseñas</h1>
+                             <h1 className='NavBarItem'  onClick={()=>window.open("http://reseniasbds.blogspot.com/", "_blank")}>Reseñas</h1>
                              <h1 className='NavBarItem'  onClick={()=>window.open("http://agendabds.blogspot.com/", "_blank")}>Agenda</h1>
                              <h1 className='NavBarItem'>Videos</h1>
                              <h1 className='NavBarItem'>Podcast</h1>

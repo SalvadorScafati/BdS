@@ -20,9 +20,9 @@ class ImgSlider  extends React.Component {
 
     random(){
        this.setState({valor:Math.floor(Math.random(10)*10)})
-      /* setTimeout(() => {
+       setTimeout(() => {
             this.random()      
-       }, 10000);*/
+       }, 20000);
     }
 
 

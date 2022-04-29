@@ -1,6 +1,7 @@
 
 body::-webkit-scrollbar {
   width:20px;
+  background-color: aliceblue;
 }
  
 body::-webkit-scrollbar-track {
@@ -9,8 +10,8 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: rgba(17, 79, 161, 0.281);
-  border-radius: 22px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 2px;
 }
 
 body{
