@@ -1,5 +1,16 @@
 .NavBar{
-    background-color: #94a015;
+   background-color: black;
+   color: rgb(228, 226, 226);
+}
+
+.NavBarImg{
+    background-color: transparent;
+}
+
+
+
+
+.NavBar{
     font-family:'BenchNine';
     width: 100%;
     display: flex;
@@ -15,12 +26,12 @@
 
 .NavBarImg {
     display: flex;
-    margin-top: 45px;
+    margin-top: 40px;
+    padding-top: 20px;
     width: 100%;
-    background-color: #94a015;
     position: relative;
     justify-content: center;
-    z-index: 5;
+    z-index: 2;
 }
 
 .NavBarImg > img{

@@ -20,16 +20,23 @@ class ImgSlider  extends React.Component {
 
     random(){
        this.setState({valor:Math.floor(Math.random(10)*10)})
-       setTimeout(() => {
+      /* setTimeout(() => {
             this.random()      
-       }, 10000);
+       }, 10000);*/
     }
 
 
     render() { 
         return (<div>
             {this.state.dataLoaded &&
-                <div className='imgSliderImg' style={{backgroundImage: `url(${process.env.PUBLIC_URL+this.state.data[this.state.valor]})`}}/> 
+                <div className='imgSliderImg' style={{backgroundImage: `url(${process.env.PUBLIC_URL+this.state.data[this.state.valor]})`}}>
+                    {this.state.data.map((i,index)=><button className='imgSliderImg-button' key={index} onClick={()=>this.setState({valor:index})} />)}
+                </div> 
+            } 
+            {!this.state.dataLoaded &&
+                <div className='imgSliderImg' >
+                   
+              </div> 
             }
         </div>  );
     }

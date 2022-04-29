@@ -9,8 +9,26 @@
     box-shadow: 0px 2px 27px -1px rgba(0,0,0,0.69);
     -webkit-box-shadow: 0px 2px 27px -1px rgba(0,0,0,0.69);
     -moz-box-shadow: 0px 2px 27px -1px rgba(0,0,0,0.69);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
+
+.imgSliderImg-button{
+    border-radius: 25px;
+    border: transparent;
+    background-color: rgba(233, 237, 240, 0.795);
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.2s;
+}
+.imgSliderImg-button:hover{
+    background-color: rgb(233, 237, 240);
+    transform: translateY(-10px);
+}
 
 @media screen and (max-width: 800px) {
 
@@ -19,6 +37,10 @@
         width: 100%;
         height: 200px;
    
+    }
+    .imgSliderImg-button{
+        margin-bottom: 30px;
+        padding: 5px;
     }
 }
 
