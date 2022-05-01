@@ -24,7 +24,42 @@ class Redes extends React.Component {
                      {this.state.content[1] &&
                     <div>
                         <h1  className='title'>Staff</h1>
-                        <div className='intro-p'><h2>Lorem</h2><ul><li>ipsum</li><li>ipsum</li></ul></div>
+                        <div className='intro-p'>
+                            <h2>Directora</h2>
+                                <ul>
+                                    <li>Jimena Néspolo</li>
+                                </ul>
+                            <h2>Consejo de Direccion</h2>
+                                <ul>
+                                    <li>Laura Cliento</li>
+                                    <li>Clauda Feld </li>
+                                    <li>Florencia Eva González</li>
+                                </ul>
+                            <h2>Redaccion</h2>
+                                <ul>
+                                    <li>Felipe Benegas Lynch</li>
+                                </ul>
+                            <h2>Arte</h2>
+                                <ul>
+                                    <li>Jorge Sánchez</li>
+                                </ul>
+                            <h2>Redaccion</h2>
+                                <ul>
+                                    <li>Felipe Benegas Lynch</li>
+                                </ul>
+                            <h2>Diseño</h2>
+                                <ul>
+                                    <li>Antonia Scafati</li>
+                                </ul>  
+                            <h2>Community Manager</h2>
+                                <ul>
+                                    <li>Matuziken Knigth</li>
+                                </ul>  
+                            <h2>Produccion Audiovisual</h2>
+                                <ul>
+                                    <li>Carolina Rosaspini</li>
+                                </ul>      
+                       </div>
                     </div>
                     }
                     

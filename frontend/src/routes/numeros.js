@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/navbar';
 import PopupNumero from '../components/popUpNumero';
 import '../styles/Numeros.css';
+import Footer from '../components/footer';
 
 class Numeros extends React.Component {
 
@@ -83,6 +84,7 @@ class Numeros extends React.Component {
                     </div> 
                 </div>
                 }
+            <Footer />
             </div>
         );
     }

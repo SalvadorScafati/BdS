@@ -24,7 +24,7 @@ class NavBar extends React.Component {
                     <h1 className='NavBarItem' onClick={()=>window.open("/numeros", "_self")}>Numeros</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("http://reseniasbds.blogspot.com/", "_blank")}>Reseñas</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("http://agendabds.blogspot.com/", "_blank")}>Agenda</h1>
-                    <h1 className='NavBarItem'>Podcast</h1>
+                    <h1 className='NavBarItem'  onClick={()=>window.open("/podcast", "_self")}>Podcast</h1>
                     <h1 className='NavBarItem'>Contacto</h1>
                    
                 </div>}
@@ -37,8 +37,7 @@ class NavBar extends React.Component {
                              <h1 className='NavBarItem'  onClick={()=>window.open("/numeros", "_self")}>Numeros</h1>
                              <h1 className='NavBarItem'  onClick={()=>window.open("http://reseniasbds.blogspot.com/", "_blank")}>Reseñas</h1>
                              <h1 className='NavBarItem'  onClick={()=>window.open("http://agendabds.blogspot.com/", "_blank")}>Agenda</h1>
-                             <h1 className='NavBarItem'>Videos</h1>
-                             <h1 className='NavBarItem'>Podcast</h1>
+                             <h1 className='NavBarItem'  onClick={()=>window.open("/podcast", "_self")}>Podcast</h1>
                              <h1 className='NavBarItem'>Contacto</h1>
                        </div> 
                     }
