@@ -1,0 +1,72 @@
+.blogContainer{
+    margin-right: 10%;
+    padding: 2px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.blogContent{
+    width: max-content;
+    display:flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(255, 153, 0);
+    border-radius: 25px;
+    transition: all 0.6s;
+    animation: blogStart 4s ease-in-out;
+}
+@keyframes blogStart {
+    0%{
+        opacity: 0;
+        transform:translate(0px,500px)  
+    }
+    100%{
+        opacity: 1;
+        transform:translate(0px,0px)  
+    }
+}
+
+
+.blogContent > span > h1{
+    font-size: 28px;
+    font-family: 'benchNine';
+    text-align: justify;
+    width: 50%;
+    margin: 2px;
+    margin-left: 10%;
+}
+
+.blogContent > span{
+    display: flex;
+}
+
+.blogContent > span > img{
+    margin-top: 10px;
+    margin-left: 3px;
+    width: 44px;
+    height: 44px;
+    image-rendering: crisp-edges;
+   
+}
+
+.blogContent > img{
+    height: auto;
+    width: 420px;
+}
+
+
+.blogContent:hover{
+    cursor: pointer;
+    transform:translate(-10px,-10px)
+}
+
+@media screen and (max-width:550px) {
+    .blogContent > img{
+        height: auto;
+        width: 220px;
+    }
+}
