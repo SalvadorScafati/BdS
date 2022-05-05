@@ -8,7 +8,7 @@ class Numeros extends React.Component {
 
     constructor(props) {
         super(props)
-        this.state={dataOriginal:[],data:[],value:"",dataLoaded:false,ImgClicked:false,numero:-1,rotate:-90,flex:'row',wrap:'wrap'}
+        this.state={err:"",dataOriginal:[],data:[],value:"",dataLoaded:false,ImgClicked:false,numero:-1,rotate:-90,flex:'row',wrap:'wrap'}
     }
     
     componentDidMount() {
@@ -24,7 +24,7 @@ class Numeros extends React.Component {
         .then(response=>{return response.json()})
         .then(data=>{this.setState({dataOriginal:data,data:data})})
         .then(()=>this.setState({dataLoaded:true}))
-        .catch(err=>{console.log(err, ' error')})
+        .catch(err=>this.setState({err:err}))
       }
 
     deactivate(){
@@ -74,6 +74,7 @@ class Numeros extends React.Component {
         return (
             <div>
                 <NavBar/>
+                {<h1>{this.state.err}</h1>}
                 {this.state.dataLoaded &&
                 <div className='Numeros'>
                    {this.state.ImgClicked &&
