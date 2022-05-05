@@ -24,5 +24,9 @@ app.listen(port,()=>{
 const routes=require("./routes/bds")
 app.use('/api',routes)
 
+app.get("/",(req,res)=>{
+       res.json({"welcome"})
+})
+
 
 
