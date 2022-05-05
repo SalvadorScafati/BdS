@@ -2,6 +2,7 @@ import React from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 import '../styles/blogContainer.css'
 
+
 class BlogContent extends React.Component {
     constructor(props) {
         super(props);
@@ -10,22 +11,17 @@ class BlogContent extends React.Component {
 
     componentDidUpdate(prevProps, prevState) {
         if (prevState.visibility!==this.state.visibility){
-        fetch('http://agendabds.blogspot.com/')
-            .then(async response => {
-                return response.text()
-            })
-            .then (async html=>{
-                let parser = new DOMParser();
-	            let doc = parser.parseFromString(html, 'text/html');
-                let img = doc.querySelector(".snippet-thumbnail > a > img")
-                let a=doc.querySelector(".snippet-thumbnail > a ")
-                let tittle=doc.querySelector(".post-title.entry-title > a").innerText
-                this.setState({img:img.src,link:a.href,tittle:tittle,dataLoaded:true})
+            /*
+        fetch('https://docs.google.com/spreadsheets/d/1V5wJY6irSWBQ1iEOPeaAx373JyV1nCdC2sOtTtykxuk/gviz/tq?')
+            .then(response => response)
+            .then (data=>{
+                console.log(data)
+              //  this.setState({img:img.src,link:a.href,tittle:tittle,dataLoaded:true})
             })
             .catch(error => {
                 this.setState({ errorMessage: error.toString() });
                 console.error('There was an error!', error);
-            });}
+            });}*/
     }
   
     render() { 
