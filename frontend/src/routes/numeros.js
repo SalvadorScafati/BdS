@@ -12,9 +12,17 @@ class Numeros extends React.Component {
     }
     
     componentDidMount() {
+        /*fetch Local
         fetch("./data/revistas.json")
         .then(response=>{return response.json()})
         .then(data=>{this.setState({dataOriginal:data.numeros,data:data.numeros})})
+        .then(()=>this.setState({dataLoaded:true}))
+        .catch(err=>{console.log(err, ' error')})
+        */
+       /*Mongo DB*/
+       fetch("https://backend-bds.herokuapp.com/api/revista")
+        .then(response=>{return response.json()})
+        .then(data=>{this.setState({dataOriginal:data,data:data})})
         .then(()=>this.setState({dataLoaded:true}))
         .catch(err=>{console.log(err, ' error')})
       }

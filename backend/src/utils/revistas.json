@@ -1,0 +1,829 @@
+{
+  "numeros":[
+     { "numero":"33",
+    "nombre":"Tierra",
+    "img":"/tapas/Bds33.png",
+    "issu":"https://issuu.com/bocadesapo/docs/_33_boca_de_sapo",
+    "pdf":"https://drive.google.com/file/d/15zq1DNggG31t_pYBg8MnCbgmcQTLsguH/preview",
+    "articulos" :[ 
+      {"name":"El campo en nuestros días",
+      "autor":"Roy Hora",
+      "pdf":""},
+      {"name":"Voces infames del paisaje del conurbano bonaerense",
+      "autor":"Patricia Rondomankas",
+      "pdf":""},
+      {"name":"Presentación del pódcast de la revista",
+      "autor":"Pablo Manzano",
+      "pdf":""},
+      {"name":"Testimonio: Apuntes radiológicos",
+      "autor":"Enrique Flores",
+      "pdf":""}
+      ],
+    "dossier":{
+      "nameDossier":"Dossier de Mitología Guaraní:",
+      "autores":[
+          {"name":"Rosicrán y su poema",
+          "autor":"Rodrigo Villalba Rojas",
+          "pdf":""},
+          {"name":"La palabra-alma que se abre como flor y el concepto de traducción chamánica",
+          "autor":"María Paz Solís Durigo",
+          "pdf":""},
+          {"name":"La narrativa de expresión guaraní y el nacionalismo paraguayo",
+          "autor":"Mario Castells",
+          "pdf":""},
+          {"name":"La memoria ancestral",
+          "autor":"María Rosa Lojo",
+          "pdf":""},
+          {"name":"Las escrituras geológicas de Cristina Rivera Garza",
+          "autor":"Andrés Olaizola",
+          "pdf":""},
+          {"name":"Opinión: Futuro",
+          "autor":"Emanuele Coccia",
+          "pdf":""},
+          {"name":"Crónica: Parir signos",
+          "autor":"Jimena Néspolo",
+          "pdf":""}
+      ]
+    }
+    },
+    { "numero":"32",
+      "nombre":"Utopias del Lenguaje",
+      "img":"/tapas/Bds32.png",
+      "issu":"https://issuu.com/bocadesapo/docs/_33_boca_de_sapo",
+      "pdf":"https://drive.google.com/file/d/1DPVLemrOgDUoboQe1xVeGZMe8kpAIjNl/view?usp=drivesdk",
+      "articulos":[
+        {
+        "name":"Políticas lingüísticas con perspectiva de género: tiempo y archivo",
+        "autor":"Mara Glozman",
+        "pdf":"https://acegif.com/wp-content/uploads/2021/4fh5wi/troll-face-44.gif"
+        },
+        {
+        "name":"Poemas",
+        "autor":"Matías Néspolo",
+        "pdf":""
+        },
+        {
+        "name":"Videoarte: No se pide perdón por el fuego",
+        "autor":"Nair Gramajo",
+        "pdf":""
+        },
+        {
+        "name":"Despellejarse la piel del amo",
+        "autor":"Vanesa Guerra",
+        "pdf":""
+        
+        },
+        {
+        "name":"Poemas ",
+        "autor":"Felipe Benegas Lynch",
+        "pdf":""
+        },
+        {
+        "name":"Opinión: El gato sobre la mesa",
+        "autor":"Dardo Scavino",
+        "pdf":""
+        },
+        {
+        "name":"Videoarte: Comedores de labios",
+        "autor":"Alejandro Arguelles",
+        "pdf":""
+        },
+        {
+        "name":"En otro orden de cosas",
+        "autor":"Cintia Córdoba",
+        "pdf":""
+        },
+        {
+        "name":"La lengua utópica",
+        "autor":"Diego Bentivegna",
+        "pdf":""
+        },
+        {
+        "name":"Videoarte: Pasajes",
+        "autor":"Anastasia Parshina y José Trujillo",
+        "pdf":""
+        },
+        {
+        "name":"Entrevista a Ticio Escobar",
+        "autor":"Florencia Eva González y Jimena Néspolo",
+        "pdf":""
+        },
+        {
+        "name":"Poemas",
+        "autor":"María Casiraghi",
+        "pdf":""
+        }
+        ],
+        "dossier":{
+          "nameDossier":"Dossier Susana Thénon",
+          "autores":[
+              {"name":"El festín del significado",
+              "autor":"María Negroni",
+              "pdf":""},
+              {"name":"La joven Thénon ",
+              "autor":"Analía de la Fuente",
+              "pdf":""},
+              {"name":"Thénon, Rilke y la traducción",
+              "autor":"Corina Dellutri",
+              "pdf":""},
+              {"name":"La trasgresión o la guerra del lenguaje",
+              "autor":"Gisela Galimi",
+              "pdf":""}
+          ]
+        }
+    },
+    { "numero":"31",
+      "nombre":"La Peste",
+      "img":"/tapas/Bds31.png",
+      "issu":"https://issuu.com/bocadesapo/docs/bds_31-final",
+      "pdf":"https://drive.google.com/file/d/1FPfxnScs1Tj-mxwNqLNrz_y9CHtOHZ4i/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"Imágenes dialécticas en tiempos de peste",
+        "autor":"Florencia Eva González",
+        "pdf":""},
+        {"name":"Entrevista a Diana Dowek (PDF)",
+        "autor":"Entrevista a Diana Dowek (PDF)",
+        "pdf":""},
+        {"name":"Querella entre modernos y neomodernos (neonormales)",
+        "autor":"Mariano Magnifico",
+        "pdf":""},
+        {"name":"La plaga nos llegó como una nueva forma de colonización por el contagio",
+        "autor":"Marcela Croce",
+        "pdf":""},
+        {"name":"Diario: Fragmentos de intensidad variable",
+        "autor":"Anahí Mallol",
+        "pdf":""},
+        {"name":"Tucumán y las novelas de la peste",
+        "autor":"Máximo Hernán Mena",
+        "pdf":""},
+        {"name":"Tupi or not tupi",
+        "autor":"Martin Lienhard",
+        "pdf":""},
+        {"name":"Opinión: Interrumpir el sentido del mundo",
+        "autor":"Marina Garcés",
+        "pdf":""},
+        {"name":"Equinos encovichados",
+        "autor":"Jimena Néspolo",
+        "pdf":""}
+        ] ,
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },
+    { "numero":"30",
+      "nombre":"Fronteras",
+      "img":"/tapas/Bds30.png",
+      "issu":"https://issuu.com/bocadesapo/docs/bds_30-final",
+      "pdf":"https://drive.google.com/file/d/1qml6cPH9imJsFesKwq_a4ebH-Umz436j/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"El lugar sin límites",
+        "autor":"Claudia Feld",
+        "pdf":""},
+        {"name":"La frontera de cristal",
+        "autor":"Javier Campos",
+        "pdf":""},
+        {"name":"Crónica: Seis apartados sobre Tokio",
+        "autor":"Clara Virasoro",
+        "pdf":""},
+        {"name":"Las fotografías de Josefina Oliver",
+        "autor":"Patricia Viaña",
+        "pdf":""},
+        {"name":"Crónica: Me llaman Caye",
+        "autor":"Luciana Arriaga",
+        "pdf":""},
+        {"name":"Las fronteras del neoextractivismo en América Latina",
+        "autor":"Maristella Svampa",
+        "pdf":""},
+        {"name":"Portfolio: La cartelería política chilena",
+        "autor":"Brian Gray Rojas",
+        "pdf":""},
+        {"name":"Crónica: Parirse",
+        "autor":"Carolina Bartalini",
+        "pdf":""},
+        {"name":"Opinión: Sin un antes ni un después",
+        "autor":"Juan José Mateo",
+        "pdf":""}
+        ]  ,
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },
+    { "numero":"29",
+      "nombre":"Fantasia",
+      "img":"/tapas/Bds29.png",
+      "issu":"https://issuu.com/bocadesapo/docs/bds_29",
+      "pdf":"https://drive.google.com/file/d/12PmaDxCZFnX4rXrTXrzQjrgoyGRYacbp/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"De carroza a calabaza y viceversa",
+        "autor":"Jimena Néspolo",
+        "pdf":""},
+        {"name":"Fotografía y fantasía en Walter Benjamin",
+        "autor":"Omar Quijano",
+        "pdf":""},
+        {"name":"Cuento: Ecce servus dei",
+        "autor":"Daniel Frini",
+        "pdf":""},
+        {"name":"Cuento: Dime-lo-que-callan",
+        "autor":"Ana Grynbaum",
+        "pdf":""},
+        {"name":"1989 - Cine y Muro de Berlín",
+        "autor":"Florencia Eva González",
+        "pdf":""},
+        {"name":"Un truco sin cartas",
+        "autor":"Mariano Ramos",
+        "pdf":""},
+        {"name":"Diario de viaje: Fantasía de carnaval",
+        "autor":"Amalia Barboza",
+        "pdf":""},
+        {"name":"Un espejo cóncavo",
+        "autor":"Esther Domínguez",
+        "pdf":""},
+        {"name":"La belleza surge del hielo",
+        "autor":"Alexander Kluge",
+        "pdf":""},
+        {"name":"Dibujo: Mundo Alicia",
+        "autor":"Marta Vicente",
+        "pdf":""}
+        ],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      } 
+    },
+    { "numero":"28",
+      "nombre":"Humor",
+      "img":"/tapas/Bds28.png",
+      "issu":"https://issuu.com/bocadesapo/docs/bds_28",
+      "pdf":"https://drive.google.com/file/d/1OoV9zCvLFCgJh3BlSHyvX6KOtld9PwIu/view?usp=drivesdk",
+         
+"articulos" :[ 
+  {"name":"El inventor de la hilografía",
+  "autor":"Guillermo Korn",
+  "pdf":""},
+  {"name":"Poesía y humor",
+  "autor":"Raquel Guzmán",
+  "pdf":""},
+  {"name":" Dramaturgia para una conferencia",
+  "autor":"Paul B",
+  "pdf":""},
+  {"name":"Opinión: Hipódromo",
+  "autor":"Marcial Gala",
+  "pdf":""},
+  {"name":"La revista Humor: un espacio crítico bajo la dictadura militar argentina (1978-1983)",
+  "autor":"Mara Burkart",
+  "pdf":""},
+  {"name":"Mafalda global",
+  "autor":"Isabella Cosse",
+  "pdf":""},
+  {"name":"Historieta: Escenas de la vida lésbica",
+  "autor":"Maia Venturini",
+  "pdf":""},
+  {"name":"Literatura y humor",
+  "autor":"Paulina Juszko",
+  "pdf":""},
+  {"name":"Portfolio: Stand-up por doquier",
+  "autor":"Laura Cilento",
+  "pdf":""},
+  {"name":"Opinión: Vender humo",
+  "autor":"Andrés Fuentes",
+  "pdf":""},
+  {"name":"Presentación de las aguafuertes gráficas de Chicks on Comics",
+  "autor":"Laura Vazquez",
+  "pdf":""},
+  {"name":"Historieta: Las ciudades que somos",
+  "autor":"Caro Chinaski",
+  "pdf":""}
+  ],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }  
+    },{
+      "numero": "27",
+      "nombre": "Ruinas",
+      "img": "/tapas/Bds27.png",
+      "issu":"https://issuu.com/bocadesapo/docs/bds_27-revista",
+      "pdf":"https://drive.google.com/file/d/12dcXsbYZQe949hvvbCopeJAM3iI5vq7m/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"Ruinas sobre ruinas",
+        "autor":"Raúl Antelo",
+        "pdf":""},
+        {"name":"Todas las noches, la noche",
+        "autor":"Gustavo Lespada",
+        "pdf":""},
+        {"name":" Del poeta y el asombro",
+        "autor":"Marisa Martínez Pérsico",
+        "pdf":""},
+        {"name":"Charla con Ivonne Bordelois en el Museo Casa de Ricardo Rojas",
+        "autor":"",
+        "pdf":""},
+        {"name":"Restos y ruinas en el arte contemporáneo latinoamericano",
+        "autor":"Isabel Quintana",
+        "pdf":""},
+        {"name":"Las ruinas también construyen",
+        "autor":"Florencia Eva González",
+        "pdf":""},
+        {"name":"Homenaje a Karl Marx",
+        "autor":"Dardo Scavino",
+        "pdf":""},
+        {"name":"Crónica: ¿Quién mató a Cafrune?",
+        "autor":"Jimena Néspolo",
+        "pdf":""},
+        {"name":"Dossier de cuento policial",
+        "autor":"",
+        "pdf":""},
+        {"name":"Portfolio: Intoxicadxs por los agrotóxicos",
+        "autor":"Ricardo Romero",
+        "pdf":""}
+        ],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "26",
+      "nombre": "Gineceo",
+      "issu":"https://issuu.com/bocadesapo/docs/bds_26_final_",
+      "img": "/tapas/Bds26.png",
+      "pdf":"https://drive.google.com/file/d/1yOgGgsiqE_OFqWSbhxljFwHbgsdd6M_U/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"Mujeres, luchas por la tierra y globalización",
+        "autor":"Silvia Federici",
+        "pdf":""},
+        {"name":"Matriarcas literarias",
+        "autor":"María Gabriela Mizraje",
+        "pdf":""},
+        {"name":"Actualidad: Ciclo Las Veladas Literarias",
+        "autor":"",
+        "pdf":""},
+        {"name":"Adelanto: Las mujeres a la cama",
+        "autor":"Florencia Eva González",
+        "pdf":""},
+        {"name":"Pasado y presente de las creadoras de historietas",
+        "autor":"Mariela Acevedo",
+        "pdf":""},
+        {"name":"Homenaje a Ana María Barrenechea",
+        "autor":"Marcela Croce",
+        "pdf":""},
+        {"name":"Las amigas vivas y las amigas muertas",
+        "autor":"Jimena Néspolo",
+        "pdf":""},
+        {"name":"Dossier de minificción",
+        "autor":"",
+        "pdf":""}
+        ],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "25",
+      "issu":"https://issuu.com/bocadesapo/docs/bds_25-_final_",
+      "nombre": "Sumario: Crónicas entre siglos",
+      "img": "/tapas/Bds25.png",
+      "pdf":"https://drive.google.com/file/d/1QSg8mBXYmOhw8zYJrL7INsjeBX2-LzgR/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"Indios, drones y fronteras",
+        "autor":"Dardo Scavino",
+        "pdf":""},
+        {"name":"Sarlo en la revista viva",
+        "autor":"Nicolás Rivero",
+        "pdf":""},
+        {"name":"Crónica: Condenada independencia",
+        "autor":"Juan Bautista Durán",
+        "pdf":""},
+        {"name":"Adelanto: Correspondencia David Viñas",
+        "autor":"Carlos García",
+        "pdf":""},
+        {"name":"Pensar lo colonial en el presente",
+        "autor":"Laura Catelli",
+        "pdf":""},
+        {"name":"Crónica: Sarajevo underground",
+        "autor":"Andrea Jeftanovic",
+        "pdf":""},
+        {"name":"17 hipótesis sobre 1917",
+        "autor":"Florencia Eva González",
+        "pdf":""},
+        {"name":"Homenaje a Violeta Parra",
+        "autor":"Stefano Gavagnin",
+        "pdf":""},
+        {"name":"Entrevista a Hebe Uhart",
+        "autor":"Jimena Néspolo",
+        "pdf":""},
+        {"name":"Columna: De Mladić, Praljak y La Haya",
+        "autor":"Borja Lasheras",
+        "pdf":""},
+        {"name":"Columna: Serbia y Montenegro",
+        "autor":"Felipe Benegas Lynch",
+        "pdf":""}
+        ],     
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "24",
+      "nombre": "Mierda",
+      "img": "/tapas/Bds24.png",
+      "issu":"https://issuu.com/bocadesapo/docs/bds_24_final_",
+      "pdf":"https://drive.google.com/file/d/1eJktWvW2EfddOPt1sjFSwHvHug-l3PC6/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"Risas desde la cibercloaca",
+        "autor":"Laura Cilento",
+        "pdf":""},
+        {"name":"Doble deshecho",
+        "autor":"Hernán Martínez",
+        "pdf":""},
+        {"name":"Un pentagrama para la mierda",
+        "autor":"Adriana Mancini",
+        "pdf":""},
+        {"name":"Platos ricos y digestivos",
+        "autor":"Susanna Regazzoni",
+        "pdf":""},
+        {"name":"Columna: Comer mierda",
+        "autor":"Florencia Eva González",
+        "pdf":""},
+        {"name":"Documental: “No hubo tiempo para la tristeza” (PDF)",
+        "autor":"Documental: “No hubo tiempo para la tristeza” (PDF)",
+        "pdf":""},
+        {"name":"Cuestiones de fecalidad",
+        "autor":"Rocco Carbone",
+        "pdf":""},
+        {"name":"Mear y cagar en público",
+        "autor":"Silvana Inés Camerlo",
+        "pdf":""},
+        {"name":"Entrevista y perfil de Héctor Tizón",
+        "autor":"Jimena Néspolo",
+        "pdf":""},
+        {"name":"Opinión: Copi o la mierda de la cultura",
+        "autor":"Marcos Rosenzvaig",
+        "pdf":""}
+        ],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "23",
+      "nombre": "Tiempo",
+      "img": "/tapas/Bds23.png",
+      "issu":"https://issuu.com/bocadesapo/docs/bds_23-_vf_",
+      "pdf":"https://drive.google.com/file/d/1e0q78jZjIS2Pg97qIXAqmV03XNLRE_dR/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"Las rimas del tiempo",
+        "autor":"Dardo Scavino",
+        "pdf":""},
+        {"name":"Crónica policial: En medio de la noche",
+        "autor":"Felipe Benegas Lynch",
+        "pdf":""},
+        {"name":"La muerte como recurso",
+        "autor":"Mauro Moschini",
+        "pdf":""},
+        {"name":"Dossier de poesía",
+        "autor":"Presentación: María Casiraghi",
+        "pdf":""},
+        {"name":"Opinión: ¿Cuánto dura un instante?",
+        "autor":"Lázaro Covadlo",
+        "pdf":""},
+        {"name":"El tiempo del relato de la intelligentsia",
+        "autor":"Jimena Néspolo",
+        "pdf":""},
+        {"name":"En el transcurso del tiempo",
+        "autor":"Florencia Eva González",
+        "pdf":""},
+        {"name":"Entrevista a Lita Stantic",
+        "autor":"Máximo Eseverri",
+        "pdf":""},
+        {"name":"Cronografías",
+        "autor":"Graciela Speranza",
+        "pdf":""},
+        {"name":"Crónica del futuro: Venecia sumergida",
+        "autor":"Michele Boato",
+        "pdf":""}
+        ]
+        ,
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "22",
+      "nombre": "Activismos",
+      "img": "/tapas/Bds22.png",
+      "issu":"https://issuu.com/bocadesapo/docs/bds_23-_vf_",
+      "pdf":"https://drive.google.com/file/d/1uZIh832b8_qsmKbqNIovOzlvjfoeyfvK/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"Activismo delicado",
+        "autor":"Allan Kaplan y Sue Davidoff",
+        "pdf":""},
+        {"name":"Mariquita Sánchez y Juana Manso: Precursoras de la educación femenina en el Río de la Plata",
+        "autor":"Brigitte Natanson",
+        "pdf":""},
+        {"name":"Presentación del dossier",
+        "autor":"Laura Vazquez",
+        "pdf":""},
+        {"name":"Dossier de historietas contra la violencia policial (PDF)",
+        "autor":"Dossier de historietas contra la violencia policial (PDF)",
+        "pdf":""},
+        {"name":"Imágenes del desacuerdo",
+        "autor":"Florencia Abbate",
+        "pdf":""},
+        {"name":"Videoarte: O útil do inutil",
+        "autor":"Dolores Martin",
+        "pdf":""},
+        {"name":"Trotsky y las salvajes muchachas del partido",
+        "autor":"Jimena Néspolo",
+        "pdf":""},
+        {"name":"Entrevista a Horacio González",
+        "autor":"Hache Pavón",
+        "pdf":""},
+        {"name":"El erotismo háptico de Nuno Ramos",
+        "autor":"Victoria Cóccaro",
+        "pdf":""},
+        {"name":"Opinión: La quinta columna",
+        "autor":"Juan José Saer",
+        "pdf":""},
+        {"name":"Crónica: Victoria",
+        "autor":"Luciana Garbarino",
+        "pdf":""}
+        ]
+        ,
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "21",
+      "nombre": "Animalidad",
+      "img": "/tapas/Bds21.png",
+      "issu":"http://issuu.com/bocadesapo/docs/bds21",
+      "pdf":"https://drive.google.com/file/d/1fGt1jZHdNTuVH9WX_FRhylMdzYRaWXhd/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"El caníbal de Klein",
+        "autor":"Dardo Scavino",
+        "pdf":""},
+        {"name":"Extraña naturaleza americana en crónicas de Indias Occidentales",
+        "autor":"Vanina Teglia",
+        "pdf":""},
+        {"name":"Cuento: Perseverar",
+        "autor":"Ana Ojeda",
+        "pdf":""},
+        {"name":"Encuesta a las editoriales independientes argentinas",
+        "autor":"Nicholas Pezzote",
+        "pdf":""},
+        {"name":"Escritor-perro y escritor-gato",
+        "autor":"Julieta Yelin",
+        "pdf":""},
+        {"name":"La cosa que siente",
+        "autor":"Héctor Ariel Feruglio",
+        "pdf":""},
+        {"name":"Precariedad animal",
+        "autor":"Gabriel Giorgi",
+        "pdf":""},
+        {"name":"Crónica: Mis animales y yo",
+        "autor":"Jimena Néspolo",
+        "pdf":""},
+        {"name":"Entrevista a Noé Jitrik",
+        "autor":"Felipe Benegas Lynch y Hache  Pavón",
+        "pdf":""},
+        {"name":"Adelanto: Spinoza por las bestias",
+        "autor":"Ariel Suhamy",
+        "pdf":""}
+        ],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "20",
+      "nombre": "Atlas y Territorialidades",
+      "img": "/tapas/Bds20.png",
+      "issu":"http://issuu.com/bocadesapo/docs/bds20",
+      "pdf":"https://drive.google.com/file/d/1RvHYGQklas0v3lRJXQsVDaQJyLh2D4vs/view?usp=drivesdk",
+      "articulos" :[ 
+        {"name":"Atlas de atlas",
+        "autor":"Graciela Speranza",
+        "pdf":""},
+        {"name":"Espacios del poema",
+        "autor":"Víctor Gustavo Zonana",
+        "pdf":""},
+        {"name":"Entrevista a los creadores del World Literary Atlas (PDF)",
+        "autor":"Entrevista a los creadores del World Literary Atlas (PDF)",
+        "pdf":""},
+        {"name":"El territorio y lo sagrado",
+        "autor":"Fabián Flores y Catón Carini",
+        "pdf":""},
+        {"name":"Notas sobre una cartografía del pasaje",
+        "autor":"Lucas Margarit",
+        "pdf":""},
+        {"name":"Recorridos de una mujer moderna",
+        "autor":"Sol Fantín",
+        "pdf":""},
+        {"name":"Opinión: La ciudad sin alma",
+        "autor":"Gabriela Massuh",
+        "pdf":""},
+        {"name":"Crónica: La Fernández Fierro on tour",
+        "autor":"Carolina Bartalini",
+        "pdf":""},
+        {"name":"Atlas de la pureza",
+        "autor":"Jimena Néspolo",
+        "pdf":""},
+        {"name":"Cartografías estivales de Norah Borges",
+        "autor":"Francisca Lladó",
+        "pdf":""},
+        {"name":"Ficción: Zona",
+        "autor":"Mathias Enard",
+        "pdf":""},
+        {"name":"Desplazamiento territorial y experiencia",
+        "autor":"Victoria Cohen",
+        "pdf":""},
+        {"name":"Opinión: El desprendimiento",
+        "autor":"Walter Mignolo",
+        "pdf":""}
+        ],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "19",
+      "nombre": "Fragilidad",
+      "img": "/tapas/Bds19.png",
+      "issu":"http://issuu.com/bocadesapo/docs/bds19_completa_5410e7c2fc4ec0/0",
+      "pdf":"https://drive.google.com/file/d/1-FAgmwy-E-j5zNeXrWDQ6pnuNnV56N8Z/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "18",
+      "nombre": "Deudas, dinero, denarios",
+      "img": "/tapas/Bds18.png",
+      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_18",
+      "pdf":"https://drive.google.com/file/d/10kzr69cNeacyRf7CZ_G50aVIbyzNGNnh/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "17",
+      "nombre": "Narco-cultura y farmacopea",
+      "img": "/tapas/Bds17.png",
+      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_17",
+      "pdf":"https://drive.google.com/file/d/1sEwFO-LY0_-FeuFdXq9Qwj-dw35yL5ro/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "16",
+      "nombre": "Energía",
+      "img": "/tapas/Bds16.png",
+      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_16/1",
+      "pdf":"https://drive.google.com/file/d/1_Gdia2NIe89VXJGlgXbNXZeKRWTVgOrb/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "15",
+      "nombre": "Reseñas 2010-2013",
+      "img": "/tapas/Bds15.png",    
+      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n_15final",
+      "pdf":"https://drive.google.com/file/d/1sB4WmwJ9c3PfayFmQT6U4FwjcduX_o71/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "14",
+      "nombre": "",
+      "img": "/tapas/Bds14.png",
+      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n14",
+      "pdf":"https://drive.google.com/file/d/1uuH4XvkfxII_zKVePGzTh5CYjAwUU5Ok/view?usp=drivesdk", 
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "13",
+      "nombre": "",
+      "img": "/tapas/Bds13.png",
+      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n_13-final",
+      "pdf":"https://drive.google.com/file/d/1q36dnURxWwYAEl1FeGb_ucDwF34Ld3gQ/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "12",
+      "nombre": "",
+      "img": "/tapas/Bds12.png",
+      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo12",
+      "pdf":"https://drive.google.com/file/d/1lLHoZ3KX_E5c9bJHtjy5umloaOOkemB6/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "11",
+      "nombre": "",
+      "img": "/tapas/Bds11.png",
+      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo11",
+      "pdf":"https://drive.google.com/file/d/1C4bEp4KvXUYwmiZn9f_88SkzbFDpSeXg/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "10",
+      "nombre": "",
+      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo10",
+      "img": "/tapas/Bds10.png",
+      "pdf":"https://drive.google.com/file/d/1kKYGL97JLDeSvcygnCKJCshLHHQGGMzl/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "9",
+      "nombre": "",
+      "img": "/tapas/Bds9.png",
+      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo_n9",
+      "pdf":"https://drive.google.com/file/d/1Hsa6l5dB8ElzHiNWQ0DQQtmEFkKm_Fhl/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "8",
+      "nombre": "",
+      "img": "/tapas/Bds8.png",
+      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n_8_web",
+      "pdf":"https://drive.google.com/file/d/1EyfsVH4Hla2PPwcOKsvZsqgxSKl7V9Fo/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "7",
+      "nombre": "",
+      "img": "/tapas/Bds7.png",
+      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo_n7",
+      "pdf":"https://drive.google.com/file/d/1azmlDOxsfd3i22jYLVip76w_xS4DRX4p/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "6",
+      "nombre": "",
+      "img": "/tapas/Bds6.png", 
+      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n_6",
+      "pdf":"https://drive.google.com/file/d/1wukmMv1m6RyYiOtqy7kCsqUtVDbM1Sna/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "5",
+      "nombre": "",
+      "img": "/tapas/Bds5.png",
+      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo",
+      "pdf":"https://drive.google.com/file/d/1hZaFxt8LxoTP2tQiRjhHQEhDpdfRTG_X/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    },{
+      "numero": "4",
+      "nombre": "",
+      "img": "/tapas/Bds4.png",
+      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n_4",
+      "pdf":"https://drive.google.com/file/d/1QZ-RhwGugvs335fPIf_LYEK_FliToQtT/view?usp=drivesdk",
+      "articulos": [],
+      "dossier":{
+        "nameDossier":"",
+        "autores":[]
+      }
+    }
+  ]
+}
+
