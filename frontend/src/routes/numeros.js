@@ -8,23 +8,23 @@ class Numeros extends React.Component {
 
     constructor(props) {
         super(props)
-        this.state={err:"",dataOriginal:[],data:[],value:"",dataLoaded:false,ImgClicked:false,numero:-1,rotate:-90,flex:'row',wrap:'wrap'}
+        this.state={dataOriginal:[],data:[],value:"",dataLoaded:false,ImgClicked:false,numero:-1,rotate:-90,flex:'row',wrap:'wrap'}
     }
     
     componentDidMount() {
-        /*fetch Local
+        /*fetch Local*/
         fetch("./data/revistas.json")
         .then(response=>{return response.json()})
         .then(data=>{this.setState({dataOriginal:data.numeros,data:data.numeros})})
         .then(()=>this.setState({dataLoaded:true}))
         .catch(err=>{console.log(err, ' error')})
-        */
-       /*Mongo DB*/
+        
+       /*Mongo DB
        fetch("https://backend-bds.herokuapp.com/api/revista")
         .then(response=>{return response.json()})
         .then(data=>{this.setState({dataOriginal:data,data:data})})
         .then(()=>this.setState({dataLoaded:true}))
-        .catch(err=>this.setState({err:err}))
+        .catch(err=>{console.log(err, ' error')})*/
       }
 
     deactivate(){
@@ -74,7 +74,6 @@ class Numeros extends React.Component {
         return (
             <div>
                 <NavBar/>
-                {<h1>{this.state.err}</h1>}
                 {this.state.dataLoaded &&
                 <div className='Numeros'>
                    {this.state.ImgClicked &&
