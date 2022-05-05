@@ -11,17 +11,15 @@ class BlogContent extends React.Component {
 
     componentDidUpdate(prevProps, prevState) {
         if (prevState.visibility!==this.state.visibility){
-            /*
-        fetch('https://docs.google.com/spreadsheets/d/1V5wJY6irSWBQ1iEOPeaAx373JyV1nCdC2sOtTtykxuk/gviz/tq?')
-            .then(response => response)
+        fetch('https://backend-bds.herokuapp.com/api/blog')
+            .then(response => response.json())
             .then (data=>{
-                console.log(data)
-              //  this.setState({img:img.src,link:a.href,tittle:tittle,dataLoaded:true})
+              this.setState({img:data[0].img,link:data[0].link,tittle:data[0].tittle,dataLoaded:true})
             })
             .catch(error => {
                 this.setState({ errorMessage: error.toString() });
                 console.error('There was an error!', error);
-            });}*/
+            });}
     }
   
     render() { 

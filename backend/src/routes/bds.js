@@ -9,7 +9,7 @@ router.get("/blog",(req,res)=>{
 })
 
 
-
+/*
 router.post("/blog",(req,res)=>{
     const blog=blogSchema(req.body)
     console.log(req.body)
@@ -17,7 +17,7 @@ router.post("/blog",(req,res)=>{
         .save()
         .then((data)=>{console.log(data);res.json(data)})
         .catch((error)=>res.json({message:error}))
-})
+})*/
 
 
 module.exports=router;
