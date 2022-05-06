@@ -20,10 +20,7 @@ class Numeros extends React.Component {
       async load(){
         try {
             const response = await fetch('https://backend-bds.herokuapp.com/api/revista', {
-              method: 'GET',
-              headers: {
-                accept: 'application/json',
-              },
+              method: 'GET'
             });
             if (!response.ok) {
               throw new Error(`Error! status: ${response.status}`);
