@@ -13,7 +13,8 @@ class Numeros extends React.Component {
     
     componentDidMount() {
        this.load()
-       .then(data =>{this.setState({dataOriginal:data,data:data,dataLoaded:true})})
+       .then(data =>{this.setState({dataOriginal:data,data:data})})
+       .then(()=>this.setState({dataLoaded:true}))
       }
 
       async load(){
@@ -83,7 +84,7 @@ class Numeros extends React.Component {
         return (
             <div>
                 <NavBar/>
-                {this.state.dataLoaded &&
+                {this.state.dataLoaded ?
                 <div className='Numeros'>
                    {this.state.ImgClicked &&
                         <PopupNumero data={this.state.data[this.state.numero]} deactivate={this.deactivate.bind(this)}/>            
@@ -94,13 +95,13 @@ class Numeros extends React.Component {
                     <img onClick={()=>this.ordenar()} style={{transform:`rotate(${this.state.rotate}deg)`}} src="https://www.seekpng.com/png/full/22-224641_arrow-transparent-png-image-flecha-hacia-la-derecha.png"alt='orden'/>
                     </div> 
                     <div className='containerNumeros' style={{flexWrap:this.state.wrap,flexDirection:this.state.flex}}>
-                    {this.state.data.length>0 && this.state.data.map((i,index)=>
+                    { this.state.data.map((i,index)=>
                     <div className='itemImg-Numeros-container' key={i.numero+i.nombre} onClick={()=>this.setState({numero:index,ImgClicked:true})}>
                         <img key={i._id} alt="tapa" className='itemImg-Numeros' src={process.env.PUBLIC_URL+"/tapas/Bds"+i.numero+"-small.png"} />
                     </div>)}
                     </div> 
                 </div>
-                }
+                :<h1>loading ...</h1>}
             <Footer />
             </div>
         );
