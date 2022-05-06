@@ -23,8 +23,8 @@ class Numeros extends React.Component {
               method: 'GET',
               headers: {
                 Accept: 'application/json',
-              },
-              data: {}
+                mode:'cors'
+              }
             });
             if (!response.ok) {
               throw new Error(`Error! status: ${response.status}`);
@@ -94,10 +94,10 @@ class Numeros extends React.Component {
                     <img onClick={()=>this.ordenar()} style={{transform:`rotate(${this.state.rotate}deg)`}} src="https://www.seekpng.com/png/full/22-224641_arrow-transparent-png-image-flecha-hacia-la-derecha.png"alt='orden'/>
                     </div> 
                     <div className='containerNumeros' style={{flexWrap:this.state.wrap,flexDirection:this.state.flex}}>
-                    {console.log(this.state.data)/*this.state.data.map((i,index)=>
+                    {this.state.data.map((i,index)=>
                     <div className='itemImg-Numeros-container' key={i.numero+i.nombre} onClick={()=>this.setState({numero:index,ImgClicked:true})}>
                         <img key={i._id} alt="tapa" className='itemImg-Numeros' src={process.env.PUBLIC_URL+"/tapas/Bds"+i.numero+"-small.png"} />
-                    </div>)*/}
+                    </div>)}
                     </div> 
                 </div>
                 :<h1>loading ...</h1>}
