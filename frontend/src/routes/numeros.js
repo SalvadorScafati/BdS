@@ -8,7 +8,7 @@ class Numeros extends React.Component {
 
     constructor(props) {
         super(props)
-        this.state={dataOriginal:[],data:[],value:"",dataLoaded:false,ImgClicked:false,numero:-1,rotate:-90,flex:'row',wrap:'wrap'}
+        this.state={dataOriginal:{},data:{},value:"",dataLoaded:false,ImgClicked:false,numero:-1,rotate:-90,flex:'row',wrap:'wrap'}
     }
     
     componentDidMount() {
@@ -24,13 +24,14 @@ class Numeros extends React.Component {
                 accept: 'application/json',
               },
             });
+            console.log(response);
             if (!response.ok) {
               throw new Error(`Error! status: ${response.status}`);
             }
             const result = await response.json();
             return result;
           } catch (err) {
-            alert(err);
+            console.log(err);
           }
         }
       
@@ -95,7 +96,7 @@ class Numeros extends React.Component {
                     <div className='containerNumeros' style={{flexWrap:this.state.wrap,flexDirection:this.state.flex}}>
                     {this.state.data.length>0 && this.state.data.map((i,index)=>
                     <div className='itemImg-Numeros-container' key={i.numero+i.nombre} onClick={()=>this.setState({numero:index,ImgClicked:true})}>
-                        <img key={i.numero+"-img"} alt="tapa" className='itemImg-Numeros' src={process.env.PUBLIC_URL+"/tapas/Bds"+i.numero+"-small.png"} />
+                        <img key={i._id} alt="tapa" className='itemImg-Numeros' src={process.env.PUBLIC_URL+"/tapas/Bds"+i.numero+"-small.png"} />
                     </div>)}
                     </div> 
                 </div>
