@@ -2,8 +2,10 @@ import React from 'react';
 import Home from './routes/home'
 import {Route, Routes   } from 'react-router-dom'
 import Numeros from './routes/numeros';
-import './App.css';
 import Podcast from './routes/podcast';
+import Login from './routes/login';
+import './App.css';
+import Adminmain from './routes/adminmain';
 
 function App(){
     return (
@@ -12,6 +14,8 @@ function App(){
            <Route  path="/" element={<Home />}/>
            <Route  path="/numeros" element={<Numeros/>}/>
            <Route  path="/podcast" element={<Podcast/>}/>
+           <Route  path="/login" element={<Login/>}/>
+           <Route  path='/adminmain' element={<Adminmain/>}/>
         </Routes>
         </div>
     );

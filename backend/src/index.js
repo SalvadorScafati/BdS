@@ -8,7 +8,7 @@ const cors = require('cors')
 app.use(cors())
 
 let bodyParser = require('body-parser')
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
 /*_MongoDB_*/
