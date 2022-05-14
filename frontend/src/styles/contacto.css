@@ -1,0 +1,142 @@
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.226);
+    padding-top: 100px;
+    
+}
+
+#formContacto > h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'benchNine';
+    margin-left: 10px;
+    color: black;
+    border-bottom: 3px solid rgb(40, 3, 206);
+}
+
+#formContacto{
+    background-color: aliceblue;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 13px 14px 0px -5px rgba(0,0,0,0.8);
+-webkit-box-shadow: 13px 14px 0px -5px rgba(0,0,0,0.8);
+-moz-box-shadow: 13px 14px 0px -5px rgba(0,0,0,0.8);
+}
+
+#femail{
+    min-width: 180px;
+    width: 40%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#fname{
+    min-width: 180px;
+    width: 40%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#ftext{
+    min-width: 180px;
+    text-align: start;
+    width: 60%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#formContacto > button{
+    min-width: 180px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'benchNine';
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(12, 13, 14);
+    background-color: rgb(56, 127, 233);
+    width: 20%;
+    box-shadow: 6px 6px 23px -9px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 6px 6px 23px -9px rgba(0,0,0,0.8);
+    -moz-box-shadow: 6px 6px 23px -9px rgba(0,0,0,0.8);
+
+}
+
+#formContacto > img{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    animation: 2s girar;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    transition: all 1s;
+}
+
+@keyframes girar {
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+
+
+#ftext,#fname,#femail{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'benchNine';
+    border:transparent;
+    background-color: rgb(192, 179, 179);
+    border-radius: 20px;
+    
+   
+}
+
+
+
+#ftext:focus{
+    text-align:left;
+    outline: none;
+    box-shadow: 0 0px 4px 2px  rgba(0, 0, 0, 0.664);
+}
+
+#femail:focus{
+    outline: none;
+    box-shadow: 0 0px 4px 2px  rgba(0, 0, 0, 0.664);
+}
+#fname:focus{
+    outline: none;
+    box-shadow: 0 0px 4px 2px  rgba(0, 0, 0, 0.664);
+}
+
+
+
+.estadodelmensaje{
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    font-family:'benchNine';
+    align-self: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: none;
+    border-top: 2px solid red;
+    width: max-content;
+}
+
+@media screen and (max-width:350px) {
+    #formContacto{
+        margin-left: 2px;
+    }
+    #formContacto > h1{
+        font-size: 22px;
+    }
+}

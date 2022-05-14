@@ -4,7 +4,7 @@
 }
 
 .NavBarImg{
-    background-color: transparent;
+    background-color: white;
 }
 
 
@@ -96,9 +96,7 @@
     margin-top: 10px;
 }
 
-.hiddenBlock-NavBar{
-    margin-top: 40px;
-}
+
 
 @media screen and (max-width: 768px) {
     .NavBar{
@@ -120,7 +118,5 @@
         margin-top: 3px;
         margin-left: 1%;
     }
-    .hiddenBlock-NavBar{
-        margin-top: 20%;
-    }
+
 }

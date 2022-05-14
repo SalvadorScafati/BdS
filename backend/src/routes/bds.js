@@ -5,6 +5,8 @@ const revistaSchema = require("../models/revista.js")
 const adminSchema = require("../models/admin.js")
 
 
+
+
 router.get("/blog",(req,res)=>{
     blogSchema.find()
         .then((data)=>{console.log(data);res.json(data)})

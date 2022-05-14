@@ -25,8 +25,12 @@ app.listen(port,()=>{
 })
 
 
-//middlewares
+//routes
 const routes=require("./routes/bds")
 app.use('/api',routes)
+
+const mailroutes=require("./routes/mail")
+app.use('/mail',mailroutes)
+
 
 

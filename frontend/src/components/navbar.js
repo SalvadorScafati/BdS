@@ -25,7 +25,7 @@ class NavBar extends React.Component {
                     <h1 className='NavBarItem'  onClick={()=>window.open("http://reseniasbds.blogspot.com/", "_blank")}>Reseñas</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("http://agendabds.blogspot.com/", "_blank")}>Agenda</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("/podcast", "_self")}>Podcast</h1>
-                    <h1 className='NavBarItem'>Contacto</h1>
+                    <h1 className='NavBarItem'  onClick={()=>window.open("/contacto", "_self")}>Contacto</h1>
                    
                 </div>}
                 {!this.state.matches768 &&                
@@ -44,7 +44,6 @@ class NavBar extends React.Component {
                </div>
                 }
             </div>
-            <div className='hiddenBlock-NavBar'/>
             </div>
             
         );

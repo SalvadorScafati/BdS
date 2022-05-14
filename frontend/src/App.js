@@ -6,6 +6,7 @@ import Podcast from './routes/podcast';
 import Login from './routes/login';
 import './App.css';
 import Adminmain from './routes/adminmain';
+import Contacto from './routes/contacto';
 
 function App(){
     return (
@@ -16,6 +17,7 @@ function App(){
            <Route  path="/podcast" element={<Podcast/>}/>
            <Route  path="/login" element={<Login/>}/>
            <Route  path='/adminmain' element={<Adminmain/>}/>
+           <Route path='/contacto' element={<Contacto/>}/>
         </Routes>
         </div>
     );

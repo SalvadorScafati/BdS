@@ -12,8 +12,14 @@ class Redes extends React.Component {
         return (<div className='container-intro-redes'>
                 <div className='introContainer'>
                     <div className='miniNavBar'>
-                        <button onClick={()=>this.setState({content:[true,false]})} className='miniNavBarButton'> La revista</button>
-                        <button onClick={()=>this.setState({content:[false,true]})} className='miniNavBarButton'> Staff</button>
+                        <div className='miniNavBarButton' onClick={()=>this.setState({content:[true,false]})}>  
+                            <img src={process.env.PUBLIC_URL+"/icons/frogicon.png"} alt="iconFrog"/>
+                            <h2> La revista</h2>
+                        </div>
+                        <div onClick={()=>this.setState({content:[false,true]})} className='miniNavBarButton'>
+                            <img src={process.env.PUBLIC_URL+"/icons/stafficon.png"} alt='staffIcon'/>
+                            <h2>Staff</h2>
+                        </div>
                     </div>
                     {this.state.content[0] &&
                     <div>

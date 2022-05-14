@@ -26,7 +26,10 @@ class Home extends React.Component {
                 <SpotifyItem className="spotifyItem1" src="https://open.spotify.com/embed/episode/1n0EkP1DenVrzHozkSC2at?utm_source=generator"/>
                 <SpotifyItem className="spotifyItem2" src="https://open.spotify.com/embed/episode/5PaPWwGZM6dpZnON9RQtXb?utm_source=generator"/>
                 </div>
-                <BlogContent/>
+                <div className='mediaContainer'>
+                <BlogContent className="spotifyItem1"/>
+                <BlogContent className="spotifyItem2"/>
+                </div>
                 <Footer />
             </div>
         );
