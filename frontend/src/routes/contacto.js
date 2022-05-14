@@ -15,6 +15,7 @@ class Contacto extends React.Component {
             return
         }
         this.setState({invisible:'hidden',sending:true})
+        setTimeout(()=>{
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -29,6 +30,7 @@ class Contacto extends React.Component {
             setTimeout(()=>{ this.setState({invisible:'visible',mensaje:false})},5000)
         }})
         .catch(error =>{this.setState({invisible:'visible',sending:false});console.log(error)})
+        },4000)
     }
 
      validateEmail(email) 
