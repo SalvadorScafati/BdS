@@ -10,10 +10,15 @@ class BlogAdmin extends React.Component {
     }
 
     componentDidMount() {
-        fetch('https://backend-bds.herokuapp.com/api/blog')
+        const requestOptions = {
+            method:'POST',
+            headers:{'Content-Type': 'application/json' },
+            body:JSON.stringify({type:this.props.type})
+        }
+        fetch('https://backend-bds.herokuapp.com/api/blog',requestOptions)
             .then(response => response.json())
             .then (data=>{
-              this.setState({img:data[0].img,link:data[0].link,tittle:data[0].tittle,dataLoaded:true})
+              this.setState({img:data.img,link:data.link,tittle:data.tittle,dataLoaded:true})
             })
             .catch(error => {
                 this.setState({ errorMessage: error.toString() });
@@ -26,7 +31,7 @@ class BlogAdmin extends React.Component {
         const requestOptions = {
             method: 'POST',
             headers: {'Authorization':' Bearer '+cookies.get("token"), 'Content-Type': 'application/json' },
-            body: JSON.stringify({tittle:String(tittle),img:String(img),link:String(link),type:"main"})
+            body: JSON.stringify({tittle:String(tittle),img:String(img),link:String(link),type:this.props.type})
     };
         fetch('https://backend-bds.herokuapp.com/api/updateblog', requestOptions)
         .then(response =>{console.log(response);if (response.status===200){alert("cambios guardados")}else{alert("error"+response.status)}})

@@ -21,7 +21,7 @@ async function  send(text,name,mail){
       
     var mailOptions = { 
         from: {name:mail,address:'salvadorscafati@gmail.com'},
-        to:      'salvadorscafati@gmail.com',
+        to:      'contacto.bocadesapo@gmail.com',
         subject: 'Email pagina boca de sapo ',
         text: bodymail
     };

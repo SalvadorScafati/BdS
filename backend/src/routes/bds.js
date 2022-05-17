@@ -7,8 +7,8 @@ const adminSchema = require("../models/admin.js")
 
 
 
-router.get("/blog",(req,res)=>{
-    blogSchema.find()
+router.post("/blog",(req,res)=>{
+    blogSchema.findOne({type:req.body.type})
         .then((data)=>{console.log(data);res.json(data)})
         .catch((err)=>console.log(err))
 })
