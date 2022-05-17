@@ -1,35 +1,62 @@
+.news{
+    display: flex;
+}
+
 .mediaContainer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 6px;
+    background-color: transparent;
+    justify-content: space-evenly;
+}
+
+.home_blogContainer{
     display: flex;
     width: 100%;
     justify-content:center;
-    margin-top: 100px;
-   margin-bottom: 100px;
+    margin-left: 3%;
+    padding-top: 50px;
 }
 
 
-
-@media screen and (min-width: 630px) {
- 
-
-    .spotifyItem2{
-        margin-left: 50px;
-        margin-top: 20px;
-    }
-
-    .spotifyItem1{
-        margin-top: -20px;
-    }
-
-    .spotifyItem1,.spotifyItem2{
-        width: 500px;       
-    }
-
+#blogtittle{
+    background-color: rgb(218, 159, 33);
+    margin: 0;
+    font-size: 50px;
+    font-family: benchNine;
+    padding-left: 10px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 12px 8px -6px rgba(0,0,0,1);
+-webkit-box-shadow: 0px 12px 8px -6px rgba(0,0,0,1);
+-moz-box-shadow: 0px 12px 8px -6px rgba(0,0,0,1);
+}
+#revistaquicktittle{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    font-size: 34px;
+    font-weight: 400;
+    padding-top:30px;
+    color: aliceblue;
+    font-family: benchNine;
+    padding-left: 10px;
 }
 
 @media screen and (max-width: 630px) {
-    .mediaContainer{
+    .mediaContainer,.home_blogContainer{
        flex-direction: column;
     }
 
+     .home_blogContainer{
+        margin-left: 0%;
+     }
+    .mediaContainer{
+        width: 100%;
+        padding: 0px;
+    }
+    .news{
+        flex-direction: column;
+    }
     
 }

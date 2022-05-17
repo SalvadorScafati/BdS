@@ -9,7 +9,6 @@
     font-family: 'BenchNine';
     text-align: center;
     background-color: aliceblue;
-    border-radius: 0px 0px  25px 0px;
 }
 
 .intro-p{
@@ -157,6 +156,8 @@
     }
     .miniNavBarButton{
         height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .miniNavBar > img{
     image-rendering: pixelated;

@@ -21,14 +21,18 @@ class Home extends React.Component {
                 <NavBar />
                 <ImgSlider />     
                 <Redes />
+                <h2 id="revistaquicktittle" >Ultimos numeros</h2>
                 <RevistaQuickView/>
-                <div className='mediaContainer'>
+                <h2 id="blogtittle">Noticias</h2>
+                <div className='news' style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/brickwall2.png"})`,backgroundRepeat:"repeat",backgroundPositionX:"center"}}>
+                <div className='home_blogContainer' >
+                <BlogContent type="main" className="spotifyItem1"/>
+                <BlogContent type="secondary"  className="spotifyItem2"/>
+                </div>
+                <div className='mediaContainer'  >
                 <SpotifyItem className="spotifyItem1" src="https://open.spotify.com/embed/episode/1n0EkP1DenVrzHozkSC2at?utm_source=generator"/>
                 <SpotifyItem className="spotifyItem2" src="https://open.spotify.com/embed/episode/5PaPWwGZM6dpZnON9RQtXb?utm_source=generator"/>
                 </div>
-                <div className='mediaContainer'>
-                <BlogContent type="main" className="spotifyItem1"/>
-                <BlogContent type="secondary"  className="spotifyItem2"/>
                 </div>
                 <Footer />
             </div>

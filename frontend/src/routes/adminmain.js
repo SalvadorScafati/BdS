@@ -2,7 +2,7 @@ import React from 'react';
 import Cookies from 'universal-cookie';
 import { Navigate } from 'react-router-dom';
 import BlogAdmin from '../components/blog_admin';
-
+import '../styles/adminmain.css';
 
 const cookies=new Cookies();
 class Adminmain extends React.Component {
@@ -30,8 +30,10 @@ class Adminmain extends React.Component {
     render() { 
         return (<div>
              {this.state.redirect && <Navigate to="/login" />}
-             <BlogAdmin type="main"/>
-             <BlogAdmin type="secondary"/>
+             <div className='blogadmin-container'>
+                 <BlogAdmin type="main"/>
+                 <BlogAdmin type="secondary"/>
+             </div>
         </div>);
     }
 }

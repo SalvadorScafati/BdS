@@ -14,7 +14,7 @@ class Redes extends React.Component {
                     <div className='miniNavBar'>
                         <div className='miniNavBarButton' onClick={()=>this.setState({content:[true,false]})}>  
                             <img src={process.env.PUBLIC_URL+"/icons/frogicon.png"} alt="iconFrog"/>
-                            <h2> La revista</h2>
+                            <h2> Boca de sapo </h2>
                         </div>
                         <div onClick={()=>this.setState({content:[false,true]})} className='miniNavBarButton'>
                             <img src={process.env.PUBLIC_URL+"/icons/stafficon.png"} alt='staffIcon'/>

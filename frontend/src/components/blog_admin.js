@@ -42,7 +42,7 @@ class BlogAdmin extends React.Component {
         return (<div > 
         {this.state.dataLoaded ?  
         <div className='formContainer'> 
-                <h1> Blog </h1>
+                <h1> Blog {this.props.type}</h1>
                 <form id='blog_admin' className='form' onSubmit={e => e.preventDefault()}>
                     <label>Titulo</label>
                     <input onChange={(e) =>{this.setState({ tittle: e.target.value })} } type="text" name='ftittle' value={this.state.tittle}/>

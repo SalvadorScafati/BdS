@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     text-align:justify;
+    padding-bottom: 80px;
 }
 
 .footerTitle,.footerOtro{
