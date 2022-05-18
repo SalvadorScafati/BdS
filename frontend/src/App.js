@@ -17,7 +17,7 @@ function App(){
            <Route  path="/podcast" element={<Podcast/>}/>
            <Route  path="/login" element={<Login/>}/>
            <Route  path='/adminmain' element={<Adminmain/>}/>
-           <Route path='/contacto' element={<Contacto/>}/>
+           <Route  path='/contacto' element={<Contacto/>}/>
         </Routes>
         </div>
     );

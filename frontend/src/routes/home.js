@@ -10,6 +10,7 @@ import BlogContent from '../components/blogContent';
 
 class Home extends React.Component {
 
+    
 
     
     render() { 
@@ -30,8 +31,8 @@ class Home extends React.Component {
                 <BlogContent type="secondary"  className="spotifyItem2"/>
                 </div>
                 <div className='mediaContainer'  >
-                <SpotifyItem className="spotifyItem1" src="https://open.spotify.com/embed/episode/1n0EkP1DenVrzHozkSC2at?utm_source=generator"/>
-                <SpotifyItem className="spotifyItem2" src="https://open.spotify.com/embed/episode/5PaPWwGZM6dpZnON9RQtXb?utm_source=generator"/>
+                <SpotifyItem className="spotifyItem1" src="https://open.spotify.com/embed/show/3cGpRjVYLKGsQOVcy84snX?utm_source=generator"/>
+
                 </div>
                 </div>
                 <Footer />

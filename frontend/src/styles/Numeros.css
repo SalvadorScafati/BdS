@@ -120,10 +120,10 @@
     font-weight: normal;
  font-size: 18px;
  margin: 0px;
- color: rgb(140, 147, 153);
+ color: rgb(151, 177, 199);
 }
 
-.articulo-name{
+.articulo-name,.articulo-name-clickable{
     font-family: 'calibri';
     font-weight: normal;
  font-size:30px;
@@ -138,6 +138,9 @@
     color: rgb(214, 203, 203);
     text-align: center;
     font-style: oblique;
+    width: 30%;
+    margin-left: 30%;
+    border-bottom: 2px solid white;
 }
 
 .popUpNumerobox-tittle > span{
@@ -153,7 +156,7 @@
 }
 
 
-.articulo-name:hover{
+.articulo-name-clickable:hover{
     color: rgb(248, 248, 7);
     transform: skew(2deg);
     cursor: pointer;
@@ -176,10 +179,12 @@
 
 .popUpNumerobox-icons > div >img {
     height: auto;
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 100px;
+    min-height: 100px;
     justify-content: center;
     margin: 14px;
+    transition: all 0.7s ease-in-out;
+    
 }
 
 .popUpNumerobox-box{
@@ -194,16 +199,21 @@
     background-color: transparent;
     align-self: center;
     padding: 5px;
-    border: 2px solid white;
+    border: transparent;
+    border-bottom: 2px solid white;
     color: white;
-    border-radius: 25px;
     font-size: 28px;
     transition: all 0.6s;
 }
 
 .popUpNumerobox-icons > button:hover{
-    border: 2px solid rgb(235, 252, 0);
+    border-bottom: 2px solid rgb(235, 252, 0);
     color: darkorange;
+}
+
+.popUpNumerobox-icons > div >img:hover{
+    transform: translate(0,-10px);
+    cursor:pointer;
 }
 
 .articulos-img{
@@ -239,19 +249,26 @@
 }
 
 
+
 @media screen and (max-width:800px) {
     .popUpNumerobox-box{
         flex-direction: column;
     }
     .popUpNumerobox-icons > button{
+        border: transparent;
         font-size: 16px;
     }
+    .popUpNumerobox-icons > button:hover{
+        border: transparent;
+    }
     .popUpNumerobox-tittle{
+        margin-left: 25%;
+        width: 50%;
         font-size: 25px;
     }
 
 
-    .articulo-autor,.articulo-name{
+    .articulo-autor,.articulo-name,.articulo-name-clickable{
         font-size: 11px;
     }
     .popUpNumerobox-icons{
@@ -273,5 +290,9 @@
     
     .itemImg-Numeros{
         width: 100px;
+    }
+    .popUpNumerobox-icons > div >img {
+        min-width: 50px;
+        min-height:  50px;
     }
 }

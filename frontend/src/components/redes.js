@@ -4,7 +4,7 @@ import '../styles/redes.css'
 class Redes extends React.Component {
     constructor(props){
         super(props);
-        this.state=({content:[true,false]})
+        this.state=({content:[true,false],index:[0,1],style:[{background: "rgb(240, 207, 20)",color: "black"},{background: "black",color: "white"}]})
     }
 
 
@@ -12,11 +12,12 @@ class Redes extends React.Component {
         return (<div className='container-intro-redes'>
                 <div className='introContainer'>
                     <div className='miniNavBar'>
-                        <div className='miniNavBarButton' onClick={()=>this.setState({content:[true,false]})}>  
+                        <div className='miniNavBarButton' style={{"background":this.state.style[this.state.index[0]].background,"color":this.state.style[this.state.index[0]].color}}  
+                        onClick={()=>this.setState({index:[0,1],content:[true,false]})}>  
                             <img src={process.env.PUBLIC_URL+"/icons/frogicon.png"} alt="iconFrog"/>
                             <h2> Boca de sapo </h2>
                         </div>
-                        <div onClick={()=>this.setState({content:[false,true]})} className='miniNavBarButton'>
+                        <div style={{"background":this.state.style[this.state.index[1]].background,"color":this.state.style[this.state.index[1]].color}}  onClick={()=>this.setState({index:[1,0],content:[false,true]})} className='miniNavBarButton'>
                             <img src={process.env.PUBLIC_URL+"/icons/stafficon.png"} alt='staffIcon'/>
                             <h2>Staff</h2>
                         </div>

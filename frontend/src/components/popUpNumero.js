@@ -37,15 +37,15 @@ render(){
         <ul className='articulos'>
         {this.props.data.articulos.map(i=>
         <li key={i.name+"-"+i.autor}>
-            <h1 onClick={()=>window.open(i.pdf, "_blank")} className='articulo-name'  >{i.name}</h1>
+            <h1 onClick={()=>window.open(i.pdf, "_blank")} className='articulo-name-clickable'  >{i.name}</h1>
             <h1 className='articulo-autor'>{i.autor}</h1>
         </li>)}
         <br />
-        <span className='articulo-name'  style={{color:"#CDCDC7"}}>{this.props.data.dossier.nameDossier}</span>
+        <span className='articulo-name-clickable'   onClick={()=>window.open(this.props.data.dossier.pdf, "_blank")} >{this.props.data.dossier.nameDossier}</span>
         <br />
         {this.checkEmpty(this.props.data.dossier.autores) && this.props.data.dossier.autores.map(i=>
         <li key={i.name+"-"+i.autor} style={{marginLeft:"20px"}}>
-            <h1 onClick={()=>window.open(i.pdf, "_blank")} className='articulo-name'  >{i.name}</h1>
+            <h1  style={{color:"rgb(187, 173, 173)"}} className='articulo-name'  >{i.name}</h1>
             <h1 className='articulo-autor'>{i.autor}</h1>
         </li>)}
         </ul>}

@@ -100,7 +100,7 @@ class Numeros extends React.Component {
                     </div>)}
                     </div> 
                 </div>
-                :<h1>loading ...</h1>}
+                :<h1 style={{"marginTop":"200px"}} >loading ...</h1>}
             <Footer />
             </div>
         );
