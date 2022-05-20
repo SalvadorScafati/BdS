@@ -86,7 +86,7 @@ class Numeros extends React.Component {
                 {this.state.dataLoaded ?
                 <div className='Numeros'>
                    {this.state.ImgClicked &&
-                        <PopupNumero data={this.state.data[this.state.numero]} deactivate={this.deactivate.bind(this)}/>            
+                        <PopupNumero data={this.state.data[this.state.numero]} img={process.env.PUBLIC_URL+"/tapas/Bds"+this.state.data[this.state.numero].numero+"-small.png"} deactivate={this.deactivate.bind(this)}/>            
                     }
                     <div className='searchBar'>
                     <input type="text"  onChange={(e) =>{this.setState({ value: e.target.value })} } placeholder='buscar por numero, nombre, titulo'/>

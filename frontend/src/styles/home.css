@@ -5,7 +5,7 @@
 .mediaContainer{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 35%;
     padding: 6px;
     background-color: transparent;
     justify-content: space-evenly;
@@ -43,7 +43,7 @@
     padding-left: 10px;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 1020px) {
     .mediaContainer,.home_blogContainer{
        flex-direction: column;
     }

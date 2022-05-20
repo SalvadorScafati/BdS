@@ -61,4 +61,7 @@
     .revistaContainer,.itemContainer{
         height: 250px;
     }
+    .itemButtonLeft,.itemButtonRight{
+        height: 260px;
+    }
 }

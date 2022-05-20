@@ -7,7 +7,7 @@ class RevistaQuickView extends React.Component {
     constructor(props) {
         super(props)
         this.ic_Ref = React.createRef();
-        this.state={data:{},dataLoaded:false,buttonPressedRight:false,buttonPressedLeft:false,ImgClicked:false,numero:-1}
+        this.state={matches768:window.matchMedia("(min-width: 768px)"),data:{},dataLoaded:false,buttonPressedRight:false,buttonPressedLeft:false,ImgClicked:false,numero:-1}
     }
 
     componentDidMount() {
@@ -24,7 +24,9 @@ class RevistaQuickView extends React.Component {
         .then(data=>{this.setState({data:data})})
         .then(()=>this.setState({dataLoaded:true}))
         .catch(err=>{console.log(err, ' error')})
-
+        
+        const handler = e => this.setState({matches768: e.matches});
+         window.matchMedia("(min-width: 768px)").addEventListener('change', handler);
       }
     
 
@@ -76,7 +78,8 @@ class RevistaQuickView extends React.Component {
             <div>
                {this.state.dataLoaded && (
                  <div className="revistaContainer">
-                <button className='itemButtonLeft' onTouchStart={()=>this.scrollLoop('left')} onTouchEnd={()=>this.exitLoop('left')} onMouseLeave={()=>this.exitLoop('left')} onMouseEnter={isMobile ? () => { return } :()=>this.scrollLoop('left')} ></button>
+               {!this.state.matches768 && <img style={{width:"30px",padding:"0px"}} alt="btnleft" src={process.env.PUBLIC_URL+"/icons/buttonLeft.png"}/>}
+                <button  className='itemButtonLeft' onTouchStart={()=>this.scrollLoop('left')} onTouchEnd={()=>this.exitLoop('left')} onMouseLeave={()=>this.exitLoop('left')} onMouseEnter={isMobile ? () => { return } :()=>this.scrollLoop('left')} ></button>
                 <div className="itemContainer"ref={this.ic_Ref} style={{'overflowX':this.state.scrollPositon}}>
                 <div className='itemImgHidden' />
                  {this.state.data.slice(0, 7).map((i,index)=>
@@ -84,10 +87,11 @@ class RevistaQuickView extends React.Component {
                         <img key={i.numero+"-img"} alt="tapa" className='itemImg' src={process.env.PUBLIC_URL+i.img} onClick={()=>this.setState({ImgClicked:true,numero:index})}/>
                     </div>)}
                     {this.state.ImgClicked &&
-                         <PopupNumero data={this.state.data[this.state.numero]} deactivate={this.deactivate.bind(this)}/>
+                         <PopupNumero data={this.state.data[this.state.numero]} img={process.env.PUBLIC_URL+"/tapas/Bds"+this.state.data[this.state.numero].numero+"-small.png"} deactivate={this.deactivate.bind(this)}/>
                     }
                     <div className='itemImgHidden' />
                 </div>
+                {!this.state.matches768 && <img  style={{width:"30px",padding:"0px"}} alt="btnRigth" src={process.env.PUBLIC_URL+"/icons/buttonRigth.png"}/>}
                  <button className='itemButtonRight' onTouchStart={()=>this.scrollLoop('right')} onTouchEnd={()=>this.exitLoop('right')} onMouseLeave={()=>this.exitLoop('right')} onMouseEnter={isMobile ? () => { return } : ()=>this.scrollLoop('right')} ></button>
                  </div>
                 )}

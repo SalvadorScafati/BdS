@@ -3,8 +3,14 @@ import React from 'react';
 class PopupNumero  extends React.Component{
 constructor(props){
     super(props);
-    this.state={articulos:false}
+    this.state={articulos:false,matches768:window.matchMedia("(min-width: 768px)").matches}
 }
+
+componentDidMount() {
+    const handler = e => this.setState({matches768: e.matches});
+    window.matchMedia("(min-width: 768px)").addEventListener('change', handler);
+  }
+
 
 toogle(){
     let x=!this.state.articulos;
@@ -50,7 +56,10 @@ render(){
         </li>)}
         </ul>}
         {!this.state.articulos &&
-        <img className='articulos-img' src={process.env.PUBLIC_URL+this.props.data.img} alt="tapa"/>
+            !this.state.matches768  && <img className='articulos-img' src={this.props.img} alt="tapa"/> 
+        }
+        {!this.state.articulos &&
+            this.state.matches768  && <img className='articulos-img' src={process.env.PUBLIC_URL+this.props.data.img} alt="tapa"/> 
         }
         </div>
         </div>
