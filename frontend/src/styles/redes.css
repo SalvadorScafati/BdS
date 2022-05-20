@@ -12,14 +12,31 @@
 }
 
 .intro-p{
-    width: 40%;
+    width: 70%;
     font-size: 30px;
-    margin-left: 30%;
+    margin-left: 10%;
     justify-content: center;
     text-align: justify;
     animation: textanimation;
+    height: 500px;
+    
+    margin-right: 10px;
     animation-duration: 2.3s;
 }
+.scroller{
+    overflow-y: scroll;
+}
+
+.scroller::-webkit-scrollbar {
+  margin: 10px;
+}
+.scroller::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: antiquewhite;
+    box-shadow: 77px -4px 0px -30px rgba(0,0,0,1);
+-webkit-box-shadow: 77px -4px 0px -30px rgba(0,0,0,1);
+-moz-box-shadow: 77px -4px 0px -30px rgba(0,0,0,1);
+  }
 
 .intro-p > h2 {
     font-weight: 600;
@@ -147,9 +164,10 @@
 @media screen and (max-width: 620px) {
     
     .intro-p{
-        width: 60%;
+        width: 80%;
         font-size: 16px;
-        margin-left: 20%;
+        margin-left: 10%;
+        
     }
     .miniNavBarButton{
         height: 30px;
@@ -166,5 +184,9 @@
 
     .redesicon{
         width: 40px;
+    }
+
+    .scroller::-webkit-scrollbar {
+        width: 12px;
     }
 }

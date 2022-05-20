@@ -64,4 +64,11 @@
     .itemButtonLeft,.itemButtonRight{
         height: 260px;
     }
+    .itemContainer{
+        overflow-x: scroll;
+    }
+
+    .itemButtonLeft,.itemButtonRight{
+        visibility: hidden;
+    }
 }

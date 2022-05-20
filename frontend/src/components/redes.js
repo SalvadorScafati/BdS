@@ -23,13 +23,37 @@ class Redes extends React.Component {
                         </div>
                     </div>
                     {this.state.content[0] &&
-                    <div>
-                        <h1 className='title'>Lorem ipsum</h1>
-                        <p className='intro-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <div className='scroller'>
+                        <p className='intro-p'>
+                        <strong>Boca de Sapo. Arte, literatura y pensamiento</strong> es una revista dedicada desde 1999 a la
+                        reflexión y la producción estética contemporánea.<br/>
+                        Esta edición n°33 está dedicada al tema “TIERRA”. Las obras que corren en la actualización
+                        web y en la tapa pertenecen a <strong>Evangelina Lenarduzzi</strong>. La serie de dibujos lleva por título
+                        &quot;Humanxs&quot; y acompaña también los artículos de <strong>Andrés Olaizola</strong> y de <strong>Patricia
+                        Rondomankas</strong>; se trata de un libro de artista sobre el que comenzó a trabajar durante el
+                        2020, interviniendo un viejo Atlas.<br/>
+                        Boca de Sapo 33 se abre con el ensayo “El campo en nuestros días”, de <strong>Roy Hora</strong>, y con
+                        obras de<strong> Victoria Yoguel</strong>, realizadas a partir los pigmentos naturales del paisaje misionero:
+                        tierra, hojas de poda, yerba mate. Por otra parte, dibujos de<strong> Guadalupe Silva</strong> acompañan
+                        el artículo “La memoria ancestral”, de <strong>María Rosa Lojo</strong>.<br/>
+                        El Dossier de Mitología Guaraní presenta una versión de los mitos a cargo de <strong>Princesa</strong>
+                        Aquino Augsten, con dibujos de la autora y de <strong>Rodrigo Hamuy</strong>. El mismo reúne
+                        intervenciones de<strong> Rodrigo Villalba Rojas, María Paz Solís Durigo y Mario Castells</strong>, y se
+                        encuentra ilustrado con cuadritos de la historieta Capitán Chikú, de <strong>Carlos Castells</strong> y
+                       <strong>Liliana Navarro Ibarra</strong>. Como se recordará, Kapitä Chiku es uno de los seres más invocados
+                        de la mitología guaraní, cuando lo que se intenta es alcanzar la gracia de la Tierra Sin Mal.
+                        El Dossier fue coordinado por <strong>Jimena Néspolo</strong>, quien en esta edición comparte una
+                        crónica de la vida académica ilustrada por obras de<strong>Paula Alonso</strong>.<br/>
+                        A propósito de la reciente publicación de su libro Metamorfosis (2021), <strong>Emanuele Coccia</strong>
+                        reflexiona sobre el “Futuro”; además, <strong>Enrique Flores</strong> suma un testimonio sobre su viaje a
+                        la selva amazónica en busca de la ayahuasca.<br/>
+                        Boca de Sapo tiene desde hace unos meses un pódcast, donde las y los autores leen sus
+                        propias producciones: <strong>Pablo Manzano</strong> nos cuenta cómo surgió este nuevo espacio.
+                        </p>
                     </div>
                     }
                      {this.state.content[1] &&
-                    <div>
+                    <div className='scroller'>
                         <h1  className='title'>Staff</h1>
                         <div className='intro-p'>
                             <h2>Directora</h2>

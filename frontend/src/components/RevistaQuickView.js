@@ -7,7 +7,7 @@ class RevistaQuickView extends React.Component {
     constructor(props) {
         super(props)
         this.ic_Ref = React.createRef();
-        this.state={matches768:window.matchMedia("(min-width: 768px)"),data:{},dataLoaded:false,buttonPressedRight:false,buttonPressedLeft:false,ImgClicked:false,numero:-1}
+        this.state={matches768:window.matchMedia("(min-width: 768px)").matches,data:{},dataLoaded:false,buttonPressedRight:false,buttonPressedLeft:false,ImgClicked:false,numero:-1}
     }
 
     componentDidMount() {
@@ -78,7 +78,6 @@ class RevistaQuickView extends React.Component {
             <div>
                {this.state.dataLoaded && (
                  <div className="revistaContainer">
-               {!this.state.matches768 && <img style={{width:"30px",padding:"0px"}} alt="btnleft" src={process.env.PUBLIC_URL+"/icons/buttonLeft.png"}/>}
                 <button  className='itemButtonLeft' onTouchStart={()=>this.scrollLoop('left')} onTouchEnd={()=>this.exitLoop('left')} onMouseLeave={()=>this.exitLoop('left')} onMouseEnter={isMobile ? () => { return } :()=>this.scrollLoop('left')} ></button>
                 <div className="itemContainer"ref={this.ic_Ref} style={{'overflowX':this.state.scrollPositon}}>
                 <div className='itemImgHidden' />
@@ -91,7 +90,6 @@ class RevistaQuickView extends React.Component {
                     }
                     <div className='itemImgHidden' />
                 </div>
-                {!this.state.matches768 && <img  style={{width:"30px",padding:"0px"}} alt="btnRigth" src={process.env.PUBLIC_URL+"/icons/buttonRigth.png"}/>}
                  <button className='itemButtonRight' onTouchStart={()=>this.scrollLoop('right')} onTouchEnd={()=>this.exitLoop('right')} onMouseLeave={()=>this.exitLoop('right')} onMouseEnter={isMobile ? () => { return } : ()=>this.scrollLoop('right')} ></button>
                  </div>
                 )}
