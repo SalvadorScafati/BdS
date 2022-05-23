@@ -4,17 +4,17 @@
     margin-bottom: 100px;
     display: flex;
     justify-content: center;
-    
 }
 
 .blogContent{
     width: max-content;
     display:flex;
     overflow: hidden;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    
     flex-direction: column;
     background-color: rgb(255, 255, 255);
+    color: rgb(240, 207, 20);
     border-radius: 0px 0px 25px 25px ;
     box-shadow: -4px 6px 35px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: -4px 6px 35px 0px rgba(0,0,0,0.75);
@@ -29,7 +29,9 @@
     text-align: justify;
     width: 50%;
     margin: 2px;
+    padding-bottom: 12px;
     margin-left: 10%;
+    font-weight: 300;
 }
 
 .blogContent > span{
@@ -57,6 +59,7 @@
 }
 
 @media screen and (max-width:550px) {
+    
     .blogContent > img{
         height: 300px;
     }

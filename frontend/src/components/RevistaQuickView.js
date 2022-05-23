@@ -88,7 +88,7 @@ class RevistaQuickView extends React.Component {
                     {this.state.ImgClicked &&
                          <PopupNumero data={this.state.data[this.state.numero]} img={process.env.PUBLIC_URL+"/tapas/Bds"+this.state.data[this.state.numero].numero+"-small.png"} deactivate={this.deactivate.bind(this)}/>
                     }
-                    <div className='itemImgHidden' />
+                    <img src={process.env.PUBLIC_URL+"/icons/morenumbers.png"} className='itemImg' alt='moreNumeros' onClick={()=>window.open("/numeros","_self")}/>
                 </div>
                  <button className='itemButtonRight' onTouchStart={()=>this.scrollLoop('right')} onTouchEnd={()=>this.exitLoop('right')} onMouseLeave={()=>this.exitLoop('right')} onMouseEnter={isMobile ? () => { return } : ()=>this.scrollLoop('right')} ></button>
                  </div>

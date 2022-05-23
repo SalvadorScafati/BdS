@@ -35,10 +35,10 @@ class BlogContent extends React.Component {
 
         <div className='blogContainer'>
             {this.state.dataLoaded &&
-            <div className='blogContent'>
+            <div style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern2.png"})`}} className='blogContent'>
                 <span>
                     <img src={process.env.PUBLIC_URL+'/icons/blogger.png'} alt="blogicon" />
-                    <h1>{this.state.tittle}</h1>
+                    <h1 >{this.state.tittle}</h1>
                 </span>
                 <img src={this.state.img} alt="blog" onClick={()=>window.open(this.state.link, "_blank")} />                
             </div>
