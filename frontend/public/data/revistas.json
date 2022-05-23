@@ -1,828 +1,2033 @@
 {
   "numeros":[
-     { "numero":"33",
-    "nombre":"Tierra",
-    "img":"/tapas/Bds33.png",
-    "issu":"https://issuu.com/bocadesapo/docs/_33_boca_de_sapo",
-    "pdf":"https://drive.google.com/file/d/15zq1DNggG31t_pYBg8MnCbgmcQTLsguH/preview",
-    "articulos" :[ 
-      {"name":"El campo en nuestros días",
-      "autor":"Roy Hora",
-      "pdf":""},
-      {"name":"Voces infames del paisaje del conurbano bonaerense",
-      "autor":"Patricia Rondomankas",
-      "pdf":""},
-      {"name":"Presentación del pódcast de la revista",
-      "autor":"Pablo Manzano",
-      "pdf":""},
-      {"name":"Testimonio: Apuntes radiológicos",
-      "autor":"Enrique Flores",
-      "pdf":""}
+    {
+      "_id": "62743cd471927ae2fd207f3b",
+      "numero": 33,
+      "nombre": "Tierra",
+      "img": "/tapas/Bds33.png",
+      "pdf": "https://drive.google.com/file/d/15zq1DNggG31t_pYBg8MnCbgmcQTLsguH/preview",
+      "issu": "https://issuu.com/bocadesapo/docs/_33_boca_de_sapo",
+      "articulos": [
+        {
+          "name": "El campo en nuestros días",
+          "autor": "Roy Hora",
+          "pdf": "https://drive.google.com/file/d/1VmVCU6VTQUi--hDq658m7moefl1G-eS8/view?usp=drivesdk"
+        },
+        {
+          "name": "Voces infames del paisaje del conurbano bonaerense",
+          "autor": "Patricia Rondomankas",
+          "pdf": "https://drive.google.com/file/d/1ZEJo3dKOqKwDhXnWZRdM9xEZbcP7i6xg/view?usp=drivesdk"
+        },
+        {
+          "name": "Presentación del pódcast de la revista",
+          "autor": "Pablo Manzano",
+          "pdf": "https://drive.google.com/file/d/1vFBUHKx6omOrX4VJhB3oQBPbwVo9EEod/view?usp=drivesdk"
+        },
+        {
+          "name": "Testimonio: Apuntes radiológicos",
+          "autor": "Enrique Flores",
+          "pdf": "https://drive.google.com/file/d/1oHednz5IJ-J5KmexBfq8u-AQ701LdkD2/view?usp=drivesdk"
+        }
       ],
-    "dossier":{
-      "nameDossier":"Dossier de Mitología Guaraní:",
-      "autores":[
-          {"name":"Rosicrán y su poema",
-          "autor":"Rodrigo Villalba Rojas",
-          "pdf":""},
-          {"name":"La palabra-alma que se abre como flor y el concepto de traducción chamánica",
-          "autor":"María Paz Solís Durigo",
-          "pdf":""},
-          {"name":"La narrativa de expresión guaraní y el nacionalismo paraguayo",
-          "autor":"Mario Castells",
-          "pdf":""},
-          {"name":"La memoria ancestral",
-          "autor":"María Rosa Lojo",
-          "pdf":""},
-          {"name":"Las escrituras geológicas de Cristina Rivera Garza",
-          "autor":"Andrés Olaizola",
-          "pdf":""},
-          {"name":"Opinión: Futuro",
-          "autor":"Emanuele Coccia",
-          "pdf":""},
-          {"name":"Crónica: Parir signos",
-          "autor":"Jimena Néspolo",
-          "pdf":""}
-      ]
-    }
+      "dossier": {
+        "nameDossier": "Dossier de Mitología Guaraní:",
+        "pdf": "https://drive.google.com/file/d/1JRp81w1Eay-l1IeyG9XhhngyrKWgEEsJ/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": "Rosicrán y su poema",
+            "autor": "Rodrigo Villalba Rojas"
+          },
+          {
+            "name": "La palabra-alma que se abre como flor y el concepto de traducción chamánica",
+            "autor": "María Paz Solís Durigo"
+          },
+          {
+            "name": "La narrativa de expresión guaraní y el nacionalismo paraguayo",
+            "autor": "Mario Castells"
+          },
+          {
+            "name": "La memoria ancestral",
+            "autor": "María Rosa Lojo"
+          },
+          {
+            "name": "Las escrituras geológicas de Cristina Rivera Garza",
+            "autor": "Andrés Olaizola"
+          },
+          {
+            "name": "Opinión: Futuro",
+            "autor": "Emanuele Coccia"
+          },
+          {
+            "name": "Crónica: Parir signos",
+            "autor": "Jimena Néspolo"
+          }
+        ]
+      },
+      "__v": 0
     },
-    { "numero":"32",
-      "nombre":"Utopias del Lenguaje",
-      "img":"/tapas/Bds32.png",
-      "issu":"https://issuu.com/bocadesapo/docs/_33_boca_de_sapo",
-      "pdf":"https://drive.google.com/file/d/1DPVLemrOgDUoboQe1xVeGZMe8kpAIjNl/view?usp=drivesdk",
-      "articulos":[
+    {
+      "_id": "62743cd471927ae2fd207f3c",
+      "numero": 32,
+      "nombre": "Utopías del Lenguaje",
+      "img": "/tapas/Bds32.png",
+      "pdf": "https://drive.google.com/file/d/1DPVLemrOgDUoboQe1xVeGZMe8kpAIjNl/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/_33_boca_de_sapo",
+      "articulos": [
         {
-        "name":"Políticas lingüísticas con perspectiva de género: tiempo y archivo",
-        "autor":"Mara Glozman",
-        "pdf":"https://acegif.com/wp-content/uploads/2021/4fh5wi/troll-face-44.gif"
+          "name": "Políticas lingüísticas con perspectiva de género: tiempo y archivo",
+          "autor": "Mara Glozman",
+          "pdf": "https://drive.google.com/file/d/14WSqXdcIhFZphfvJzy-zgBOk6tWYNNIk/view?usp=drivesdk"
         },
         {
-        "name":"Poemas",
-        "autor":"Matías Néspolo",
-        "pdf":""
+          "name": "Poemas",
+          "autor": "Matías Néspolo",
+          "pdf": "https://drive.google.com/file/d/1l20PKsB0PYT42dP8A49P1eBJulq9paeS/view?usp=drivesdk"
         },
         {
-        "name":"Videoarte: No se pide perdón por el fuego",
-        "autor":"Nair Gramajo",
-        "pdf":""
+          "name": "Videoarte: No se pide perdón por el fuego",
+          "autor": "Nair Gramajo",
+          "pdf": "https://drive.google.com/file/d/1amDCB4o2bZfUDTbKySI3eDq0ekUVaHge/view?usp=drivesdk"
         },
         {
-        "name":"Despellejarse la piel del amo",
-        "autor":"Vanesa Guerra",
-        "pdf":""
-        
+          "name": "Despellejarse la piel del amo",
+          "autor": "Vanesa Guerra",
+          "pdf": "https://drive.google.com/file/d/13qDkviAWn1U4kWMfJ7KrDv3djJsC4vbA/view?usp=drivesdk"
         },
         {
-        "name":"Poemas ",
-        "autor":"Felipe Benegas Lynch",
-        "pdf":""
+          "name": "Poemas ",
+          "autor": "Felipe Benegas Lynch",
+          "pdf": "https://drive.google.com/file/d/1fjnNxagA4urLME48HYwPulALFb4S9amW/view?usp=drivesdk"
         },
         {
-        "name":"Opinión: El gato sobre la mesa",
-        "autor":"Dardo Scavino",
-        "pdf":""
+          "name": "Opinión: El gato sobre la mesa",
+          "autor": "Dardo Scavino",
+          "pdf": "https://drive.google.com/file/d/1iNqHDOd5IwVegLimd3xvBtgoV1zIlbas/view?usp=drivesdk"
         },
         {
-        "name":"Videoarte: Comedores de labios",
-        "autor":"Alejandro Arguelles",
-        "pdf":""
+          "name": "Videoarte: Comedores de labios",
+          "autor": "Alejandro Arguelles",
+          "pdf": "https://drive.google.com/file/d/1pTsZkQ15ivOszCc9aVlbW_vZcXt6DzPf/view?usp=drivesdk"
         },
         {
-        "name":"En otro orden de cosas",
-        "autor":"Cintia Córdoba",
-        "pdf":""
+          "name": "En otro orden de cosas",
+          "autor": "Cintia Córdoba",
+          "pdf": "https://drive.google.com/file/d/1eraOFsZGLzvD40Qzy_hOOu2n85jtyVsx/view?usp=drivesdk"
         },
         {
-        "name":"La lengua utópica",
-        "autor":"Diego Bentivegna",
-        "pdf":""
+          "name": "La lengua utópica",
+          "autor": "Diego Bentivegna",
+          "pdf": "https://drive.google.com/file/d/1MBuYOS81sE56tFtS-g_AMAOn859nD2uU/view?usp=drivesdk"
         },
         {
-        "name":"Videoarte: Pasajes",
-        "autor":"Anastasia Parshina y José Trujillo",
-        "pdf":""
+          "name": "Videoarte: Pasajes",
+          "autor": "Anastasia Parshina y José Trujillo",
+          "pdf": "https://drive.google.com/file/d/14VzXLbrhxd1Uee4xwkTIkranE6LZmAB7/view?usp=drivesdk"
         },
         {
-        "name":"Entrevista a Ticio Escobar",
-        "autor":"Florencia Eva González y Jimena Néspolo",
-        "pdf":""
+          "name": "Entrevista a Ticio Escobar",
+          "autor": "Florencia Eva González y Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1Cnz1Zc6fvhFsd3BhM1ORmgS9ME3S7CTB/view?usp=drivesdk"
         },
         {
-        "name":"Poemas",
-        "autor":"María Casiraghi",
-        "pdf":""
+          "name": "Poemas",
+          "autor": "María Casiraghi",
+          "pdf": "https://drive.google.com/file/d/11JoeERPkqk14MSIbywqdKz1ndpScYY0y/view?usp=drivesdk"
         }
-        ],
-        "dossier":{
-          "nameDossier":"Dossier Susana Thénon",
-          "autores":[
-              {"name":"El festín del significado",
-              "autor":"María Negroni",
-              "pdf":""},
-              {"name":"La joven Thénon ",
-              "autor":"Analía de la Fuente",
-              "pdf":""},
-              {"name":"Thénon, Rilke y la traducción",
-              "autor":"Corina Dellutri",
-              "pdf":""},
-              {"name":"La trasgresión o la guerra del lenguaje",
-              "autor":"Gisela Galimi",
-              "pdf":""}
-          ]
+      ],
+      "dossier": {
+        "nameDossier": "Dossier Susana Thénon",
+        "pdf": "https://drive.google.com/file/d/1zuCWOAzFqBXZwp_37u87t-jPxkqKZLNY/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": "El festín del significado",
+            "autor": "María Negroni"
+          },
+          {
+            "name": "La joven Thénon ",
+            "autor": "Analía de la Fuente"
+          },
+          {
+            "name": "Thénon, Rilke y la traducción",
+            "autor": "Corina Dellutri"
+          },
+          {
+            "name": "La trasgresión o la guerra del lenguaje",
+            "autor": "Gisela Galimi"
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f3d",
+      "numero": 31,
+      "nombre": "La Peste",
+      "img": "/tapas/Bds31.png",
+      "pdf": "https://drive.google.com/file/d/1FPfxnScs1Tj-mxwNqLNrz_y9CHtOHZ4i/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/bds_31-final",
+      "articulos": [
+        {
+          "name": "Imágenes dialécticas en tiempos de peste",
+          "autor": "Florencia Eva González",
+          "pdf": "https://drive.google.com/file/d/1K5S3ssX3SFCUvtFf9NyHM1jZDD33_MPo/view?usp=drivesdk"
+        },
+        {
+          "name": "Entrevista a Diana Dowek (PDF)",
+          "autor": "Entrevista a Diana Dowek (PDF)",
+          "pdf": "https://drive.google.com/file/d/1ELtvk3jvy5gOIUtCRDv1vp-COhVNsCs8/view?usp=drivesdk"
+        },
+        {
+          "name": "Querella entre modernos y neomodernos (neonormales)",
+          "autor": "Mariano Magnifico",
+          "pdf": "https://drive.google.com/file/d/11_PBIceK-7--y2teFLYcsvMDARsB7iA1/view?usp=drivesdk"
+        },
+        {
+          "name": "La plaga nos llegó como una nueva forma de colonización por el contagio",
+          "autor": "Marcela Croce",
+          "pdf": "https://drive.google.com/file/d/1Hmjg5Ln00oTR5oRbQfPRc_zsytWPVqhq/view?usp=drivesdk"
+        },
+        {
+          "name": "Diario: Fragmentos de intensidad variable",
+          "autor": "Anahí Mallol",
+          "pdf": "https://drive.google.com/file/d/1d1bAiT_lLPTtbw7azN8VTIVLYgF5MZQW/view?usp=drivesdk"
+        },
+        {
+          "name": "Tucumán y las novelas de la peste",
+          "autor": "Máximo Hernán Mena",
+          "pdf": "https://drive.google.com/file/d/1YowKleBudkW1J_SklY0UjoqAYt3Px-aH/view?usp=drivesdk"
+        },
+        {
+          "name": "Tupi or not tupi",
+          "autor": "Martin Lienhard",
+          "pdf": "https://drive.google.com/file/d/1WVEHZ_empgVFTJ9KiHyUrU3AdY3_6eHg/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: Interrumpir el sentido del mundo",
+          "autor": "Marina Garcés",
+          "pdf": "https://drive.google.com/file/d/1Us6CLDKI5ghWvvyijtfjSAtJrYz9AKz9/view?usp=drivesdk"
+        },
+        {
+          "name": "Equinos encovichados",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1hX9mJLWaRges7h_128WPWFL7xnJPa2gL/view?usp=drivesdk"
         }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
     },
-    { "numero":"31",
-      "nombre":"La Peste",
-      "img":"/tapas/Bds31.png",
-      "issu":"https://issuu.com/bocadesapo/docs/bds_31-final",
-      "pdf":"https://drive.google.com/file/d/1FPfxnScs1Tj-mxwNqLNrz_y9CHtOHZ4i/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"Imágenes dialécticas en tiempos de peste",
-        "autor":"Florencia Eva González",
-        "pdf":""},
-        {"name":"Entrevista a Diana Dowek (PDF)",
-        "autor":"Entrevista a Diana Dowek (PDF)",
-        "pdf":""},
-        {"name":"Querella entre modernos y neomodernos (neonormales)",
-        "autor":"Mariano Magnifico",
-        "pdf":""},
-        {"name":"La plaga nos llegó como una nueva forma de colonización por el contagio",
-        "autor":"Marcela Croce",
-        "pdf":""},
-        {"name":"Diario: Fragmentos de intensidad variable",
-        "autor":"Anahí Mallol",
-        "pdf":""},
-        {"name":"Tucumán y las novelas de la peste",
-        "autor":"Máximo Hernán Mena",
-        "pdf":""},
-        {"name":"Tupi or not tupi",
-        "autor":"Martin Lienhard",
-        "pdf":""},
-        {"name":"Opinión: Interrumpir el sentido del mundo",
-        "autor":"Marina Garcés",
-        "pdf":""},
-        {"name":"Equinos encovichados",
-        "autor":"Jimena Néspolo",
-        "pdf":""}
-        ] ,
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
+    {
+      "_id": "62743cd471927ae2fd207f3e",
+      "numero": 30,
+      "nombre": "Fronteras",
+      "img": "/tapas/Bds30.png",
+      "pdf": "https://drive.google.com/file/d/1qml6cPH9imJsFesKwq_a4ebH-Umz436j/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/bds_30-final",
+      "articulos": [
+        {
+          "name": "El lugar sin límites",
+          "autor": "Claudia Feld",
+          "pdf": "https://drive.google.com/file/d/1fmz88_abUE9GlTCCPrPKirsStHffHGA3/view?usp=drivesdk"
+        },
+        {
+          "name": "La frontera de cristal",
+          "autor": "Javier Campos",
+          "pdf": "https://drive.google.com/file/d/1nPgC5qJW14_BenVKKmZSaqYoUkZ8nWAn/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: Seis apartados sobre Tokio",
+          "autor": "Clara Virasoro",
+          "pdf": "https://drive.google.com/file/d/1HqcZ42BJQsIZUvgNGiV6Uy5ViJz25jRl/view?usp=drivesdk"
+        },
+        {
+          "name": "Las fotografías de Josefina Oliver",
+          "autor": "Patricia Viaña",
+          "pdf": "https://drive.google.com/file/d/10_x6mswEvxi_jFEGGFctXwYBwpaLdSVs/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: Me llaman Caye",
+          "autor": "Luciana Arriaga",
+          "pdf": "https://drive.google.com/file/d/1AbBfa3-gNIrUTVWFtbl5y66dLwByos4o/view?usp=drivesdk"
+        },
+        {
+          "name": "Las fronteras del neoextractivismo en América Latina",
+          "autor": "Maristella Svampa",
+          "pdf": "https://drive.google.com/file/d/1UGtGMzHbGkX1JJgV248MZvXaTe5L9nbG/view?usp=drivesdk"
+        },
+        {
+          "name": "Portfolio: La cartelería política chilena",
+          "autor": "Brian Gray Rojas",
+          "pdf": "https://drive.google.com/file/d/1UrfrzfPz3ELyRQH0mbfIC3KD4K9hH3Zf/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: Parirse",
+          "autor": "Carolina Bartalini",
+          "pdf": "https://drive.google.com/file/d/1vii-5di6FzQVL7n6cQLok0XW-cc6Ejzy/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: Sin un antes ni un después",
+          "autor": "Juan José Mateo",
+          "pdf": "https://drive.google.com/file/d/1qFFbUqwT3pWJnyOfoilCxDYSMye9cGce/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
     },
-    { "numero":"30",
-      "nombre":"Fronteras",
-      "img":"/tapas/Bds30.png",
-      "issu":"https://issuu.com/bocadesapo/docs/bds_30-final",
-      "pdf":"https://drive.google.com/file/d/1qml6cPH9imJsFesKwq_a4ebH-Umz436j/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"El lugar sin límites",
-        "autor":"Claudia Feld",
-        "pdf":""},
-        {"name":"La frontera de cristal",
-        "autor":"Javier Campos",
-        "pdf":""},
-        {"name":"Crónica: Seis apartados sobre Tokio",
-        "autor":"Clara Virasoro",
-        "pdf":""},
-        {"name":"Las fotografías de Josefina Oliver",
-        "autor":"Patricia Viaña",
-        "pdf":""},
-        {"name":"Crónica: Me llaman Caye",
-        "autor":"Luciana Arriaga",
-        "pdf":""},
-        {"name":"Las fronteras del neoextractivismo en América Latina",
-        "autor":"Maristella Svampa",
-        "pdf":""},
-        {"name":"Portfolio: La cartelería política chilena",
-        "autor":"Brian Gray Rojas",
-        "pdf":""},
-        {"name":"Crónica: Parirse",
-        "autor":"Carolina Bartalini",
-        "pdf":""},
-        {"name":"Opinión: Sin un antes ni un después",
-        "autor":"Juan José Mateo",
-        "pdf":""}
-        ]  ,
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
+    {
+      "_id": "62743cd471927ae2fd207f3f",
+      "numero": 29,
+      "nombre": "Fantasía",
+      "img": "/tapas/Bds29.png",
+      "pdf": "https://drive.google.com/file/d/12PmaDxCZFnX4rXrTXrzQjrgoyGRYacbp/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/bds_29",
+      "articulos": [
+        {
+          "name": "De carroza a calabaza y viceversa",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1dapVozPzGi_cefoWfKMDOakLozfyyVeQ/view?usp=drivesdk"
+        },
+        {
+          "name": "Fotografía y fantasía en Walter Benjamin",
+          "autor": "Omar Quijano",
+          "pdf": "https://drive.google.com/file/d/1U1xNwhCSCfebe5xSvHHjcGByL9pRn3Ju/view?usp=drivesdk"
+        },
+        {
+          "name": "Cuento: Ecce servus dei",
+          "autor": "Daniel Frini",
+          "pdf": "https://drive.google.com/file/d/1_A0JVzd5Z81QyfDD83sIOkxTj4rQbDKz/view?usp=drivesdk"
+        },
+        {
+          "name": "Cuento: Dime-lo-que-callan",
+          "autor": "Ana Grynbaum",
+          "pdf": "https://drive.google.com/file/d/1Tol_XBDWma9bXDNX9y996opENBJTJDdu/view?usp=drivesdk"
+        },
+        {
+          "name": "1989 - Cine y Muro de Berlín",
+          "autor": "Florencia Eva González",
+          "pdf": "https://drive.google.com/file/d/1bU-BH7pD5DRqzpNbgeJsyBUapYCJkGvg/view?usp=drivesdk"
+        },
+        {
+          "name": "Un truco sin cartas",
+          "autor": "Mariano Ramos",
+          "pdf": "https://drive.google.com/file/d/1HPbI-Qi-NpwDawAMlVIAAZUf1p1rLAoK/view?usp=drivesdk"
+        },
+        {
+          "name": "Diario de viaje: Fantasía de carnaval",
+          "autor": "Amalia Barboza",
+          "pdf": "https://drive.google.com/file/d/10RxdlbgcqOg0lmk4TTeEWT6HjcHFsjoX/view?usp=drivesdk"
+        },
+        {
+          "name": "Un espejo cóncavo",
+          "autor": "Esther Domínguez",
+          "pdf": "https://drive.google.com/file/d/1VLUmY-4FNb5MGoW6TTQcDsn4HwbysmDj/view?usp=drivesdk"
+        },
+        {
+          "name": "La belleza surge del hielo",
+          "autor": "Alexander Kluge",
+          "pdf": "https://drive.google.com/file/d/1WAgsbi-qPiF08zQrvOz6LSqY-Rykobgj/view?usp=drivesdk"
+        },
+        {
+          "name": "Dibujo: Mundo Alicia",
+          "autor": "Marta Vicente",
+          "pdf": "https://drive.google.com/file/d/1qRsAuzzNy-ROVodoqlk7uYWOoqsJqpva/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
     },
-    { "numero":"29",
-      "nombre":"Fantasia",
-      "img":"/tapas/Bds29.png",
-      "issu":"https://issuu.com/bocadesapo/docs/bds_29",
-      "pdf":"https://drive.google.com/file/d/12PmaDxCZFnX4rXrTXrzQjrgoyGRYacbp/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"De carroza a calabaza y viceversa",
-        "autor":"Jimena Néspolo",
-        "pdf":""},
-        {"name":"Fotografía y fantasía en Walter Benjamin",
-        "autor":"Omar Quijano",
-        "pdf":""},
-        {"name":"Cuento: Ecce servus dei",
-        "autor":"Daniel Frini",
-        "pdf":""},
-        {"name":"Cuento: Dime-lo-que-callan",
-        "autor":"Ana Grynbaum",
-        "pdf":""},
-        {"name":"1989 - Cine y Muro de Berlín",
-        "autor":"Florencia Eva González",
-        "pdf":""},
-        {"name":"Un truco sin cartas",
-        "autor":"Mariano Ramos",
-        "pdf":""},
-        {"name":"Diario de viaje: Fantasía de carnaval",
-        "autor":"Amalia Barboza",
-        "pdf":""},
-        {"name":"Un espejo cóncavo",
-        "autor":"Esther Domínguez",
-        "pdf":""},
-        {"name":"La belleza surge del hielo",
-        "autor":"Alexander Kluge",
-        "pdf":""},
-        {"name":"Dibujo: Mundo Alicia",
-        "autor":"Marta Vicente",
-        "pdf":""}
-        ],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      } 
+    {
+      "_id": "62743cd471927ae2fd207f40",
+      "numero": 28,
+      "nombre": "Humor",
+      "img": "/tapas/Bds28.png",
+      "pdf": "https://drive.google.com/file/d/1OoV9zCvLFCgJh3BlSHyvX6KOtld9PwIu/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/bds_28",
+      "articulos": [
+        {
+          "name": "El inventor de la hilografía",
+          "autor": "Guillermo Korn",
+          "pdf": "https://drive.google.com/file/d/1YeoW3vBfMbvQAjj7wAJsqUfK0KBYqd7_/view?usp=drivesdk"
+        },
+        {
+          "name": "Poesía y humor",
+          "autor": "Raquel Guzmán",
+          "pdf": "https://drive.google.com/file/d/1Vd0d7xx70NubdB36F6oXZhV-Po5Tzk5l/view?usp=drivesdk"
+        },
+        {
+          "name": " Dramaturgia para una conferencia",
+          "autor": "Paul B. Preciado y Tomás Espina",
+          "pdf": "https://drive.google.com/file/d/1mXGts-fvkRB4FMl-4PaTrrd8Y8_xUJIT/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: Hipódromo",
+          "autor": "Marcial Gala",
+          "pdf": "https://drive.google.com/file/d/1xXQSxbIyxLdmDDyV_tUvrKCAnoMb85P8/view?usp=drivesdk"
+        },
+        {
+          "name": "La revista Humor: un espacio crítico bajo la dictadura militar argentina (1978-1983)",
+          "autor": "Mara Burkart",
+          "pdf": "https://drive.google.com/file/d/1DaSDK1iSFSktShRUH8BNFV5R4zZmI4Bj/view?usp=drivesdk"
+        },
+        {
+          "name": "Mafalda global",
+          "autor": "Isabella Cosse",
+          "pdf": "https://drive.google.com/file/d/1UNLjTin59miItGtVDHSbqMTMiCXeUI6e/view?usp=drivesdk"
+        },
+        {
+          "name": "Historieta: Escenas de la vida lésbica",
+          "autor": "Maia Venturini",
+          "pdf": "https://drive.google.com/file/d/1aLbmP0hhoup5QX6QSRnO5lEbhT9a1opH/view?usp=drivesdk"
+        },
+        {
+          "name": "Literatura y humor",
+          "autor": "Paulina Juszko",
+          "pdf": "https://drive.google.com/file/d/1xZpJl7Ywsfgkl_8ldb4PylWXeBKKEqs0/view?usp=drivesdk"
+        },
+        {
+          "name": "Portfolio: Stand-up por doquier",
+          "autor": "Laura Cilento",
+          "pdf": "https://drive.google.com/file/d/1_SxG-7-nvOyE1qlH1PpMFXu8nIREabsD/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: Vender humo",
+          "autor": "Andrés Fuentes",
+          "pdf": "https://drive.google.com/file/d/10Z9XaA0qNqnvHrgzadGkauNDeQeaxhzU/view?usp=drivesdk"
+        },
+        {
+          "name": "Presentación de las aguafuertes gráficas de Chicks on Comics",
+          "autor": "Laura Vazquez",
+          "pdf": "https://drive.google.com/file/d/1IIRykrBMagNa26aYV2RKpThwSsgUbF_7/view?usp=drivesdk"
+        },
+        {
+          "name": "Historieta: Las ciudades que somos",
+          "autor": "Caro Chinaski",
+          "pdf": "https://drive.google.com/file/d/1F843c2HRqejWkfX7BoCeLJdGvVGCs36E/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
     },
-    { "numero":"28",
-      "nombre":"Humor",
-      "img":"/tapas/Bds28.png",
-      "issu":"https://issuu.com/bocadesapo/docs/bds_28",
-      "pdf":"https://drive.google.com/file/d/1OoV9zCvLFCgJh3BlSHyvX6KOtld9PwIu/view?usp=drivesdk",
-         
-"articulos" :[ 
-  {"name":"El inventor de la hilografía",
-  "autor":"Guillermo Korn",
-  "pdf":""},
-  {"name":"Poesía y humor",
-  "autor":"Raquel Guzmán",
-  "pdf":""},
-  {"name":" Dramaturgia para una conferencia",
-  "autor":"Paul B",
-  "pdf":""},
-  {"name":"Opinión: Hipódromo",
-  "autor":"Marcial Gala",
-  "pdf":""},
-  {"name":"La revista Humor: un espacio crítico bajo la dictadura militar argentina (1978-1983)",
-  "autor":"Mara Burkart",
-  "pdf":""},
-  {"name":"Mafalda global",
-  "autor":"Isabella Cosse",
-  "pdf":""},
-  {"name":"Historieta: Escenas de la vida lésbica",
-  "autor":"Maia Venturini",
-  "pdf":""},
-  {"name":"Literatura y humor",
-  "autor":"Paulina Juszko",
-  "pdf":""},
-  {"name":"Portfolio: Stand-up por doquier",
-  "autor":"Laura Cilento",
-  "pdf":""},
-  {"name":"Opinión: Vender humo",
-  "autor":"Andrés Fuentes",
-  "pdf":""},
-  {"name":"Presentación de las aguafuertes gráficas de Chicks on Comics",
-  "autor":"Laura Vazquez",
-  "pdf":""},
-  {"name":"Historieta: Las ciudades que somos",
-  "autor":"Caro Chinaski",
-  "pdf":""}
-  ],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }  
-    },{
-      "numero": "27",
+    {
+      "_id": "62743cd471927ae2fd207f41",
+      "numero": 27,
       "nombre": "Ruinas",
       "img": "/tapas/Bds27.png",
-      "issu":"https://issuu.com/bocadesapo/docs/bds_27-revista",
-      "pdf":"https://drive.google.com/file/d/12dcXsbYZQe949hvvbCopeJAM3iI5vq7m/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"Ruinas sobre ruinas",
-        "autor":"Raúl Antelo",
-        "pdf":""},
-        {"name":"Todas las noches, la noche",
-        "autor":"Gustavo Lespada",
-        "pdf":""},
-        {"name":" Del poeta y el asombro",
-        "autor":"Marisa Martínez Pérsico",
-        "pdf":""},
-        {"name":"Charla con Ivonne Bordelois en el Museo Casa de Ricardo Rojas",
-        "autor":"",
-        "pdf":""},
-        {"name":"Restos y ruinas en el arte contemporáneo latinoamericano",
-        "autor":"Isabel Quintana",
-        "pdf":""},
-        {"name":"Las ruinas también construyen",
-        "autor":"Florencia Eva González",
-        "pdf":""},
-        {"name":"Homenaje a Karl Marx",
-        "autor":"Dardo Scavino",
-        "pdf":""},
-        {"name":"Crónica: ¿Quién mató a Cafrune?",
-        "autor":"Jimena Néspolo",
-        "pdf":""},
-        {"name":"Dossier de cuento policial",
-        "autor":"",
-        "pdf":""},
-        {"name":"Portfolio: Intoxicadxs por los agrotóxicos",
-        "autor":"Ricardo Romero",
-        "pdf":""}
-        ],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "26",
+      "pdf": "https://drive.google.com/file/d/12dcXsbYZQe949hvvbCopeJAM3iI5vq7m/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/bds_27-revista",
+      "articulos": [
+        {
+          "name": "Ruinas sobre ruinas",
+          "autor": "Raúl Antelo",
+          "pdf": "https://drive.google.com/file/d/1HkazKHDlTRZeVqHuILJAThVApvLqsufU/view?usp=drivesdk"
+        },
+        {
+          "name": "Todas las noches, la noche",
+          "autor": "Gustavo Lespada",
+          "pdf": "https://drive.google.com/file/d/1DHCmiOtfDQy1cqiK6f-Ak_vMUftiwmD7/view?usp=drivesdk"
+        },
+        {
+          "name": " Del poeta y el asombro",
+          "autor": "Marisa Martínez Pérsico",
+          "pdf": "https://drive.google.com/file/d/1k6C6e1oU0BKh8PP-rhWkkNym8bw9M9dL/view?usp=drivesdk"
+        },
+        {
+          "name": "Charla con Ivonne Bordelois en el Museo Casa de Ricardo Rojas",
+          "autor": "",
+          "pdf": "https://drive.google.com/file/d/1TD6dSNKvrE3t3HJbxFM3dinkhDD_p459/view?usp=drivesdk"
+        },
+        {
+          "name": "Restos y ruinas en el arte contemporáneo latinoamericano",
+          "autor": "Isabel Quintana",
+          "pdf": "https://drive.google.com/file/d/1O0bXUhG7P-5VRYq9DqI2vv9rX_PCimLB/view?usp=drivesdk"
+        },
+        {
+          "name": "Las ruinas también construyen",
+          "autor": "Florencia Eva González",
+          "pdf": "https://drive.google.com/file/d/1LOdmym9j6QivmsBSt3foulTbTb2ipAof/view?usp=drivesdk"
+        },
+        {
+          "name": "Homenaje a Karl Marx",
+          "autor": "Dardo Scavino",
+          "pdf": "https://drive.google.com/file/d/1qXov4lDGHfKdPlhERPZGRLPBJOljfxlS/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: ¿Quién mató a Cafrune?",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1tCthjJgE2h_mqLE2zA1nHaN1dC914aNO/view?usp=drivesdk"
+        },
+        {
+          "name": "Dossier de cuento policial",
+          "autor": "",
+          "pdf": "https://drive.google.com/file/d/1zcSMYiEAiLLCczHRwbW3PdPCS8llXdSn/view?usp=drivesdk"
+        },
+        {
+          "name": "Portfolio: Intoxicadxs por los agrotóxicos",
+          "autor": "Ricardo Romero",
+          "pdf": "https://drive.google.com/file/d/1tCthjJgE2h_mqLE2zA1nHaN1dC914aNO/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f42",
+      "numero": 26,
       "nombre": "Gineceo",
-      "issu":"https://issuu.com/bocadesapo/docs/bds_26_final_",
       "img": "/tapas/Bds26.png",
-      "pdf":"https://drive.google.com/file/d/1yOgGgsiqE_OFqWSbhxljFwHbgsdd6M_U/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"Mujeres, luchas por la tierra y globalización",
-        "autor":"Silvia Federici",
-        "pdf":""},
-        {"name":"Matriarcas literarias",
-        "autor":"María Gabriela Mizraje",
-        "pdf":""},
-        {"name":"Actualidad: Ciclo Las Veladas Literarias",
-        "autor":"",
-        "pdf":""},
-        {"name":"Adelanto: Las mujeres a la cama",
-        "autor":"Florencia Eva González",
-        "pdf":""},
-        {"name":"Pasado y presente de las creadoras de historietas",
-        "autor":"Mariela Acevedo",
-        "pdf":""},
-        {"name":"Homenaje a Ana María Barrenechea",
-        "autor":"Marcela Croce",
-        "pdf":""},
-        {"name":"Las amigas vivas y las amigas muertas",
-        "autor":"Jimena Néspolo",
-        "pdf":""},
-        {"name":"Dossier de minificción",
-        "autor":"",
-        "pdf":""}
-        ],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "25",
-      "issu":"https://issuu.com/bocadesapo/docs/bds_25-_final_",
+      "pdf": "https://drive.google.com/file/d/1yOgGgsiqE_OFqWSbhxljFwHbgsdd6M_U/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/bds_26_final_",
+      "articulos": [
+        {
+          "name": "Mujeres, luchas por la tierra y globalización",
+          "autor": "Silvia Federici",
+          "pdf": "https://drive.google.com/file/d/1B5g-Hwou8g1BcrStL8BQCrliwPMFPKf-/view?usp=drivesdk"
+        },
+        {
+          "name": "Matriarcas literarias",
+          "autor": "María Gabriela Mizraje",
+          "pdf": "https://drive.google.com/file/d/1cNUkfNAWGEXeJgl49JaIMtBTSoh34jzf/view?usp=drivesdk"
+        },
+        {
+          "name": "Actualidad: Ciclo Las Veladas Literarias",
+          "autor": "",
+          "pdf": "https://drive.google.com/file/d/1thwPYnFTAhncKa6-Nbr09Mh5I0jSlmRJ/view?usp=drivesdk"
+        },
+        {
+          "name": "Adelanto: Las mujeres a la cama",
+          "autor": "Florencia Eva González",
+          "pdf": "https://drive.google.com/file/d/1ZO6kGiY0dfUmqClXvMP7QNBwQ_5SkxAQ/view?usp=drivesdk"
+        },
+        {
+          "name": "Pasado y presente de las creadoras de historietas",
+          "autor": "Mariela Acevedo",
+          "pdf": "https://drive.google.com/file/d/19Xo3-uMyOnrajPuNwbO-ZZ9y9gC30U5h/view?usp=drivesdk"
+        },
+        {
+          "name": "Homenaje a Ana María Barrenechea",
+          "autor": "Marcela Croce",
+          "pdf": "https://drive.google.com/file/d/1najNpnNkZimYOWEuddP-5GKG98a8pA9n/view?usp=drivesdk"
+        },
+        {
+          "name": "Las amigas vivas y las amigas muertas",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1pyLZ6F2c0RnxscC1y24Y9ADcib5wt1YC/view?usp=drivesdk"
+        },
+        {
+          "name": "Dossier de minificción",
+          "autor": "",
+          "pdf": "https://drive.google.com/file/d/1XBhx8ngQRTPCch48OcSWwj-qe6_X24gM/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f43",
+      "numero": 25,
       "nombre": "Sumario: Crónicas entre siglos",
       "img": "/tapas/Bds25.png",
-      "pdf":"https://drive.google.com/file/d/1QSg8mBXYmOhw8zYJrL7INsjeBX2-LzgR/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"Indios, drones y fronteras",
-        "autor":"Dardo Scavino",
-        "pdf":""},
-        {"name":"Sarlo en la revista viva",
-        "autor":"Nicolás Rivero",
-        "pdf":""},
-        {"name":"Crónica: Condenada independencia",
-        "autor":"Juan Bautista Durán",
-        "pdf":""},
-        {"name":"Adelanto: Correspondencia David Viñas",
-        "autor":"Carlos García",
-        "pdf":""},
-        {"name":"Pensar lo colonial en el presente",
-        "autor":"Laura Catelli",
-        "pdf":""},
-        {"name":"Crónica: Sarajevo underground",
-        "autor":"Andrea Jeftanovic",
-        "pdf":""},
-        {"name":"17 hipótesis sobre 1917",
-        "autor":"Florencia Eva González",
-        "pdf":""},
-        {"name":"Homenaje a Violeta Parra",
-        "autor":"Stefano Gavagnin",
-        "pdf":""},
-        {"name":"Entrevista a Hebe Uhart",
-        "autor":"Jimena Néspolo",
-        "pdf":""},
-        {"name":"Columna: De Mladić, Praljak y La Haya",
-        "autor":"Borja Lasheras",
-        "pdf":""},
-        {"name":"Columna: Serbia y Montenegro",
-        "autor":"Felipe Benegas Lynch",
-        "pdf":""}
-        ],     
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "24",
+      "pdf": "https://drive.google.com/file/d/1QSg8mBXYmOhw8zYJrL7INsjeBX2-LzgR/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/bds_25-_final_",
+      "articulos": [
+        {
+          "name": "Indios, drones y fronteras",
+          "autor": "Dardo Scavino",
+          "pdf": "https://drive.google.com/file/d/1CfMTNfXaEPBImPxiP7IYoakNasliPfGS/view?usp=drivesdk"
+        },
+        {
+          "name": "Sarlo en la revista viva",
+          "autor": "Nicolás Rivero",
+          "pdf": "https://drive.google.com/file/d/1zvEdl__dlmd4s5DsfIEl3SYgkTiOMfBq/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: Condenada independencia",
+          "autor": "Juan Bautista Durán",
+          "pdf": "https://drive.google.com/file/d/1ArQW9_aTfCeQj3jkfnuMwkNBTV88KgL_/view?usp=drivesdk"
+        },
+        {
+          "name": "Adelanto: Correspondencia David Viñas",
+          "autor": "Carlos García",
+          "pdf": "https://drive.google.com/file/d/1q-MIXla63Jm8FYpyN2wLHhUniAB5B7iB/view?usp=drivesdk"
+        },
+        {
+          "name": "Pensar lo colonial en el presente",
+          "autor": "Laura Catelli",
+          "pdf": "https://drive.google.com/file/d/1kvjMRBycmCIUFiv2__xT4AzuZN8dsqF3/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: Sarajevo underground",
+          "autor": "Andrea Jeftanovic",
+          "pdf": "https://drive.google.com/file/d/1qg1EdrRaPsAW3zsRvk-9yCZmMxYeSiSj/view?usp=drivesdk"
+        },
+        {
+          "name": "17 hipótesis sobre 1917",
+          "autor": "Florencia Eva González",
+          "pdf": "https://drive.google.com/file/d/1Z3gTgED7Md9wa4r7-0l9fjwDRpshMz1u/view?usp=drivesdk"
+        },
+        {
+          "name": "Homenaje a Violeta Parra",
+          "autor": "Stefano Gavagnin",
+          "pdf": "https://drive.google.com/file/d/1p57ZTPP_-XUHr8Fpx6_Vd3nZXDLXAHkN/view?usp=drivesdk"
+        },
+        {
+          "name": "Entrevista a Hebe Uhart",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1FnFhuS2lKmZGV6wXivbjOmmMxWZRRzPz/view?usp=drivesdk"
+        },
+        {
+          "name": "Columna: De Mladić, Praljak y La Haya",
+          "autor": "Borja Lasheras",
+          "pdf": "https://drive.google.com/file/d/1GcKbk_hYvZbjBy3sVuMbMiAYHKr5V0gk/view?usp=drivesdk"
+        },
+        {
+          "name": "Columna: Serbia y Montenegro",
+          "autor": "Felipe Benegas Lynch",
+          "pdf": "https://drive.google.com/file/d/1lZzbylqMiC3dl2aZ1LS31nTPvsSKDwQR/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f44",
+      "numero": 24,
       "nombre": "Mierda",
       "img": "/tapas/Bds24.png",
-      "issu":"https://issuu.com/bocadesapo/docs/bds_24_final_",
-      "pdf":"https://drive.google.com/file/d/1eJktWvW2EfddOPt1sjFSwHvHug-l3PC6/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"Risas desde la cibercloaca",
-        "autor":"Laura Cilento",
-        "pdf":""},
-        {"name":"Doble deshecho",
-        "autor":"Hernán Martínez",
-        "pdf":""},
-        {"name":"Un pentagrama para la mierda",
-        "autor":"Adriana Mancini",
-        "pdf":""},
-        {"name":"Platos ricos y digestivos",
-        "autor":"Susanna Regazzoni",
-        "pdf":""},
-        {"name":"Columna: Comer mierda",
-        "autor":"Florencia Eva González",
-        "pdf":""},
-        {"name":"Documental: “No hubo tiempo para la tristeza” (PDF)",
-        "autor":"Documental: “No hubo tiempo para la tristeza” (PDF)",
-        "pdf":""},
-        {"name":"Cuestiones de fecalidad",
-        "autor":"Rocco Carbone",
-        "pdf":""},
-        {"name":"Mear y cagar en público",
-        "autor":"Silvana Inés Camerlo",
-        "pdf":""},
-        {"name":"Entrevista y perfil de Héctor Tizón",
-        "autor":"Jimena Néspolo",
-        "pdf":""},
-        {"name":"Opinión: Copi o la mierda de la cultura",
-        "autor":"Marcos Rosenzvaig",
-        "pdf":""}
-        ],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "23",
+      "pdf": "https://drive.google.com/file/d/1eJktWvW2EfddOPt1sjFSwHvHug-l3PC6/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/bds_24_final_",
+      "articulos": [
+        {
+          "name": "Risas desde la cibercloaca",
+          "autor": "Laura Cilento",
+          "pdf": "https://drive.google.com/file/d/1Y9I0qaH0ZnbjLRcl0Nqem5DOJ3r3BEn6/view?usp=drivesdk"
+        },
+        {
+          "name": "Doble deshecho",
+          "autor": "Hernán Martínez",
+          "pdf": "https://drive.google.com/file/d/193gPepIBr0vVetHBI4sUfGOc5sW1wg0n/view?usp=drivesdk"
+        },
+        {
+          "name": "Un pentagrama para la mierda",
+          "autor": "Adriana Mancini",
+          "pdf": "https://drive.google.com/file/d/1t1E9twW7bZfJ6d05lwjTOSiaDvXr4mL4/view?usp=drivesdk"
+        },
+        {
+          "name": "Platos ricos y digestivos",
+          "autor": "Susanna Regazzoni",
+          "pdf": "https://drive.google.com/file/d/1LjMcu00Xty0pl1zZMQrzOfqxWyke9kbF/view?usp=drivesdk"
+        },
+        {
+          "name": "Columna: Comer mierda",
+          "autor": "Florencia Eva González",
+          "pdf": "https://drive.google.com/file/d/1J_xfc49kXOYgiz1LA70L5gRdLwkXKc3l/view?usp=drivesdk"
+        },
+        {
+          "name": "Documental: “No hubo tiempo para la tristeza” (PDF)",
+          "autor": "Documental: “No hubo tiempo para la tristeza” (PDF)",
+          "pdf": "https://drive.google.com/file/d/1oZlzkg1gORRxQuVQOrjnugyDeCz9M1BA/view?usp=drivesdk"
+        },
+        {
+          "name": "Cuestiones de fecalidad",
+          "autor": "Rocco Carbone",
+          "pdf": "https://drive.google.com/file/d/1iNtbd9X-VKC_SKIxxXOUyg-AGb1xZZUw/view?usp=drivesdk"
+        },
+        {
+          "name": "Mear y cagar en público",
+          "autor": "Silvana Inés Camerlo",
+          "pdf": "https://drive.google.com/file/d/1JHgruSwsoeXRlPQY0b75pVUCXfCwhQA0/view?usp=drivesdk"
+        },
+        {
+          "name": "Entrevista y perfil de Héctor Tizón",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/18Ec56eGwDMjT9YKSFXnEZI7fKT-vmUFJ/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: Copi o la mierda de la cultura",
+          "autor": "Marcos Rosenzvaig",
+          "pdf": "https://drive.google.com/file/d/1djx-TRhsCuelx1EITrDSIc-rVNkiusuv/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f45",
+      "numero": 23,
       "nombre": "Tiempo",
       "img": "/tapas/Bds23.png",
-      "issu":"https://issuu.com/bocadesapo/docs/bds_23-_vf_",
-      "pdf":"https://drive.google.com/file/d/1e0q78jZjIS2Pg97qIXAqmV03XNLRE_dR/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"Las rimas del tiempo",
-        "autor":"Dardo Scavino",
-        "pdf":""},
-        {"name":"Crónica policial: En medio de la noche",
-        "autor":"Felipe Benegas Lynch",
-        "pdf":""},
-        {"name":"La muerte como recurso",
-        "autor":"Mauro Moschini",
-        "pdf":""},
-        {"name":"Dossier de poesía",
-        "autor":"Presentación: María Casiraghi",
-        "pdf":""},
-        {"name":"Opinión: ¿Cuánto dura un instante?",
-        "autor":"Lázaro Covadlo",
-        "pdf":""},
-        {"name":"El tiempo del relato de la intelligentsia",
-        "autor":"Jimena Néspolo",
-        "pdf":""},
-        {"name":"En el transcurso del tiempo",
-        "autor":"Florencia Eva González",
-        "pdf":""},
-        {"name":"Entrevista a Lita Stantic",
-        "autor":"Máximo Eseverri",
-        "pdf":""},
-        {"name":"Cronografías",
-        "autor":"Graciela Speranza",
-        "pdf":""},
-        {"name":"Crónica del futuro: Venecia sumergida",
-        "autor":"Michele Boato",
-        "pdf":""}
+      "pdf": "https://drive.google.com/file/d/1e0q78jZjIS2Pg97qIXAqmV03XNLRE_dR/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/bds_23-_vf_",
+      "articulos": [
+        {
+          "name": "Las rimas del tiempo",
+          "autor": "Dardo Scavino",
+          "pdf": "https://drive.google.com/file/d/1Do8ZekrT5h5SnI2HwNdLi5hTohGsSIOu/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica policial: En medio de la noche",
+          "autor": "Felipe Benegas Lynch",
+          "pdf": "https://drive.google.com/file/d/1_-POL0rPlCk9VZPWrA4OzPBxCZzmNYTH/view?usp=drivesdk"
+        },
+        {
+          "name": "La muerte como recurso",
+          "autor": "Mauro Moschini",
+          "pdf": "https://drive.google.com/file/d/1vpAgSEz80tlsTHVZy8ciYLno17XeOUXS/view?usp=drivesdk"
+        },
+        {
+          "name": "Dossier de poesía",
+          "autor": "Presentación: María Casiraghi",
+          "pdf": "https://drive.google.com/file/d/1hbaIhncm_HZWtMHjIlz9JSTLinGDI6QK/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: ¿Cuánto dura un instante?",
+          "autor": "Lázaro Covadlo",
+          "pdf": "https://drive.google.com/file/d/1TAeG2gDlytqJaIhKqgpWcs6vV25WeAfE/view?usp=drivesdk"
+        },
+        {
+          "name": "El tiempo del relato de la intelligentsia",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1zWpBL75VUtVE6IkJuqfXivb6CHgGHK1-/view?usp=drivesdk"
+        },
+        {
+          "name": "En el transcurso del tiempo",
+          "autor": "Florencia Eva González",
+          "pdf": "https://drive.google.com/file/d/1vNxy-0DnQFW8jvXtBWZJLdbo4DpJTkej/view?usp=drivesdk"
+        },
+        {
+          "name": "Entrevista a Lita Stantic",
+          "autor": "Máximo Eseverri",
+          "pdf": "https://drive.google.com/file/d/1YomXlA_GUcJnQ6lm-HgBEUmvo9hol2_k/view?usp=drivesdk"
+        },
+        {
+          "name": "Cronografías",
+          "autor": "Graciela Speranza",
+          "pdf": "https://drive.google.com/file/d/1snD-vUp_VbOgshGNqmhOZbblZSfzL0Af/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica del futuro: Venecia sumergida",
+          "autor": "Michele Boato",
+          "pdf": "https://drive.google.com/file/d/1X8dTj0XbXR7ieRc1MbXPUePk6NIeSMQB/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
         ]
-        ,
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "22",
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f46",
+      "numero": 22,
       "nombre": "Activismos",
       "img": "/tapas/Bds22.png",
-      "issu":"https://issuu.com/bocadesapo/docs/bds_23-_vf_",
-      "pdf":"https://drive.google.com/file/d/1uZIh832b8_qsmKbqNIovOzlvjfoeyfvK/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"Activismo delicado",
-        "autor":"Allan Kaplan y Sue Davidoff",
-        "pdf":""},
-        {"name":"Mariquita Sánchez y Juana Manso: Precursoras de la educación femenina en el Río de la Plata",
-        "autor":"Brigitte Natanson",
-        "pdf":""},
-        {"name":"Presentación del dossier",
-        "autor":"Laura Vazquez",
-        "pdf":""},
-        {"name":"Dossier de historietas contra la violencia policial (PDF)",
-        "autor":"Dossier de historietas contra la violencia policial (PDF)",
-        "pdf":""},
-        {"name":"Imágenes del desacuerdo",
-        "autor":"Florencia Abbate",
-        "pdf":""},
-        {"name":"Videoarte: O útil do inutil",
-        "autor":"Dolores Martin",
-        "pdf":""},
-        {"name":"Trotsky y las salvajes muchachas del partido",
-        "autor":"Jimena Néspolo",
-        "pdf":""},
-        {"name":"Entrevista a Horacio González",
-        "autor":"Hache Pavón",
-        "pdf":""},
-        {"name":"El erotismo háptico de Nuno Ramos",
-        "autor":"Victoria Cóccaro",
-        "pdf":""},
-        {"name":"Opinión: La quinta columna",
-        "autor":"Juan José Saer",
-        "pdf":""},
-        {"name":"Crónica: Victoria",
-        "autor":"Luciana Garbarino",
-        "pdf":""}
+      "pdf": "https://drive.google.com/file/d/1uZIh832b8_qsmKbqNIovOzlvjfoeyfvK/view?usp=drivesdk",
+      "issu": "https://issuu.com/bocadesapo/docs/bds_23-_vf_",
+      "articulos": [
+        {
+          "name": "Activismo delicado",
+          "autor": "Allan Kaplan y Sue Davidoff",
+          "pdf": "https://drive.google.com/file/d/1BUTFQyUxANNPvY_OgujmXn6cEgh-yj4k/view?usp=drivesdk"
+        },
+        {
+          "name": "Mariquita Sánchez y Juana Manso: Precursoras de la educación femenina en el Río de la Plata",
+          "autor": "Brigitte Natanson",
+          "pdf": "https://drive.google.com/file/d/1mnVLqf4x3Wcqrv27Y6Kof3SnoGf8AF1H/view?usp=drivesdk"
+        },
+        {
+          "name": "Presentación del dossier",
+          "autor": "Laura Vazquez",
+          "pdf": "https://drive.google.com/file/d/1lRl6rOTC7aEwqzjQLLZD7siMsXOB-olO/view?usp=drivesdk"
+        },
+        {
+          "name": "Dossier de historietas contra la violencia policial (PDF)",
+          "autor": "Dossier de historietas contra la violencia policial (PDF)",
+          "pdf": "https://drive.google.com/file/d/1q4UCDJHCyl9BiiZwPnjv-sC-bkG0Csvz/view?usp=drivesdk"
+        },
+        {
+          "name": "Imágenes del desacuerdo",
+          "autor": "Florencia Abbate",
+          "pdf": "https://drive.google.com/file/d/133hnXwYAKDUlkj_eAKUOYlWTg2VExdKy/view?usp=drivesdk"
+        },
+        {
+          "name": "Videoarte: O útil do inutil",
+          "autor": "Dolores Martin",
+          "pdf": "https://drive.google.com/file/d/1SXp7m23betc-H5Kv4FmYyo9iuh3eS3bZ/view?usp=drivesdk"
+        },
+        {
+          "name": "Trotsky y las salvajes muchachas del partido",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1emsaI7tD1QaCLqPNzgmqQQHlpO7FkHcj/view?usp=drivesdk"
+        },
+        {
+          "name": "Entrevista a Horacio González",
+          "autor": "Hache Pavón",
+          "pdf": "https://drive.google.com/file/d/1SJtwQ1KgZSvjp-PBh7i1TF7KmrvfG3nA/view?usp=drivesdk"
+        },
+        {
+          "name": "El erotismo háptico de Nuno Ramos",
+          "autor": "Victoria Cóccaro",
+          "pdf": "https://drive.google.com/file/d/1PvZMfns8SmG_C7lo_3b6PpAlcFQla6wP/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: La quinta columna",
+          "autor": "Juan José Saer",
+          "pdf": "https://drive.google.com/file/d/1tuGF7qN5B9TIGIznW_lnCvzVTs7-CaYe/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: Victoria",
+          "autor": "Luciana Garbarino",
+          "pdf": "https://drive.google.com/file/d/1TxEnFsnkIXRTFDqq341TBuCgA57oQcNU/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
         ]
-        ,
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "21",
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f47",
+      "numero": 21,
       "nombre": "Animalidad",
       "img": "/tapas/Bds21.png",
-      "issu":"http://issuu.com/bocadesapo/docs/bds21",
-      "pdf":"https://drive.google.com/file/d/1fGt1jZHdNTuVH9WX_FRhylMdzYRaWXhd/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"El caníbal de Klein",
-        "autor":"Dardo Scavino",
-        "pdf":""},
-        {"name":"Extraña naturaleza americana en crónicas de Indias Occidentales",
-        "autor":"Vanina Teglia",
-        "pdf":""},
-        {"name":"Cuento: Perseverar",
-        "autor":"Ana Ojeda",
-        "pdf":""},
-        {"name":"Encuesta a las editoriales independientes argentinas",
-        "autor":"Nicholas Pezzote",
-        "pdf":""},
-        {"name":"Escritor-perro y escritor-gato",
-        "autor":"Julieta Yelin",
-        "pdf":""},
-        {"name":"La cosa que siente",
-        "autor":"Héctor Ariel Feruglio",
-        "pdf":""},
-        {"name":"Precariedad animal",
-        "autor":"Gabriel Giorgi",
-        "pdf":""},
-        {"name":"Crónica: Mis animales y yo",
-        "autor":"Jimena Néspolo",
-        "pdf":""},
-        {"name":"Entrevista a Noé Jitrik",
-        "autor":"Felipe Benegas Lynch y Hache  Pavón",
-        "pdf":""},
-        {"name":"Adelanto: Spinoza por las bestias",
-        "autor":"Ariel Suhamy",
-        "pdf":""}
-        ],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "20",
+      "pdf": "https://drive.google.com/file/d/1fGt1jZHdNTuVH9WX_FRhylMdzYRaWXhd/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/bds21",
+      "articulos": [
+        {
+          "name": "El caníbal de Klein",
+          "autor": "Dardo Scavino",
+          "pdf": "https://drive.google.com/file/d/1GcYZPa8_Gq0cshjAReQsg1ptI17kD9DK/view?usp=drivesdk"
+        },
+        {
+          "name": "Extraña naturaleza americana en crónicas de Indias Occidentales",
+          "autor": "Vanina Teglia",
+          "pdf": "https://drive.google.com/file/d/1gDKECL_XkCafd9-VjOCtIy5eNQBF7Qtg/view?usp=drivesdk"
+        },
+        {
+          "name": "Cuento: Perseverar",
+          "autor": "Ana Ojeda",
+          "pdf": "https://drive.google.com/file/d/1Tx8IeF5kC0hCc4lTptJ6dv-t9BSJDTs_/view?usp=drivesdk"
+        },
+        {
+          "name": "Encuesta a las editoriales independientes argentinas",
+          "autor": "Nicholas Pezzote",
+          "pdf": "https://drive.google.com/file/d/19ElScnoXwMI1Cr9HVRQiCETenWPKx5bS/view?usp=drivesdk"
+        },
+        {
+          "name": "Escritor-perro y escritor-gato",
+          "autor": "Julieta Yelin",
+          "pdf": "https://drive.google.com/file/d/1CmsWnbWByIJOkCi5Xn7cy0Vczq1F-iuO/view?usp=drivesdk"
+        },
+        {
+          "name": "La cosa que siente",
+          "autor": "Héctor Ariel Feruglio",
+          "pdf": "https://drive.google.com/file/d/12PRpeejEJe0ml0rJIzGSe19kWh8I6PEm/view?usp=drivesdk"
+        },
+        {
+          "name": "Precariedad animal",
+          "autor": "Gabriel Giorgi",
+          "pdf": "https://drive.google.com/file/d/1je2sK2cmqhTVSE1_xfSVx2k3ckyW3VSp/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: Mis animales y yo",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1XE97xmgLz6jOGVCSoGbersvijh1n7mho/view?usp=drivesdk"
+        },
+        {
+          "name": "Entrevista a Noé Jitrik",
+          "autor": "Felipe Benegas Lynch y Hache  Pavón",
+          "pdf": "https://drive.google.com/file/d/18zMiZbMYLPbEPOhwm-hemn2bIsLiB79P/view?usp=drivesdk"
+        },
+        {
+          "name": "Adelanto: Spinoza por las bestias",
+          "autor": "Ariel Suhamy",
+          "pdf": "https://drive.google.com/file/d/1D1QglKe2rwgDfFd_JQdL3yt8TchCr78X/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f48",
+      "numero": 20,
       "nombre": "Atlas y Territorialidades",
       "img": "/tapas/Bds20.png",
-      "issu":"http://issuu.com/bocadesapo/docs/bds20",
-      "pdf":"https://drive.google.com/file/d/1RvHYGQklas0v3lRJXQsVDaQJyLh2D4vs/view?usp=drivesdk",
-      "articulos" :[ 
-        {"name":"Atlas de atlas",
-        "autor":"Graciela Speranza",
-        "pdf":""},
-        {"name":"Espacios del poema",
-        "autor":"Víctor Gustavo Zonana",
-        "pdf":""},
-        {"name":"Entrevista a los creadores del World Literary Atlas (PDF)",
-        "autor":"Entrevista a los creadores del World Literary Atlas (PDF)",
-        "pdf":""},
-        {"name":"El territorio y lo sagrado",
-        "autor":"Fabián Flores y Catón Carini",
-        "pdf":""},
-        {"name":"Notas sobre una cartografía del pasaje",
-        "autor":"Lucas Margarit",
-        "pdf":""},
-        {"name":"Recorridos de una mujer moderna",
-        "autor":"Sol Fantín",
-        "pdf":""},
-        {"name":"Opinión: La ciudad sin alma",
-        "autor":"Gabriela Massuh",
-        "pdf":""},
-        {"name":"Crónica: La Fernández Fierro on tour",
-        "autor":"Carolina Bartalini",
-        "pdf":""},
-        {"name":"Atlas de la pureza",
-        "autor":"Jimena Néspolo",
-        "pdf":""},
-        {"name":"Cartografías estivales de Norah Borges",
-        "autor":"Francisca Lladó",
-        "pdf":""},
-        {"name":"Ficción: Zona",
-        "autor":"Mathias Enard",
-        "pdf":""},
-        {"name":"Desplazamiento territorial y experiencia",
-        "autor":"Victoria Cohen",
-        "pdf":""},
-        {"name":"Opinión: El desprendimiento",
-        "autor":"Walter Mignolo",
-        "pdf":""}
-        ],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "19",
+      "pdf": "https://drive.google.com/file/d/1RvHYGQklas0v3lRJXQsVDaQJyLh2D4vs/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/bds20",
+      "articulos": [
+        {
+          "name": "Atlas de atlas",
+          "autor": "Graciela Speranza",
+          "pdf": "https://drive.google.com/file/d/16DeprivmBdLdajZApMAwPhsiz96yDGfT/view?usp=drivesdk"
+        },
+        {
+          "name": "Espacios del poema",
+          "autor": "Víctor Gustavo Zonana",
+          "pdf": "https://drive.google.com/file/d/14No00RX3k6lNZRjXCQw0hiWnOg3niEs8/view?usp=drivesdk"
+        },
+        {
+          "name": "Entrevista a los creadores del World Literary Atlas (PDF)",
+          "autor": "Entrevista a los creadores del World Literary Atlas (PDF)",
+          "pdf": "https://drive.google.com/file/d/1g1ZscJCA6iPYG25p08O6YIBQURM0UNkP/view?usp=drivesdk"
+        },
+        {
+          "name": "El territorio y lo sagrado",
+          "autor": "Fabián Flores y Catón Carini",
+          "pdf": "https://drive.google.com/file/d/1BuXA-wKfcFg3urgTDvB4pYBqvkX2ol3Z/view?usp=drivesdk"
+        },
+        {
+          "name": "Notas sobre una cartografía del pasaje",
+          "autor": "Lucas Margarit",
+          "pdf": "https://drive.google.com/file/d/1ZUh23lomiBDi1tU8lc-vTAV5WgwM417U/view?usp=drivesdk"
+        },
+        {
+          "name": "Recorridos de una mujer moderna",
+          "autor": "Sol Fantín",
+          "pdf": "https://drive.google.com/file/d/1UCI455rumv7hFSQxeeQQH1xyZJ6v8_ju/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: La ciudad sin alma",
+          "autor": "Gabriela Massuh",
+          "pdf": "https://drive.google.com/file/d/1pzwiZiWC7T-4t4UcsqYUOb1qEglrkeQa/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: La Fernández Fierro on tour",
+          "autor": "Carolina Bartalini",
+          "pdf": "https://drive.google.com/file/d/1YOkBhfnvNGw19_cAlzxUlBfhfdepYMdO/view?usp=drivesdk"
+        },
+        {
+          "name": "Atlas de la pureza",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1SVD3BbVyd62q5SmXNr_HNzybRiZfqdbf/view?usp=drivesdk"
+        },
+        {
+          "name": "Cartografías estivales de Norah Borges",
+          "autor": "Francisca Lladó",
+          "pdf": "https://drive.google.com/file/d/11W5GA7O5gBel0ghEYKx_Vv8x-2aMjeC6/view?usp=drivesdk"
+        },
+        {
+          "name": "Ficción: Zona",
+          "autor": "Mathias Enard",
+          "pdf": "https://drive.google.com/file/d/1pN-lkM0WAwNfdZRF11DnITl8ii5f96q5/view?usp=drivesdk"
+        },
+        {
+          "name": "Desplazamiento territorial y experiencia",
+          "autor": "Victoria Cohen",
+          "pdf": "https://drive.google.com/file/d/1bveQIQoPexqeYbJ-CTZjcnkS6FfgRCW9/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: El desprendimiento",
+          "autor": "Walter Mignolo",
+          "pdf": "https://drive.google.com/file/d/1dgghM5hoNe4Mwa0RE8RJ7yCsaTGBuswx/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f49",
+      "numero": 19,
       "nombre": "Fragilidad",
       "img": "/tapas/Bds19.png",
-      "issu":"http://issuu.com/bocadesapo/docs/bds19_completa_5410e7c2fc4ec0/0",
-      "pdf":"https://drive.google.com/file/d/1-FAgmwy-E-j5zNeXrWDQ6pnuNnV56N8Z/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "18",
+      "pdf": "https://drive.google.com/file/d/1-FAgmwy-E-j5zNeXrWDQ6pnuNnV56N8Z/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/bds19_completa_5410e7c2fc4ec0/0",
+      "articulos": [
+        {
+          "name": "Cura Vitae:La representación de Noé en el arte europeo",
+          "autor": "José Emilio Burucúa",
+          "pdf": "https://drive.google.com/file/d/15a6wMy34yjZeOUp7R7PSWcaaulfWdXk-/view?usp=drivesdk"
+        },
+        {
+          "name": "Cuatro Poemas",
+          "autor": "Grazia Fresu",
+          "pdf": "https://drive.google.com/file/d/10KKg62cfs8Es2o2qa7vgidI0eX_PYXP0/view?usp=drivesdk"
+        },
+        {
+          "name": "Variaciones identitarias en tiempos de fragilidad artificial",
+          "autor": "Luaciana Olmedo-Wehitt",
+          "pdf": "https://drive.google.com/file/d/13ysv6HNP_9xBn5CXvxY8afToFjA_VNwh/view?usp=drivesdk"
+        },
+        {
+          "name": "La mujer frágill y la fragilidad de la noticia",
+          "autor": "Luciana Garbarino",
+          "pdf": "https://drive.google.com/file/d/1ywkBm29ykOsdyUg_M_8Ui2NCT4kGhocJ/view?usp=drivesdk"
+        },
+        {
+          "name": "Esplendor y ocaso del Instituto de Filología en tiempos de Amado Alonso",
+          "autor": "Miranda Lida",
+          "pdf": "https://drive.google.com/file/d/1-9tUTT3ezdDZon_SPNRI47bSft_LK2Es/view?usp=drivesdk"
+        },
+        {
+          "name": "Entrevista a Dora Barrancos",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1468Pu4BKAxkM2RNfLaGCHyWrVAJc8hE0/view?usp=drivesdk"
+        },
+        {
+          "name": "Entre el hogar, la prole y el mercado",
+          "autor": "Graciela Queirolo",
+          "pdf": "https://drive.google.com/file/d/1_DiOFFm4Zb7TcU8u8ERfUj5iq_5-_1bi/view?usp=drivesdk"
+        },
+        {
+          "name": "Canticum novum",
+          "autor": "Dardo Scavino",
+          "pdf": "https://drive.google.com/file/d/1GH1JPGbhAsBGn2OKx-EDKjUNsUlQkBmW/view?usp=drivesdk"
+        },
+        {
+          "name": "En busca de la mirada perdida",
+          "autor": "Felipe Benegas Lynch",
+          "pdf": "https://drive.google.com/file/d/14yipJMYYfDUq1FHrcJ2clId4LuT9BLgk/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: El cuidado ifanril en el siglo XXI",
+          "autor": "Eleonor Faur",
+          "pdf": "https://drive.google.com/file/d/1uE5unEy7PCwEM9WVLTSInajGyHqBf9nd/view?usp=drivesdk"
+        },
+        {
+          "name": "La fragilidad de lo irreversible",
+          "autor": "Agustina Bazterrica",
+          "pdf": "https://drive.google.com/file/d/1zYgkcOA7YkXt4zjs4fxFILjn2CnmJn6N/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f4a",
+      "numero": 18,
       "nombre": "Deudas, dinero, denarios",
       "img": "/tapas/Bds18.png",
-      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_18",
-      "pdf":"https://drive.google.com/file/d/10kzr69cNeacyRf7CZ_G50aVIbyzNGNnh/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "17",
+      "pdf": "https://drive.google.com/file/d/10kzr69cNeacyRf7CZ_G50aVIbyzNGNnh/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/boca_de_sapo_18",
+      "articulos": [
+        {
+          "name": "Ante la deuda",
+          "autor": "Fabián Ludueña Romandini",
+          "pdf": "https://drive.google.com/file/d/1ZSlRhNrMLDGl7qZP3Fz-j2Grrqvj9zD8/view?usp=drivesdk"
+        },
+        {
+          "name": "La cuestión económica en Thomas De Quincey",
+          "autor": "Jerónimo Ledesma",
+          "pdf": "https://drive.google.com/file/d/1mmTh8ZC8QVkUtWr-CmKK3_5K-nKNltT2/view?usp=drivesdk"
+        },
+        {
+          "name": "Las Self-Supporting Missons en América del Sur en el siglo XIX",
+          "autor": "Paula Seiguer",
+          "pdf": "https://drive.google.com/file/d/1s8SuukFI9USo4Bw99B4eq_mYUatpShXy/view?usp=drivesdk"
+        },
+        {
+          "name": "La otra deuda interna argentina",
+          "autor": "Laura Pérez Gras",
+          "pdf": "https://drive.google.com/file/d/1eqR3Uabdr2BsHAJu6O0KP6LNx4OrRIyR/view?usp=drivesdk"
+        },
+        {
+          "name": "Las lecciones del microcrédito",
+          "autor": "Isabelle Guérin",
+          "pdf": "https://drive.google.com/file/d/11PZM8kHhhDytG3PVJRfdSoTDroyt9tlx/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: Los lobbies financieros",
+          "autor": "Juan Hernández Vigueras",
+          "pdf": "https://drive.google.com/file/d/1hhi4Igz2SE4kQtL1VRB51YZX6GEqULdJ/view?usp=drivesdk"
+        },
+        {
+          "name": "Lo prometido es deuda",
+          "autor": "Ana Gallego Cuiñas",
+          "pdf": "https://drive.google.com/file/d/1O6iUBN--C69Eewyo2CAiWddWj9Wf5PQ6/view?usp=drivesdk"
+        },
+        {
+          "name": "Dinero y cine: imaginarios de una época",
+          "autor": "Marcelo Visconti",
+          "pdf": "https://drive.google.com/file/d/1YLC7PN-UsejLMxCObOhN2MQbpDkfoYZW/view?usp=drivesdk"
+        },
+        {
+          "name": "Denarios textuales",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1z5tgptVtDglaKZL0SD6HjML_g97k8Yqb/view?usp=drivesdk"
+        },
+        {
+          "name": "Una profesión para el escritor y un mercado para la literatura",
+          "autor": "Alejandra Laera",
+          "pdf": "https://drive.google.com/file/d/1LFJKUkQOFF41RhSjFd2W1rrQCnuW7EpY/view?usp=drivesdk"
+        },
+        {
+          "name": "Poesía: El libro del olvido",
+          "autor": "Barnard Noël",
+          "pdf": "https://drive.google.com/file/d/1bp5mxj5cfbWk61jIIRzx2P2ydmvMc2dd/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f4b",
+      "numero": 17,
       "nombre": "Narco-cultura y farmacopea",
       "img": "/tapas/Bds17.png",
-      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_17",
-      "pdf":"https://drive.google.com/file/d/1sEwFO-LY0_-FeuFdXq9Qwj-dw35yL5ro/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "16",
+      "pdf": "https://drive.google.com/file/d/1sEwFO-LY0_-FeuFdXq9Qwj-dw35yL5ro/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/boca_de_sapo_17",
+      "articulos": [
+        {
+          "name": "El baile de las cabezas",
+          "autor": "Antonio Sustaita",
+          "pdf": "https://drive.google.com/file/d/1HtUUm8yPH7xYFHq3WKbJWZy8pKPCxWjZ/view?usp=drivesdk"
+        },
+        {
+          "name": "Poesía niuyorriqueña: La via en los márgenes",
+          "autor": "Alejo López",
+          "pdf": "https://drive.google.com/file/d/1jLoQqnKUVJdFY8zXxm4WENFOCCZdpoyx/view?usp=drivesdk"
+        },
+        {
+          "name": "El trabajador farmacopornográfico",
+          "autor": "Beatriz Preciado",
+          "pdf": "https://drive.google.com/file/d/13gOT6LRQqACTsLisys1pXBE_JtGBbGcZ/view?usp=drivesdk"
+        },
+        {
+          "name": "Post-feminismo y performance en la televisión colombiana contemporánea",
+          "autor": "Isis Giraldo",
+          "pdf": "https://drive.google.com/file/d/1UjErZbYfqTYQeu-Zp8Vq4Ax6QeG14on1/view?usp=drivesdk"
+        },
+        {
+          "name": "Cuento: Vaivenes de un arúspice",
+          "autor": "Jorge Consiglio",
+          "pdf": "https://drive.google.com/file/d/1TZgDXCpcBxppm9AouIcs9YylwoRgpMG6/view?usp=drivesdk"
+        },
+        {
+          "name": "El fenómeno de la narconovela",
+          "autor": "Felipe Oliver",
+          "pdf": "https://drive.google.com/file/d/1hEvH6XnKE0619BwDGeb7GZFZqxJofH6r/view?usp=drivesdk"
+        },
+        {
+          "name": "Metonimia o constelación",
+          "autor": "Mariano lópez Seoane",
+          "pdf": "https://drive.google.com/file/d/1fFRDRt_fzR4BtQZpIzl3X2YpbUthRpQ-/view?usp=drivesdk"
+        },
+        {
+          "name": "Farmacopea y vejez",
+          "autor": "Adriana Mancini",
+          "pdf": "https://drive.google.com/file/d/1gVbBbiACtLVx6UdKo6CE_lP7ccUI8iur/view?usp=drivesdk"
+        },
+        {
+          "name": "Testimonio: Medicamentos que matan",
+          "autor": "Peter C. Gøtzsche",
+          "pdf": "https://drive.google.com/file/d/1u30Gx6iYqvbxjFUoqsDo74Z6mXIsD4nA/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: Droga y poesía",
+          "autor": "María Casiraghi",
+          "pdf": "https://drive.google.com/file/d/1GGPHvrq4pcLmo-W8jRV_5IfL2bLfT2QB/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f4c",
+      "numero": 16,
       "nombre": "Energía",
       "img": "/tapas/Bds16.png",
-      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_16/1",
-      "pdf":"https://drive.google.com/file/d/1_Gdia2NIe89VXJGlgXbNXZeKRWTVgOrb/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "15",
+      "pdf": "https://drive.google.com/file/d/1_Gdia2NIe89VXJGlgXbNXZeKRWTVgOrb/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/boca_de_sapo_16/1",
+      "articulos": [
+        {
+          "name": "Cuando el artista desata la tormenta",
+          "autor": "Felipe Benegas Lynch",
+          "pdf": "https://drive.google.com/file/d/1jfkiFFm4ecI4jwDN0RMjMHvnmjTYV5rS/view?usp=drivesdk"
+        },
+        {
+          "name": "Cómo huir de un cuerpo que cumple años",
+          "autor": "Miryam Pirsch",
+          "pdf": "https://drive.google.com/file/d/1rsbn4GlLwcxt-JVKfSrVXHPdBfi1WkHS/view?usp=drivesdk"
+        },
+        {
+          "name": "Los ecosistemas de Humedal",
+          "autor": "Rubén Quintana",
+          "pdf": "https://drive.google.com/file/d/1MKf29F9wC3AwUvvyyOmbsbr_Q5tfpq8S/view?usp=drivesdk"
+        },
+        {
+          "name": "Crónica: Sol de noche",
+          "autor": "jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1EHmjDEdealUcLA0Q-ZjFsR3g3fQwCyMY/view?usp=drivesdk"
+        },
+        {
+          "name": "Retratos intervenidos: Tattoos",
+          "autor": "Ilich Roimesser",
+          "pdf": "https://drive.google.com/file/d/1wgS4YT-dwh4-TEzhHnGmHWWpgOkJhk8w/view?usp=drivesdk"
+        },
+        {
+          "name": "Encuentro con Eisejuaz, el soñador soñado",
+          "autor": "César Ceriani",
+          "pdf": "https://drive.google.com/file/d/1jesQTFW1c96C-XUBNfkfImrO8FvdBMjF/view?usp=drivesdk"
+        },
+        {
+          "name": "Una secreta promesa del porvenir",
+          "autor": "Marcelo Damiani",
+          "pdf": "https://drive.google.com/file/d/10Z4zsgEv0mYwOeKSICRCtaULXjoPAdUo/view?usp=drivesdk"
+        },
+        {
+          "name": "El concepto de energía para la cultura china",
+          "autor": "Katya Mora",
+          "pdf": "https://drive.google.com/file/d/17gwKwmZ6YJEuEvTl5TaGWr5aHhhKn-hq/view?usp=drivesdk"
+        },
+        {
+          "name": "Entrevista a Cristina Fernández Cubas: EL inquietante poder de la palabra",
+          "autor": "Miriam López Santos",
+          "pdf": "https://drive.google.com/file/d/1CZQAxzPTuUdgQdBZVonSAzgh16HRZsb0/view?usp=drivesdk"
+        },
+        {
+          "name": "Soja o Soberanía",
+          "autor": "María Casiraghi ",
+          "pdf": "https://drive.google.com/file/d/1rC8FUPZEMkGYCDl7FLtBAWtSRN_RMln4/view?usp=drivesdk"
+        },
+        {
+          "name": "Poesía: Manada",
+          "autor": "Teuco Castilla ",
+          "pdf": "https://drive.google.com/file/d/1pl1VSkdDeimLYNCyTbVF4EKf6y1ZzcGb/view?usp=drivesdk"
+        },
+        {
+          "name": "Fetichismos y claroscuros en la gestión energética de la materia descartada",
+          "autor": "Sebastián Carenzo",
+          "pdf": "https://drive.google.com/file/d/1-7UQlhS-dQ5xLt9jovI_o1epbUJDMg62/view?usp=drivesdk"
+        },
+        {
+          "name": "Tres fuentes de energía en los orígenes de las naciones latinoamericanas",
+          "autor": "Víctor Goldgel",
+          "pdf": "https://drive.google.com/file/d/13Zg5QzGv9VzwRhIiQyHV4bU2rArTF9L6/view?usp=drivesdk"
+        },
+        {
+          "name": "Testimonio: De la selva al reactor",
+          "autor": "Oscar Ángel Beuter",
+          "pdf": "https://drive.google.com/file/d/1ZdffF6q4zUEzvuEPZ9-w60eEwmj2xFy9/view?usp=drivesdk"
+        },
+        {
+          "name": "En foco: La Burbuja de Bertold",
+          "autor": "Agrimbau - Ippóliti ",
+          "pdf": "https://drive.google.com/file/d/1tzMOpf2TO-m8n-HMDMYSaLV9ghwjT9V1/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f4d",
+      "numero": 15,
       "nombre": "Reseñas 2010-2013",
-      "img": "/tapas/Bds15.png",    
-      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n_15final",
-      "pdf":"https://drive.google.com/file/d/1sB4WmwJ9c3PfayFmQT6U4FwjcduX_o71/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "14",
+      "img": "/tapas/Bds15.png",
+      "pdf": "https://drive.google.com/file/d/1sB4WmwJ9c3PfayFmQT6U4FwjcduX_o71/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/boca_de_sapo_n_15final",
+      "articulos": [
+        
+      ],
+      "dossier": {
+        "nameDossier": "",
+        "pdf": "",
+        "autores": [
+          
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f4e",
+      "numero": 14,
       "nombre": "",
       "img": "/tapas/Bds14.png",
-      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n14",
-      "pdf":"https://drive.google.com/file/d/1uuH4XvkfxII_zKVePGzTh5CYjAwUU5Ok/view?usp=drivesdk", 
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "13",
+      "pdf": "https://drive.google.com/file/d/1uuH4XvkfxII_zKVePGzTh5CYjAwUU5Ok/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/boca_de_sapo_n14",
+      "articulos": [
+        {
+          "name": " La cabeza del muerto",
+          "autor": "Jimena Néspolo ",
+          "pdf": "https://drive.google.com/file/d/1HjTxsU5Fv5DYfrUwJLXxlj57KANbJHH5/view?usp=drivesdk"
+        },
+        {
+          "name": "Problemas y agendas de la historieta argentina",
+          "autor": "Laura Vazquez ",
+          "pdf": "https://drive.google.com/file/d/1nP9HZk6tKrtoN83ew0XpPlHe-JRJMxkw/view?usp=drivesdk"
+        },
+        {
+          "name": "Néstor cumple, Rosita dignifica",
+          "autor": "Cecilia Palmeiro ",
+          "pdf": "https://drive.google.com/file/d/1bYb5zU2zArXj9OGzsIuNAh-OfhqxPffA/view?usp=drivesdk"
+        },
+        {
+          "name": "Zombies en Puán",
+          "autor": "Eiti Leda y Gilimón ",
+          "pdf": "https://drive.google.com/file/d/1HTA7Lo2mQzBnzXAyRWsM6yfdWdTmBkQO/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier:",
+        "pdf": "https://drive.google.com/file/d/1JkgujkF-6RtFN1DHGgBjFLfaO06XdFEl/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": " El culto al cuerpo purificado",
+            "autor": "Paula Sibilia"
+          },
+          {
+            "name": "Emma Bovary, su cuerpo",
+            "autor": " Walter Romero"
+          },
+          {
+            "name": "Cuerpo y democracia",
+            "autor": " Mario Cámara"
+          },
+          {
+            "name": " Chicas muertas",
+            "autor": "Selva Almada"
+          },
+          {
+            "name": "Los “NN” y la visibilidad de los desaparecidos en la prensa de la transición",
+            "autor": "Claudia Feld "
+          },
+          {
+            "name": "Pensar con mover",
+            "autor": "Marie Bardet"
+          },
+          {
+            "name": " La voz del cuerpo",
+            "autor": "Leticia Sabsay"
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f4f",
+      "numero": 13,
       "nombre": "",
       "img": "/tapas/Bds13.png",
-      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n_13-final",
-      "pdf":"https://drive.google.com/file/d/1q36dnURxWwYAEl1FeGb_ucDwF34Ld3gQ/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "12",
+      "pdf": "https://drive.google.com/file/d/1q36dnURxWwYAEl1FeGb_ucDwF34Ld3gQ/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/boca_de_sapo_n_13-final",
+      "articulos": [
+        {
+          "name": " Julian Assange: “Periodismo hacker”",
+          "autor": "Jimena Néspolo ",
+          "pdf": "https://drive.google.com/file/d/1PvxRtl5qrZV3X82EJru3khKGb95ChT7A/view?usp=drivesdk"
+        },
+        {
+          "name": "Vulva: La revelación del sexo invisible",
+          "autor": "Mithu M. Sanyal",
+          "pdf": "https://drive.google.com/file/d/1kS5JMrh_HkjPEpTvDG6EBzxoZomRGm-b/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: “El joven Hemingway”, y “Conciencia spam” ",
+          "autor": "J.S. de Montfort y Juan José Mendoza",
+          "pdf": "https://drive.google.com/file/d/1PXpGuyqyZ1kQSdNI4pdM42CdKCm4ybWr/view?usp=drivesdk"
+        },
+        {
+          "name": "Cuento por encargo",
+          "autor": "E.E. Domínguez y Marcelo Damiani ",
+          "pdf": "https://drive.google.com/file/d/1TuMCkl-5Aa7nZdSJ8QOqvla6FUSk2WHJ/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier Piraterías ",
+        "pdf": "https://drive.google.com/file/d/1mR6JZsuRqbq4FeKzeG6rFS4X9BRJrVHm/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": " Deslices de la piratería en la era de la globalización",
+            "autor": "Nina Gerassi-Navarro"
+          },
+          {
+            "name": "Malvinas: literatura y otras piraterías",
+            "autor": " Julieta Vitullo"
+          },
+          {
+            "name": "Falsificaciones genuinas",
+            "autor": "Marcos Herrera"
+          },
+          {
+            "name": "La ética del hacker",
+            "autor": "Susana Merino "
+          },
+          {
+            "name": "Una de malones no románticos",
+            "autor": " Eugenia Néspolo y Francisco Fernández"
+          },
+          {
+            "name": "Cerca de la revolución",
+            "autor": "Natalia Gelós"
+          },
+          {
+            "name": " Piraterías y economía informal de la comunicación",
+            "autor": "Tristan Mattelart"
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f50",
+      "numero": 12,
       "nombre": "",
       "img": "/tapas/Bds12.png",
-      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo12",
-      "pdf":"https://drive.google.com/file/d/1lLHoZ3KX_E5c9bJHtjy5umloaOOkemB6/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "11",
+      "pdf": "https://drive.google.com/file/d/1lLHoZ3KX_E5c9bJHtjy5umloaOOkemB6/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/bocadesapo12",
+      "articulos": [
+        {
+          "name": "Entrevista: Marta Vicente: “Un club de niñas hacedoras”.",
+          "autor": " Natalia Gelós y Jorge Sánchez ",
+          "pdf": "https://drive.google.com/file/d/1mPnj3l_yb6rPsqI0nqgTDMMixILbJgIg/view?usp=drivesdk"
+        },
+        {
+          "name": "Homenaje: Luis Alberto Spinetta: “Arremete, viajero”",
+          "autor": "Jorge Hardmeier",
+          "pdf": "https://drive.google.com/file/d/17UlhI5EMS3JHmZ3akO4kD3N8ZT9CaxMQ/view?usp=drivesdk"
+        },
+        {
+          "name": "Nuevos episodios de la señora Sh",
+          "autor": "Jimena Néspolo ",
+          "pdf": "https://drive.google.com/file/d/1Bi7Dm4a8A6zLZ9HmyIu-PcToNZyYAfok/view?usp=drivesdk"
+        },
+        {
+          "name": "Una cierta nostalgia por el escándalo",
+          "autor": "Rosa Chalkho",
+          "pdf": "https://drive.google.com/file/d/17-2R5HtO7rezjujPsBmmXnZ4UtmhuvJL/view?usp=drivesdk"
+        },
+        {
+          "name": "Historieta: El vuelo",
+          "autor": "Sergio Carrera",
+          "pdf": "https://drive.google.com/file/d/1Vx0H9IktcXfhIwJI5hQzZgLxaRwdNVOw/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier Comunidades",
+        "pdf": "https://drive.google.com/file/d/1Vu58X2XO3rem0DjQAv0ES_INJgOZ2ESq/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": " De las comunidades virtuales al homeless planetario",
+            "autor": "Vicente Luis Mora"
+          },
+          {
+            "name": "La recuperación de la memoria colectiva",
+            "autor": "Claudia Urzúa"
+          },
+          {
+            "name": "Formas y alcances de la comunidad en el teatro militante argentino",
+            "autor": "Lorena Verzero"
+          },
+          {
+            "name": "Los barrios con candado en el jardín de Epicuro",
+            "autor": "María Carman "
+          },
+          {
+            "name": "Minorías étnicas: microcosmos desgarrados",
+            "autor": "Alessandro Scarsella"
+          },
+          {
+            "name": "Zona liberada",
+            "autor": "Ana Longoni "
+          },
+          {
+            "name": " Más allá de la vida: la comunidad",
+            "autor": "Fabián Ludueña"
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f51",
+      "numero": 11,
       "nombre": "",
       "img": "/tapas/Bds11.png",
-      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo11",
-      "pdf":"https://drive.google.com/file/d/1C4bEp4KvXUYwmiZn9f_88SkzbFDpSeXg/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "10",
+      "pdf": "https://drive.google.com/file/d/1C4bEp4KvXUYwmiZn9f_88SkzbFDpSeXg/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/bocadesapo11",
+      "articulos": [
+        {
+          "name": "Entrevista: Paula Luttringer: “La incertidumbre de no saber”.",
+          "autor": " Natalia Fortuny ",
+          "pdf": "https://drive.google.com/file/d/1KmaImuY4W85XEwQHJG50dKYUiWKt1yEc/view?usp=drivesdk"
+        },
+        {
+          "name": "Artículos: “Del doctor Frankenstein a David Cronenberg y más allá” y  “Elogio de la piedra y del oro”",
+          "autor": "Juan Francisco Ferré y Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/15gpsxDwYAi47nuuUjLIyY2QttgUs1kOm/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: “La boca de la fortuna”, “Divinidades del sagrado Riachuelo”, “Sólo se trata de tirarse al agua” y “La cueva de los sueños”",
+          "autor": "Gusmán, Covadlo, Gil, y Lynch ",
+          "pdf": "https://drive.google.com/file/d/1MuXCJo6jbxSoWdaoo4oh_qJqRVrNvMIC/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier Fotografía",
+        "pdf": "https://drive.google.com/file/d/1dm3CWLt_ZoQ3tr5pbumj71P5VWJTgHPK/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": "Presentación",
+            "autor": "Natalia Gelós"
+          },
+          {
+            "name": "Fotografía y posmodernidad",
+            "autor": "Leticia Moneta"
+          },
+          {
+            "name": "El nacimiento de un nuevo fotoperiodismo",
+            "autor": "Cora Gamarnik"
+          },
+          {
+            "name": "Alberto Etchebehere, narrador de luces y sombras",
+            "autor": "Javier Olivera"
+          },
+          {
+            "name": " Foto, identidad y performance",
+            "autor": "Sebastián Russo"
+          },
+          {
+            "name": " Algunas reflexiones en torno a fotografía y violencia",
+            "autor": "Camilo Hernández Castellanos"
+          },
+          {
+            "name": "Historia, teoría y fotografía digital",
+            "autor": " Silvia Pérez Fernández"
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f52",
+      "numero": 10,
       "nombre": "",
-      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo10",
       "img": "/tapas/Bds10.png",
-      "pdf":"https://drive.google.com/file/d/1kKYGL97JLDeSvcygnCKJCshLHHQGGMzl/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "9",
+      "pdf": "https://drive.google.com/file/d/1kKYGL97JLDeSvcygnCKJCshLHHQGGMzl/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/bocadesapo10",
+      "articulos": [
+        {
+          "name": "Entrevista:Alfredo Portillos: “El arte como ritual cotidiano”",
+          "autor": " Jorge Sánchez y Natalia Gelós",
+          "pdf": "https://drive.google.com/file/d/1bQAKMyvMdRDZ0x0R7ajryD1TXZqah-VG/view?usp=drivesdk"
+        },
+        {
+          "name": "Artículos: “La edición digital en el mundo en desarrollo” y  “ La otra que fulgura”",
+          "autor": "Octavio Kulesz y Ángeles Mateo del Pino",
+          "pdf": "https://drive.google.com/file/d/1FGdQXYqvYeDOD_YlU6DeIffge284M310/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: “Atrápame si puedes”",
+          "autor": " Felipe Benegas Lynch",
+          "pdf": "https://drive.google.com/file/d/1BM_YVTT1jBbGXfoXoEm5ftqqWW9OTH5F/view?usp=drivesdk"
+        },
+        {
+          "name": "Historieta: “La del mundo”",
+          "autor": " Lautaro Fiszman",
+          "pdf": "https://drive.google.com/file/d/1_lMQyyEs_AgWhabOxilWsTTtlwtoBXkq/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier Religión",
+        "pdf": "https://drive.google.com/file/d/16w7YtrTx0U63YaO4fhg5ZotoQs6MkSJz/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": "Cristianismo y liberación en Argentina",
+            "autor": " Rubén Dri"
+          },
+          {
+            "name": "Las voces de la teología de la liberación",
+            "autor": "Juan Eduardo Bonnin"
+          },
+          {
+            "name": "De indiferentes y desafiliados",
+            "autor": ". Verónica Giménez Béliveau"
+          },
+          {
+            "name": "Katechon y comunidad",
+            "autor": "Diego Bentivegna"
+          },
+          {
+            "name": " “Soy el pastor y vos tenés a mi oveja”",
+            "autor": "Diego Rosemberg"
+          },
+          {
+            "name": "El nacionalcatolicismo español",
+            "autor": "Juan José Tamayo"
+          },
+          {
+            "name": "El discurso reformista árabe y la cuestión femenina",
+            "autor": "Fatiha Benlabbah"
+          },
+          {
+            "name": "Profetas a salto de mata",
+            "autor": ". Jimena Néspolo"
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f53",
+      "numero": 9,
       "nombre": "",
       "img": "/tapas/Bds9.png",
-      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo_n9",
-      "pdf":"https://drive.google.com/file/d/1Hsa6l5dB8ElzHiNWQ0DQQtmEFkKm_Fhl/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "8",
+      "pdf": "https://drive.google.com/file/d/1Hsa6l5dB8ElzHiNWQ0DQQtmEFkKm_Fhl/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/bocadesapo_n9",
+      "articulos": [
+        {
+          "name": "Cuento: Las estrellas según Rey",
+          "autor": "Marcelo Damiani ",
+          "pdf": "https://drive.google.com/file/d/14Zu6oxcg5ylrOf1b2xgp5Csm4qRpx07k/view?usp=drivesdk"
+        },
+        {
+          "name": "Ensayo: La literatura como spot",
+          "autor": "Gianluigi Simonetti",
+          "pdf": "https://drive.google.com/file/d/1S7xLy1JjMy16YDIoHW-Bk6f8cAj58q9S/view?usp=drivesdk"
+        },
+        {
+          "name": "Cine: El hombre que vino del frío",
+          "autor": "Eduardo Rojas",
+          "pdf": "https://drive.google.com/file/d/16rKv7nxbmqiYp_VkDMg6HbzYse13XWFh/view?usp=drivesdk"
+        },
+        {
+          "name": "Caterva: “La evocación sentimental de la infancia”, “Alas de mariposas, una princesa y un pájaro azul”, y “ Cabeza de otro monstruo”",
+          "autor": "Alicia Genovese,  Adriana Mancini y Jaime Rodríguez Z.",
+          "pdf": "https://drive.google.com/file/d/1DMnNmiugxIJEjHWSqTgEVpqP378lwubp/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier Infancias",
+        "pdf": "https://drive.google.com/file/d/1I5ccgWkq5LWshnK2yKt4jzARqyJMXyjl/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": "Escritura, violencia y niñez",
+            "autor": "Gisela Heffes"
+          },
+          {
+            "name": "Prodigiosa Marilú",
+            "autor": "Daniela Pelegrinelli"
+          },
+          {
+            "name": "Los lenguajes artísticos en la esfera del no-arte",
+            "autor": "Carina Ferrari"
+          },
+          {
+            "name": "Álbum sistemático de la infancia",
+            "autor": " René Schérer y Guy Hocquenghem"
+          },
+          {
+            "name": "La infancia que no cesa",
+            "autor": "María Rosa Lojo"
+          },
+          {
+            "name": "Testimonio: Frik",
+            "autor": "María Rosa Lojo"
+          },
+          {
+            "name": "Juego y creación en Latinoamérica",
+            "autor": " Ivana Roitberg Strajilevich"
+          },
+          {
+            "name": "Del teatrillo de la infancia a las performances poéticas",
+            "autor": " Irina Garbatzky"
+          },
+          {
+            "name": "Eduarda Mansilla o las vicisitudes de la mujer puente",
+            "autor": "Jimena Néspolo"
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f54",
+      "numero": 8,
       "nombre": "",
       "img": "/tapas/Bds8.png",
-      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n_8_web",
-      "pdf":"https://drive.google.com/file/d/1EyfsVH4Hla2PPwcOKsvZsqgxSKl7V9Fo/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "7",
+      "pdf": "https://drive.google.com/file/d/1EyfsVH4Hla2PPwcOKsvZsqgxSKl7V9Fo/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/boca_de_sapo_n_8_web",
+      "articulos": [
+        {
+          "name": "Cuento:  Desta tierra",
+          "autor": "Claudia Feld ",
+          "pdf": "https://drive.google.com/file/d/1W7PEkU1nCHIJxlnfuVb59GkcvBEl-pOk/view?usp=drivesdk"
+        },
+        {
+          "name": "Artículos: “Literatura negroafricana contemporánea” y “Galaxias, work in progress, barroco”",
+          "autor": "Anna Rossell y Roberto Echavarren",
+          "pdf": "https://drive.google.com/file/d/1SHQpv9q2ISE3qAningSXCHCFajgTIFur/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: “¿Hay una poesía de mujeres?” y “ La extrañeza de no ser chino: relaciones entre academia y poesía”",
+          "autor": " Ivonne Bordelois y Raúl Zurita ",
+          "pdf": "https://drive.google.com/file/d/1UkWh0XwKQy9257XcU4HGcz4gutLjy7pb/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier Tango",
+        "pdf": "https://drive.google.com/file/d/1ozXOfgPjWcIYygpZb2drP9yq1e3P116c/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": " Presentación",
+            "autor": "Walter Romero"
+          },
+          {
+            "name": "Musas Plebeyas",
+            "autor": "Lucila Carzoglio y Laura Junowicz "
+          },
+          {
+            "name": "Un caso de engaño por amor",
+            "autor": "Oscar Conde"
+          },
+          {
+            "name": "Entrevista a Tata Cedrón",
+            "autor": "Natalia Gelós"
+          },
+          {
+            "name": " Identidades y roles sexuales en el tango argentino",
+            "autor": "Magali Saikin"
+          },
+          {
+            "name": "Crónica de un año patrio",
+            "autor": " Norberto Pablo Cirio "
+          },
+          {
+            "name": "Tango negro. Censo, mapa, tango y museo",
+            "autor": " Lucía Vogelfang"
+          },
+          {
+            "name": "Modernidades primitivas desde el siglo XXI",
+            "autor": "Florencia Garramuño "
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f55",
+      "numero": 7,
       "nombre": "",
       "img": "/tapas/Bds7.png",
-      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo_n7",
-      "pdf":"https://drive.google.com/file/d/1azmlDOxsfd3i22jYLVip76w_xS4DRX4p/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "6",
+      "pdf": "https://drive.google.com/file/d/1azmlDOxsfd3i22jYLVip76w_xS4DRX4p/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/bocadesapo_n7",
+      "articulos": [
+        {
+          "name": "Cuento:  Naturaleza muerta",
+          "autor": "Gisela Heffes ",
+          "pdf": "https://drive.google.com/file/d/1jPJWUn6rAN6X8s4C1w67-VbQBZ75S6sn/view?usp=drivesdk"
+        },
+        {
+          "name": "Artículos: “Antonio Di Benedetto, periodista: Palabras peligrosas” y “Los narradores argentinos y el policial.”",
+          "autor": "Natalia Gelós y  Fabián Soberón",
+          "pdf": "https://drive.google.com/file/d/1JP8hRCzhLI710p5YSM2HrL_fEKzdo_gg/view?usp=drivesdk"
+        },
+        {
+          "name": "Opinión: “La tradición es un delirio, antiguo” y “África mía”",
+          "autor": "María del Carmen Colombo y Noé Jitrik ",
+          "pdf": "https://drive.google.com/file/d/1LribrJ_DIOlt6OxADEfD3c7vyPWpLXvm/view?usp=drivesdk"
+        },
+        {
+          "name": "Historieta: Payé",
+          "autor": "Pablo De Bella",
+          "pdf": "https://drive.google.com/file/d/1bBcbjG4DUDQYPrUfpjD_Jvwyvh4CNyAv/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier Ensayo Hispanoamericano",
+        "pdf": "https://drive.google.com/file/d/1FolGQRWXuIEL6KgLirtE4BMTnPgOOpZC/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": "¿Latinoamérica bolivariana?",
+            "autor": "Dardo Scavino"
+          },
+          {
+            "name": "Ensayando Venezuela (2000-2010)",
+            "autor": "Claudia Kozak Rovero"
+          },
+          {
+            "name": " Entrevista a Grínor Rojo: “El ensayo, un modo de decir nacido de la crítica”.",
+            "autor": "Alicia Salomone"
+          },
+          {
+            "name": "Ensayo español en el siglo 21: Del ensayo de ocasión a la manufactura",
+            "autor": "Jara Calles Hidalgo"
+          },
+          {
+            "name": "El caso paraguayo: Bartomeu Melià y la retórica jesuita",
+            "autor": "Mateo Niro"
+          },
+          {
+            "name": "Reflexiones sobre algunos tópicos de la ciudad letrada",
+            "autor": " Silvia Tieffemberg"
+          },
+          {
+            "name": "Escribir el Pachakuti",
+            "autor": "Jimena Néspolo"
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f56",
+      "numero": 6,
       "nombre": "",
-      "img": "/tapas/Bds6.png", 
-      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n_6",
-      "pdf":"https://drive.google.com/file/d/1wukmMv1m6RyYiOtqy7kCsqUtVDbM1Sna/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "5",
+      "img": "/tapas/Bds6.png",
+      "pdf": "https://drive.google.com/file/d/1wukmMv1m6RyYiOtqy7kCsqUtVDbM1Sna/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/boca_de_sapo_n_6",
+      "articulos": [
+        {
+          "name": "Artículo: “No me voy a morir porque no me voy a estar quieto”",
+          "autor": "Eduardo Rojas",
+          "pdf": "https://drive.google.com/file/d/1wfJ2RtdNr4Hp04uPQ9wAWJ96uEC9zWDH/view?usp=drivesdk"
+        },
+        {
+          "name": "Artículo: “El arte de la contraconquista: La salvación según Lezama”",
+          "autor": "Raúl Antelo",
+          "pdf": "https://drive.google.com/file/d/1xhn_t-NFPSrRbWPrJi4-NDDCZOx7zJOa/view?usp=drivesdk"
+        },
+        {
+          "name": "Artículo: “Escorzos sobre terrorismo e imagen”",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1fO14wFDI7Y5PYzVBLcWgFWaBwKMH2tyC/view?usp=drivesdk"
+        },
+        {
+          "name": "Reseñas: “El tenso juego de los escritores: Héroes sin Atributos”, “ El mundo gris que nos habita: Parte Doméstico”, “ Implacables aventuras en clave roja: Las salvajes muchachas del partido”, “Entre la infamia y el coleccionismo: Alejandra Pizarnik, maestra de psicoanálisis” y “En el bosque de la memoria: Pozo de Aire”.",
+          "autor": "Julio Premat,  Oliverio Coelho,  Lázaro Covadlo, Marcelo Percia, y Guadalupe Gaona",
+          "pdf": "https://drive.google.com/file/d/1wZ65QIVYzqVjycIPdbfzqsJnlgkGlBLU/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier Traducción",
+        "pdf": "https://drive.google.com/file/d/1Mf-lsOBSv8LAhFIJQB-FOSBcuHGHZJtD/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": "La traducción en Latinoamérica",
+            "autor": "Walter Romero"
+          },
+          {
+            "name": "Sylvia Plath: Rayando fotos familiares",
+            "autor": "Susana Villalba"
+          },
+          {
+            "name": "El señor de los anillos: El derecho y el revés de una poética.",
+            "autor": " María Inés Arrizabalaga"
+          },
+          {
+            "name": "Denise Levertov:  Profanar lo sagrado",
+            "autor": " Sandra Toro"
+          },
+          {
+            "name": " Poesía italiana actual: Una tierra inestable",
+            "autor": "Diego Bentivegna"
+          },
+          {
+            "name": "Mitología celta: La traducción, un oficio de alto riesgo",
+            "autor": "Reinhard Huamán Mori"
+          },
+          {
+            "name": "El arte de Arnaldo Antunes: Las cosas",
+            "autor": "Violeta Weinschelbaum "
+          },
+          {
+            "name": " Poesía mapuche: El idioma silenciado.",
+            "autor": " Liliana Ancalao"
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f57",
+      "numero": 5,
       "nombre": "",
       "img": "/tapas/Bds5.png",
-      "issu":"http://issuu.com/bocadesapo/docs/bocadesapo",
-      "pdf":"https://drive.google.com/file/d/1hZaFxt8LxoTP2tQiRjhHQEhDpdfRTG_X/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
-    },{
-      "numero": "4",
+      "pdf": "https://drive.google.com/file/d/1hZaFxt8LxoTP2tQiRjhHQEhDpdfRTG_X/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/bocadesapo",
+      "articulos": [
+        {
+          "name": "Artículo: “Homenaje a Leónidas Lamborghini. Escribir con las patas en la fuente.”",
+          "autor": "Marisa do Brito Barrote",
+          "pdf": "https://drive.google.com/file/d/1ycbl1RyD0I2vvG0QeV8xilhiB6bRrF_6/view?usp=drivesdk"
+        },
+        {
+          "name": "Artículo: “La ciudad latinoamericana contemporánea revisitada”",
+          "autor": "Gisela Heffes",
+          "pdf": "https://drive.google.com/file/d/1XQQ5fSFVqAQG8ndAdLhOEudFgCUb71dW/view?usp=drivesdk"
+        },
+        {
+          "name": "Artículo: “ Magia, brujería, escritura”",
+          "autor": "Jimena Néspolo",
+          "pdf": "https://drive.google.com/file/d/1vnwW0V-aTw0SUDUi5ubNYVILEdCa6Y6r/view?usp=drivesdk"
+        },
+        {
+          "name": "Cuento: So far",
+          "autor": " Pablo Manzano",
+          "pdf": "https://drive.google.com/file/d/1i6GPioBs8EgbF9_co8-yW2FaLXSTBYiI/view?usp=drivesdk"
+        },
+        {
+          "name": "Reseñas: “Variaciones sobre el erotismo: Charlotte d´Ingerville”, “Las apuestas de la derrota: El otro lado”, “Hazañas bélicas: Canción de Vic Morrow ”, “El señor, el amante y el poeta ”, “De traiciones urbanas: Alias Gardelito”, y “• Leer y escribir, un aprendizaje que no termina: Enseñar a leer textos de ciencias”.",
+          "autor": " Georges Bataille, Jorge Consiglio,  Jaime Rodríguez Z.,  Dardo Scavino, Bernardo Kordon, Ana Espinoza y Ana María Finocchio ",
+          "pdf": "https://drive.google.com/file/d/1qMHY3pVwLnXExMJkmw39YKEw58jGRP6A/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier Memorias e Identidades",
+        "pdf": "https://drive.google.com/file/d/1VABH_HezkhsKaMiuKtL4lQ6RjbVH-HXj/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": " Presentación del dossier",
+            "autor": " Claudia Feld "
+          },
+          {
+            "name": "Deshilvanar. Fragmentos",
+            "autor": "Liliana Lukin "
+          },
+          {
+            "name": "La figura de hijos de víctimas de la violencia de Estado",
+            "autor": " Andrea Cobas Carral"
+          },
+          {
+            "name": " Entrevista a Héctor Schmucler: “Toda memoria es política”.",
+            "autor": "Shila Vilker"
+          },
+          {
+            "name": "Fronteras políticas y testimonio",
+            "autor": "María Teresa Johansson M."
+          },
+          {
+            "name": "La escena como espacio para la reparación del daño",
+            "autor": "Lorena Verzero"
+          },
+          {
+            "name": "Crónica. “Con las maletas preparadas”.",
+            "autor": " Igor Štiks"
+          }
+        ]
+      },
+      "__v": 0
+    },
+    {
+      "_id": "62743cd471927ae2fd207f58",
+      "numero": 4,
       "nombre": "",
       "img": "/tapas/Bds4.png",
-      "issu":"http://issuu.com/bocadesapo/docs/boca_de_sapo_n_4",
-      "pdf":"https://drive.google.com/file/d/1QZ-RhwGugvs335fPIf_LYEK_FliToQtT/view?usp=drivesdk",
-      "articulos": [],
-      "dossier":{
-        "nameDossier":"",
-        "autores":[]
-      }
+      "pdf": "https://drive.google.com/file/d/1QZ-RhwGugvs335fPIf_LYEK_FliToQtT/view?usp=drivesdk",
+      "issu": "http://issuu.com/bocadesapo/docs/boca_de_sapo_n_4",
+      "articulos": [
+        {
+          "name": "Entrevista: Luis Scafati: “Este soy: un dibujante”",
+          "autor": "Marisa do Brito Barrote",
+          "pdf": "https://drive.google.com/file/d/1Q0GjU_sadGPWTzciv3z5_-f0hSNMFx8s/view?usp=drivesdk"
+        },
+        {
+          "name": "Entrevista: La literatura y los nuevos soportes",
+          "autor": "Norma Carricaburo",
+          "pdf": "https://drive.google.com/file/d/1XBuXYpkscR1VGUOL5xiKb9TWpQfyYY1Q/view?usp=drivesdk"
+        },
+        {
+          "name": "Reseñas: “ Narrar el desierto: Kazbek ”, “Las apuestas de la derrota: El otro lado”, “En tiempos de modernidad líquida: Identidad”, “Memorias de infancia: El africano”, “La impericia del perfeccionista: Aquí empieza nuestra historia”, “Palabrear la palabra: Malapalabra” y “La gozosa sexualidad animal: Green Porno”.",
+          "autor": " Leonardo Valencia,  Zygmun Bauman,  J. M. G. Le Clézio,  Tobías Wolff,  Cecilia Maugeri, y Isabella Rossellini",
+          "pdf": "https://drive.google.com/file/d/1QcHpNXX1rdsyqjTbEsdN6d6x7DWL_m_J/view?usp=drivesdk"
+        }
+      ],
+      "dossier": {
+        "nameDossier": "Dossier poesía latinoamericana",
+        "pdf": "https://drive.google.com/file/d/1rcUmNxs9x-PGMmatEig_I7H-KJloUvCc/view?usp=drivesdk",
+        "autores": [
+          {
+            "name": " Poesía latinoamericana: tentativa de un mapa. ",
+            "autor": " Susana Cella"
+          },
+          {
+            "name": "El despliegue del vacío: Arturo Carrera, el Barroco, los orígenes.",
+            "autor": "Diego Vecchio"
+          },
+          {
+            "name": " Poemas de María Negroni: Andanza",
+            "autor": "María Negroni"
+          },
+          {
+            "name": "Poesía centroamericana: rebelión y renovación. ",
+            "autor": "Mario Campaña"
+          },
+          {
+            "name": "Puentes de Alicia Genovese: poesía y memoria en la Argentina de la postdictadura",
+            "autor": "Alicia Salomone"
+          },
+          {
+            "name": "Mesianismo, escatología y resurrección: algunos tonos apocalípticos en la poesía latinoamericana.",
+            "autor": "Diego Bentivegna"
+          },
+          {
+            "name": "Travesías poéticas americanas. ",
+            "autor": " Jimena Néspolo"
+          }
+        ]
+      },
+      "__v": 0
     }
   ]
 }

@@ -7,6 +7,7 @@ import Login from './routes/login';
 import './App.css';
 import Adminmain from './routes/adminmain';
 import Contacto from './routes/contacto';
+import About from './routes/about';
 
 function App(){
     return (
@@ -18,6 +19,7 @@ function App(){
            <Route  path="/login" element={<Login/>}/>
            <Route  path='/adminmain' element={<Adminmain/>}/>
            <Route  path='/contacto' element={<Contacto/>}/>
+           <Route  path='/acercade' element={<About/>}/>
         </Routes>
         </div>
     );

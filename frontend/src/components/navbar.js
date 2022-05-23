@@ -24,8 +24,9 @@ class NavBar extends React.Component {
                     <h1 className='NavBarItem' onClick={()=>window.open("/numeros", "_self")}>Numeros</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("http://reseniasbds.blogspot.com/", "_blank")}>Reseñas</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("http://agendabds.blogspot.com/", "_blank")}>Agenda</h1>
-                    <h1 className='NavBarItem'  onClick={()=>window.open("/podcast", "_self")}>Podcast</h1>
+                    <h1 className='NavBarItem'  onClick={()=>window.open("https://open.spotify.com/show/3cGpRjVYLKGsQOVcy84snX?si=e5a4852b0898414d", "_blank")}>Podcast</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("/contacto", "_self")}>Contacto</h1>
+                    <h1 className='NavBarItem'  onClick={()=>window.open("/acercade", "_self")}>Acerca de</h1>
                    
                 </div>}
                 {!this.state.matches768 &&                
@@ -37,8 +38,9 @@ class NavBar extends React.Component {
                              <h1 className='NavBarItem'  onClick={()=>window.open("/numeros", "_self")}>Numeros</h1>
                              <h1 className='NavBarItem'  onClick={()=>window.open("http://reseniasbds.blogspot.com/", "_blank")}>Reseñas</h1>
                              <h1 className='NavBarItem'  onClick={()=>window.open("http://agendabds.blogspot.com/", "_blank")}>Agenda</h1>
-                             <h1 className='NavBarItem'  onClick={()=>window.open("/podcast", "_self")}>Podcast</h1>
+                             <h1 className='NavBarItem'  onClick={()=>window.open("https://open.spotify.com/show/3cGpRjVYLKGsQOVcy84snX?si=e5a4852b0898414d", "_blank")}>Podcast</h1>
                              <h1 className='NavBarItem'  onClick={()=>window.open("/contacto", "_self")}>Contacto</h1>
+                             <h1 className='NavBarItem'  onClick={()=>window.open("/acercade", "_self")}>Staff </h1>
                        </div> 
                     }
                </div>

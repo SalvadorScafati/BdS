@@ -3,16 +3,14 @@ import '../styles/home.css'
 import ImgSlider from '../components/imgSlider';
 import NavBar from '../components/navbar';
 import RevistaQuickView from '../components/RevistaQuickView';
-import Redes from '../components/redes';
+import NavRedes from '../components/navRedes';
 import SpotifyItem from '../components/spotifyItem';
 import Footer from '../components/footer';
 import BlogContent from '../components/blogContent';
 
 class Home extends React.Component {
 
-    
 
-    
     render() { 
         return (
             <div id="home">
@@ -21,7 +19,7 @@ class Home extends React.Component {
             </div>
                 <NavBar />
                 <ImgSlider />     
-                <Redes />
+                <NavRedes />
                 <h2 id="revistaquicktittle" >Ultimos numeros</h2>
                 <RevistaQuickView/>
                 <h2 id="blogtittle">Noticias</h2>
@@ -32,7 +30,6 @@ class Home extends React.Component {
                 </div>
                 <div className='mediaContainer'  >
                 <SpotifyItem className="spotifyItem1" src="https://open.spotify.com/embed/show/3cGpRjVYLKGsQOVcy84snX?utm_source=generator"/>
-
                 </div>
                 </div>
                 <Footer />

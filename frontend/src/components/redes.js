@@ -74,10 +74,6 @@ class Redes extends React.Component {
                                 <ul>
                                     <li>Jorge Sánchez</li>
                                 </ul>
-                            <h2>Redaccion</h2>
-                                <ul>
-                                    <li>Felipe Benegas Lynch</li>
-                                </ul>
                             <h2>Diseño</h2>
                                 <ul>
                                     <li>Antonia Scafati</li>
@@ -94,14 +90,6 @@ class Redes extends React.Component {
                     </div>
                     }
                     
-                </div>
-                <div className='redesContainer'>
-                    <img className='redesicon' alt="facebookIcon" src={process.env.PUBLIC_URL+'/icons/facebookicon.png'} onClick={()=>window.open("https://www.facebook.com/BOCADESAPO-113630765327065/?fref=ts", "_blank")}/>
-                    <img className='redesicon' alt="instagramIcon"  src={process.env.PUBLIC_URL+'/icons/instagramicon.png'} onClick={()=>window.open("http://instagram.com/boca_de_sapo/", "_blank")}/>
-                    <img className='redesicon' alt="pinterestIcon"  src={process.env.PUBLIC_URL+'/icons/pinteresticon.png'}onClick={()=>window.open("http://www.pinterest.com/bocadesapo/", "_blank")}/>
-                    <img className='redesicon' alt="twitterIcon" src={process.env.PUBLIC_URL+'/icons/twittericon.png'} onClick={()=>window.open("https://twitter.com/BocadSapo", "_blank")}/>
-                    <img className='redesicon' alt="spotifyIcon"  src={process.env.PUBLIC_URL+'/icons/spotifyicon.png'} onClick={()=>window.open("https://open.spotify.com/show/3cGpRjVYLKGsQOVcy84snX?si=e5a4852b0898414d", "_blank")}/>
-                    <img className='redesicon' alt="youtubeIcon"  src={process.env.PUBLIC_URL+'/icons/youtubeicon.png'} onClick={()=>window.open("https://www.youtube.com/channel/UCTg_A-oBBP6hSlYoGgGPXdw", "_blank")}/>
                 </div>
         </div> );
     }
