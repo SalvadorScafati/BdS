@@ -21,7 +21,7 @@ class NavBar extends React.Component {
                 {this.state.matches768 &&                
                 <div className='NavBarContainer'>
                     <h1 className='NavBarItem' onClick={()=>window.open("/", "_self")}>Inicio</h1>
-                    <h1 className='NavBarItem' onClick={()=>window.open("/numeros", "_self")}>Numeros</h1>
+                    <h1 className='NavBarItem' onClick={()=>window.open("/numeros", "_self")}>Números</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("http://reseniasbds.blogspot.com/", "_blank")}>Reseñas</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("http://agendabds.blogspot.com/", "_blank")}>Agenda</h1>
                     <h1 className='NavBarItem'  onClick={()=>window.open("https://open.spotify.com/show/3cGpRjVYLKGsQOVcy84snX?si=e5a4852b0898414d", "_blank")}>Podcast</h1>
@@ -35,7 +35,7 @@ class NavBar extends React.Component {
                     {!this.state.toggle &&
                     <div className='dropDown'>
                              <h1 className='NavBarItem'  onClick={()=>window.open("/", "_self")}>Inicio</h1>
-                             <h1 className='NavBarItem'  onClick={()=>window.open("/numeros", "_self")}>Numeros</h1>
+                             <h1 className='NavBarItem'  onClick={()=>window.open("/numeros", "_self")}>Números</h1>
                              <h1 className='NavBarItem'  onClick={()=>window.open("http://reseniasbds.blogspot.com/", "_blank")}>Reseñas</h1>
                              <h1 className='NavBarItem'  onClick={()=>window.open("http://agendabds.blogspot.com/", "_blank")}>Agenda</h1>
                              <h1 className='NavBarItem'  onClick={()=>window.open("https://open.spotify.com/show/3cGpRjVYLKGsQOVcy84snX?si=e5a4852b0898414d", "_blank")}>Podcast</h1>

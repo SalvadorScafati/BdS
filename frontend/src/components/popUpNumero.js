@@ -41,19 +41,26 @@ render(){
         <div className='popUpNumerobox-box-articulos'>     
         {this.state.articulos &&
         <ul className='articulos'>
-        {this.props.data.articulos.map(i=>
+        {this.props.data.articulos.map((i,index)=>
+        <div>
         <li key={i.name+"-"+i.autor}>
             <h1 onClick={()=>window.open(i.pdf, "_blank")} className='articulo-name-clickable'  >{i.name}</h1>
             <h1 className='articulo-autor'>{i.autor}</h1>
-        </li>)}
-        <br />
-        <span className='articulo-name-clickable'   onClick={()=>window.open(this.props.data.dossier.pdf, "_blank")} >{this.props.data.dossier.nameDossier}</span>
-        <br />
-        {this.checkEmpty(this.props.data.dossier.autores) && this.props.data.dossier.autores.map(i=>
-        <li key={i.name+"-"+i.autor} style={{marginLeft:"20px"}}>
-            <h1  style={{color:"rgb(187, 173, 173)"}} className='articulo-name'  >{i.name}</h1>
-            <h1 className='articulo-autor'>{i.autor}</h1>
-        </li>)}
+        </li>
+        {this.props.data.dossier.orden===index &&
+         <div>
+        <li key={this.props.data.dossier.nameDossier}>
+         <span className='articulo-name-clickable'   onClick={()=>window.open(this.props.data.dossier.pdf, "_blank")} >{this.props.data.dossier.nameDossier}</span>
+         </li>
+            {this.checkEmpty(this.props.data.dossier.autores) && this.props.data.dossier.autores.map(i=>
+                <li key={i.name+"-"+i.autor} style={{marginLeft:"20px"}}>
+                <h1  style={{color:"rgb(187, 173, 173)"}} className='articulo-name'  >{i.name}</h1>
+                <h1 className='articulo-autor'>{i.autor}</h1>
+                </li>
+            )}
+         </div>}
+         </div>
+        )}
         </ul>}
         {!this.state.articulos &&
             !this.state.matches768  && <img className='articulos-img' src={this.props.img} alt="tapa"/> 

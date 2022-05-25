@@ -15,7 +15,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body{
-  background-image: linear-gradient(to right, rgba(191, 240, 184, 0), rgb(111, 198, 238));
+  background:rgb(240, 207, 20);
 }
 
 @keyframes App-logo-spin {

@@ -20,9 +20,9 @@ class Home extends React.Component {
                 <NavBar />
                 <ImgSlider />     
                 <NavRedes />
-                <h2 style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern2.png"})`}}  id="revistaquicktittle" >Ultimos numeros</h2>
+                <h2 style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern2.png"})`}}  id="revistaquicktittle" >Últimos números</h2>
                 <RevistaQuickView/>
-                <h2 style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern.png"})`}} id="blogtittle">Noticias</h2>
+                <h2 style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern1.png"})`}} id="blogtittle">Noticias</h2>
                 <div className='news' style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/brickwall2.png"})`,backgroundRepeat:"repeat",backgroundPositionX:"center"}}>
                 <div className='home_blogContainer' >
                 <BlogContent type="main" className="spotifyItem1"/>

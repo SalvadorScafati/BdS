@@ -6,7 +6,8 @@ import styled from 'styled-components';
 const Staff=styled.div`
     margin-top: 40px;
     padding-bottom: 40px;
-    background-color:#ffc34a;
+    background-color: rgb(240, 207, 20);
+    border-bottom: 20px solid rgb(240, 207, 20);
 `
 const Bar=styled.div`
     display: flex;
@@ -14,8 +15,8 @@ const Bar=styled.div`
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color:#fcfcfc;
-    border-bottom: 5px solid #8a2727;
+    border-bottom: 5px solid black;
+    background-image:url(${props=>process.env.PUBLIC_URL+"./icons/pattern2.png"});
 
 `
 
@@ -33,6 +34,7 @@ const Text=styled.h1`
     font-family: "benchNine";
     font-weight: 900;
     margin-left: 50px;
+    color:rgb(240, 207, 20);
     @media screen and (max-width:800px) {
        font-size: 30px
     }

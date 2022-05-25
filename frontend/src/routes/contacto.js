@@ -42,8 +42,8 @@ class Contacto extends React.Component {
     render() { 
         return (<div>
         <NavBar/>
-            <div className='containerForm' onSubmit={e => e.preventDefault()}>
-                <form id='formContacto'>
+            <div  className='containerForm' onSubmit={e => e.preventDefault()}>
+                <form style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern2.png"})`}} id='formContacto'>
                     <h1> Contactanos </h1>
                     <input  onChange={(e) =>{this.setState({email: e.target.value })} } type="email" id="femail" placeholder='email'  required/>
                     <input  onChange={(e) =>{this.setState({name: e.target.value })} }  type="text"  id="fname" placeholder='Nombre'  required/>

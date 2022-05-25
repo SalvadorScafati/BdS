@@ -27,7 +27,7 @@ class ImgSlider  extends React.Component {
     
 
     iniateArray(){
-        let m=this.state.data.map(()=>{return "white"})
+        let m=this.state.data.map(()=>{return "black"})
         this.setState({background:m})
     }
 
@@ -35,7 +35,7 @@ class ImgSlider  extends React.Component {
        this.iniateArray()
        let x=Math.floor(Math.random(10)*10);
        let l=this.state.background;
-       l[x]="yellow"
+       l[x]="#f0cf14"
        this.setState({valor:x,background:l})
     //    setTimeout(() => {
     //         this.random()      
@@ -44,8 +44,8 @@ class ImgSlider  extends React.Component {
 
     changeColor(i){
         let l=this.state.background;
-        l[this.state.valor]="white";
-        l[i]="yellow";
+        l[this.state.valor]="black";
+        l[i]="#f0cf14";
         this.setState({background:l})
     }
 
