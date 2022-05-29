@@ -29,7 +29,7 @@ class Adminmain extends React.Component {
 
     render() { 
         return (<div>
-             {this.state.redirect && <Navigate to="/login" />}
+             {this.state.redirect && <Navigate to="/entradasecreta" />}
              <div className='blogadmin-container'>
                  <BlogAdmin type="main"/>
                  <BlogAdmin type="secondary"/>

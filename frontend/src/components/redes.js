@@ -60,13 +60,13 @@ class Redes extends React.Component {
                                 <ul>
                                     <li>Jimena Néspolo</li>
                                 </ul>
-                            <h2>Consejo de Direccion</h2>
+                            <h2>Consejo de Dirección</h2>
                                 <ul>
                                     <li>Laura Cliento</li>
                                     <li>Clauda Feld </li>
                                     <li>Florencia Eva González</li>
                                 </ul>
-                            <h2>Redaccion</h2>
+                            <h2>Redacción</h2>
                                 <ul>
                                     <li>Felipe Benegas Lynch</li>
                                 </ul>

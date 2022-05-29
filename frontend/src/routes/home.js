@@ -25,11 +25,12 @@ class Home extends React.Component {
                 <h2 style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern1.png"})`}} id="blogtittle">Noticias</h2>
                 <div className='news' style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/brickwall2.png"})`,backgroundRepeat:"repeat",backgroundPositionX:"center"}}>
                 <div className='home_blogContainer' >
-                <BlogContent type="main" className="spotifyItem1"/>
-                <BlogContent type="secondary"  className="spotifyItem2"/>
+                <BlogContent type="main" img={process.env.PUBLIC_URL +"/icons/agendavar.png"} className="spotifyItem1"/>
+                <BlogContent type="secondary" img={process.env.PUBLIC_URL +"/icons/reseñavar.png"}   className="spotifyItem2"/>
                 </div>
                 <div className='mediaContainer'  >
-                <SpotifyItem className="spotifyItem1" src="https://open.spotify.com/embed/show/3cGpRjVYLKGsQOVcy84snX?utm_source=generator"/>
+                <SpotifyItem className="spotify" src="https://open.spotify.com/embed/show/3cGpRjVYLKGsQOVcy84snX?utm_source=generator"/>
+                <iframe className="youtubeVideo"  style={{"borderRadius":"25px","marginTop":"10px"}} width="360" height="215" src="https://www.youtube.com/embed/-tFwMPd5lcg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
                 </div>
                 </div>
                 <Footer />

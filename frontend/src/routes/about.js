@@ -79,7 +79,7 @@ class About extends React.Component {
                         <Container>
                          <Categoria >Directora</Categoria>
                          <Persona>- Jimena Néspolo</Persona>
-                         <Categoria>Consejo de Direccion</Categoria>
+                         <Categoria>Consejo de Dirección</Categoria>
                          <Persona>- Laura Cliento</Persona>
                          <Persona>- Clauda Feld</Persona>
                          <Persona>- Florencia Eva González</Persona>
@@ -91,10 +91,12 @@ class About extends React.Component {
                          <Persona>- Antonia Scafati</Persona>
                          <Categoria>Community Manager</Categoria>
                          <Persona>- Matuziken Knigth</Persona>
-                         <Categoria>Produccion Audiovisual</Categoria>
+                         <Categoria>Producción Audiovisual</Categoria>
                          <Persona>- Carolina Rosaspini</Persona>
-                         <Categoria>Produccion de Podcast</Categoria>
+                         <Categoria>Producción de Podcast</Categoria>
                          <Persona>- Pablo Manzano</Persona>    
+                         <Categoria>Corrección</Categoria>
+                         <Persona>- Carolina Fernández </Persona>
                        </Container>
                     </Staff>
             <Footer/>

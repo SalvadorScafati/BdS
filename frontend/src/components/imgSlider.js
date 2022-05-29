@@ -54,7 +54,7 @@ class ImgSlider  extends React.Component {
             {this.state.dataLoaded &&
                 <div className='imgSliderImg' style={{backgroundImage: `url(${process.env.PUBLIC_URL+this.state.data[this.state.valor]})`}}>
                     <div className='flexSlider'>
-                    <h1>© Imágenes: {this.state.autor}</h1>
+                    <h1>-</h1>
                     <div className='imgSliderContainer'> 
                     {this.state.data.map((i,index)=><button style={{"background":this.state.background[index]}} className='imgSliderImg-button' key={index} onClick={()=>{this.changeColor(index);this.setState({valor:index})}} />)}
                     </div>

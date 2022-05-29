@@ -6,13 +6,14 @@ const RedesContainer = styled.div `
     position: fixed;
     bottom: 0;
     z-index: 3;
+
     flex-direction: row;
     background-color:${props =>{if(props.mobile){if (props.show){return "rgb(0,0,0)"}else{return "#088199"}}else{return "rgb(0,0,0)"}}};
     justify-content: space-between;
     border-radius: 0 25px  0 0;
-    width: 50%;
+    width: 45%;
     transition: all 0.5s;
-    transform: translateX(${props =>{if(props.mobile){if (props.show){return "0px"}else{return "-70px"}}else{return "0px"}}});
+    transform: translateX(${props =>{if(props.mobile){if (props.show){return "0px"}else{return "-40px"}}else{return "0px"}}});
     @media screen and (max-width: 1020px) {
         flex-direction: column;
         width: max-content;
@@ -26,9 +27,9 @@ const RedesContainer = styled.div `
 const RedesIcon = styled.img `
     justify-content: baseline;
     z-index: 1;
-    width: 80px;
+    width: 40px;
     margin-right: 1px;
-    padding-right: 1%;
+    padding-right: 10px;
     height: auto;
     transition: all 0.2s;
    &:hover{

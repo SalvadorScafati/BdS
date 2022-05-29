@@ -14,11 +14,16 @@
 .home_blogContainer{
     display: flex;
     width: 100%;
-    justify-content:center;
+    justify-content: space-around;
     margin-left: 3%;
     padding-top: 50px;
 }
 
+.youtubeVideo,.spotify{
+    border: transparent;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
 
 #blogtittle,#revistaquicktittle{
     margin: 0;
@@ -38,13 +43,14 @@
     color: black;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1050px) {
     .mediaContainer,.home_blogContainer{
        flex-direction: column;
     }
 
      .home_blogContainer{
         margin-left: 0%;
+        align-items: center;
      }
     .mediaContainer{
         width: 100%;
@@ -52,8 +58,17 @@
     }
     .news{
         flex-direction: column;
+     
     }
     #blogtittle,#revistaquicktittle{
         font-size: 27px;
+    }
+
+    .youtubeVideo{
+        align-self: center;
+        width: 90%;
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 }

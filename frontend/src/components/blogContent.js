@@ -1,16 +1,83 @@
 import React from 'react';
-import VisibilitySensor from 'react-visibility-sensor';
-import '../styles/blogContainer.css'
+import styled from 'styled-components';
+
+const BlogContainer = styled.div`
+    width:360px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    &:hover{
+        cursor: pointer;
+    }
+    @media screen and (max-width:400px){
+        width:200px;
+        height: 300px;
+    }
+`
+
+const Content = styled.div`
+    width:100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+`
+const Tittle = styled.h1`
+   height: 22px;
+   width: 100%;
+   font-family: "BenchNine";
+   font-size: 18px;
+   padding-left: 13px;
+   background-color: rgb(240, 207, 20);
+   margin: 0%;
+   z-index: 1;
+   @media screen and (max-width:400px){
+        height: 50px;
+        font-size: 14px;
+        padding-left: 5px;
+    }
+`
+
+const Image = styled.div`
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: ${props=>`url(${props.src})`};
+    transition: all 2s;
+    &:hover{
+        transform: scale(1.3);
+    }
+   
+`
+const ImageBlur = styled.div`
+    width: 10%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(4px);
+    background-image: ${props=>`url(${props.src})`};
+   
+`
+
+const Images = styled.div`
+    display: flex;
+    width: 100%;
+    height: 100%;
+`
+
 
 
 class BlogContent extends React.Component {
     constructor(props) {
         super(props);
-        this.state={visibility: false,tittle:"",img:"",link:"",dataLoaded:false}
+        this.state={tittle:"",img:"",link:"",dataLoaded:false}
     }
 
-    componentDidUpdate(prevProps, prevState) {
-        if (prevState.visibility!==this.state.visibility){
+    componentDidMount(){
              const requestOptions = {
                  method:'POST',
                  headers:{'Content-Type': 'application/json' },
@@ -24,28 +91,28 @@ class BlogContent extends React.Component {
             .catch(error => {
                 this.setState({ errorMessage: error.toString() });
                 console.error('There was an error!', error);
-            });}
+            });
     }
   
     render() { 
         return (
-        <VisibilitySensor onChange={(isVisible) => {
-            this.setState({visibility: isVisible})
-          }}>
-
-        <div className='blogContainer'>
-            {this.state.dataLoaded &&
-            <div style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern2.png"})`}} className='blogContent'>
-                <span>
-                    <img src={process.env.PUBLIC_URL+'/icons/blogger.png'} alt="blogicon" />
-                    <h1 >{this.state.tittle}</h1>
-                </span>
-                <img src={this.state.img} alt="blog" onClick={()=>window.open(this.state.link, "_blank")} />                
-            </div>
+            <div>
+            {this.state.dataLoaded && 
+                <BlogContainer className='blogContainer'>
+                <img style={{"zIndex":1}} alt="var" src={this.props.img}/>
+                <Content>
+                <Tittle>{this.state.tittle}</Tittle>
+                <Images>
+                <ImageBlur src={this.state.img} onClick={()=>window.open(this.state.link, "_blank")} /> 
+                <Image  src={this.state.img} onClick={()=>window.open(this.state.link, "_blank")} /> 
+                <ImageBlur src={this.state.img} onClick={()=>window.open(this.state.link, "_blank")} />  
+                </Images>
+                </Content>
+                </BlogContainer>            
             }
-        </div>
-        </VisibilitySensor>);
-    }
+            </div>
+          
+    )}
 }
  
 export default BlogContent;
