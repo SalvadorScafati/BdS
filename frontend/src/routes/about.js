@@ -87,6 +87,8 @@ class About extends React.Component {
                          <Persona>- Walter Romero</Persona>
                          <Categoria>Redacción</Categoria>
                          <Persona>- Javier Geist</Persona>
+                         <Categoria>Corrección</Categoria>
+                         <Persona>- Carolina Fernández </Persona>
                          <Categoria>Arte y Diseño</Categoria>
                          <Persona>- Antonia Scafati</Persona>
                          <Categoria>Community Manager</Categoria>
@@ -95,8 +97,6 @@ class About extends React.Component {
                          <Persona>- Carolina Rosaspini</Persona>
                          <Categoria>Producción de Podcast</Categoria>
                          <Persona>- Pablo Manzano</Persona>    
-                         <Categoria>Corrección</Categoria>
-                         <Persona>- Carolina Fernández </Persona>
                        </Container>
                     </Staff>
             <Footer/>
