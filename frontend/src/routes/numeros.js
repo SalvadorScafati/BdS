@@ -89,8 +89,9 @@ class Numeros extends React.Component {
                         <PopupNumero data={this.state.data[this.state.numero]} img={process.env.PUBLIC_URL+"/tapas/Bds"+this.state.data[this.state.numero].numero+"-small.png"} deactivate={this.deactivate.bind(this)}/>            
                     }
                     <div className='searchBar'>
-                    <input type="text"  onChange={(e) =>{this.setState({ value: e.target.value })} } placeholder='buscar por numero, nombre, titulo'/>
+                    <input type="text"  onChange={(e) =>{this.setState({ value: e.target.value })} } placeholder='buscar por número, nombre, titulo'/>
                     <button onClick={()=>{this.buscar()}}>buscar</button>
+                    
                     <img onClick={()=>this.ordenar()} style={{transform:`rotate(${this.state.rotate}deg)`}} src="https://www.seekpng.com/png/full/22-224641_arrow-transparent-png-image-flecha-hacia-la-derecha.png"alt='orden'/>
                     </div> 
                     <div className='containerNumeros' style={{flexWrap:this.state.wrap,flexDirection:this.state.flex}}>
