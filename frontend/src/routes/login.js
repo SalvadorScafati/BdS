@@ -44,7 +44,7 @@ class Login extends React.Component {
     }
 
     render() { 
-        return <div className='formContainer'>
+        return <div className='blogadmin-container'><div className='formContainer'>
                 {this.state.redirect && <Navigate to="/adminmain" />}
                 <h1>LOGIN</h1>
                 <form className='form' onSubmit={e => e.preventDefault()}>
@@ -54,7 +54,7 @@ class Login extends React.Component {
                     <input onChange={(e) =>{this.setState({ pass: e.target.value })} } type="text" name='fpassword'/> 
                     <button onClick={()=>{this.loginquery(this.state.user,this.state.pass)}}>login</button>
                 </form>
-            </div>;
+                </div></div>;
     }
 }
  

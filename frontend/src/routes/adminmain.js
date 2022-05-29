@@ -31,8 +31,8 @@ class Adminmain extends React.Component {
         return (<div>
              {this.state.redirect && <Navigate to="/entradasecreta" />}
              <div className='blogadmin-container'>
-                 <BlogAdmin type="main"/>
-                 <BlogAdmin type="secondary"/>
+                 <BlogAdmin name="Agenda" type="main"/>
+                 <BlogAdmin name="Reseña" type="secondary"/>
              </div>
         </div>);
     }

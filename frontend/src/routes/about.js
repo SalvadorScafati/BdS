@@ -91,12 +91,12 @@ class About extends React.Component {
                          <Persona>- Carolina Fernández </Persona>
                          <Categoria>Arte y Diseño</Categoria>
                          <Persona>- Antonia Scafati</Persona>
-                         <Categoria>Community Manager</Categoria>
-                         <Persona>- Matuziken Knigth</Persona>
                          <Categoria>Producción Audiovisual</Categoria>
                          <Persona>- Carolina Rosaspini</Persona>
                          <Categoria>Producción de Podcast</Categoria>
                          <Persona>- Pablo Manzano</Persona>    
+                         <Categoria>Community Manager</Categoria>
+                         <Persona>- Matuziken Knigth</Persona>
                        </Container>
                     </Staff>
             <Footer/>
