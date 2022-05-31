@@ -128,7 +128,8 @@
     padding-left: 10%;
     padding-right: 10%;
     border: none;
-    border-top: 2px solid red;
+    color:  white;
+    border-top: 2px solid  rgb(240, 207, 20);
     width: max-content;
 }
 

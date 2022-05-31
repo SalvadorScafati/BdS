@@ -30,7 +30,7 @@ class Contacto extends React.Component {
             setTimeout(()=>{ this.setState({invisible:'visible',mensaje:false})},5000)
         }})
         .catch(error =>{this.setState({invisible:'visible',sending:false});console.log(error)})
-        },4000)
+        },2000)
     }
 
      validateEmail(email) 

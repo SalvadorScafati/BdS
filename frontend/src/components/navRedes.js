@@ -32,13 +32,14 @@ const RedesIcon = styled.img `
     padding-right: 10px;
     height: auto;
     transition: all 0.2s;
+    @media screen and (min-width: 1020px) { 
    &:hover{
     cursor: pointer;
     z-index: 1;
     border-collapse: collapse;
     transform: rotate(30deg);
     transform:translate(-10px,-10px)
-   }
+   }}
 `
 
 
