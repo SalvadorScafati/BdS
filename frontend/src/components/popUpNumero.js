@@ -32,7 +32,7 @@ render(){
         <h1 className='popUpNumerobox-tittle'><span>#</span>{this.props.data.numero} {this.props.data.nombre}</h1>
         <div className='popUpNumerobox-box'>
         <div className='popUpNumerobox-icons'>
-        <button onClick={()=>this.toogle()}> Mostrar Articulos</button>
+        <button onClick={()=>this.toogle()}> Mostrar Artículos</button>
         <div>
             <img onClick={()=>window.open(this.props.data.pdf,"_blank")} src={process.env.PUBLIC_URL+"/icons/pdficon.png"}  alt="pdfIcon"/>
             <img onClick={()=>window.open(this.props.data.issu,"_blank")} src={process.env.PUBLIC_URL+"/icons/issuicon.png"}  alt="issuIcon"/>
