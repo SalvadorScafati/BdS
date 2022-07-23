@@ -30,7 +30,7 @@ class Home extends React.Component {
                 </div>
                 <div className='mediaContainer'  >
                 <SpotifyItem className="spotify" src="https://open.spotify.com/embed/show/3cGpRjVYLKGsQOVcy84snX?utm_source=generator"/>
-                <iframe className="youtubeVideo"  style={{"borderRadius":"25px","marginTop":"10px"}} width="360" height="215" src="https://www.youtube.com/embed/-tFwMPd5lcg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
+                <iframe className="youtubeVideo"  style={{"borderRadius":"25px","marginTop":"10px"}} width="360" height="215" src="https://www.youtube.com/embed/K3sVxpkk9X0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
                 </div>
                 </div>
                 <Footer />
