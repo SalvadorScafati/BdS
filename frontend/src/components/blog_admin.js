@@ -15,7 +15,7 @@ class BlogAdmin extends React.Component {
             headers:{'Content-Type': 'application/json' },
             body:JSON.stringify({type:this.props.type})
         }
-        fetch('https://backend-bds.herokuapp.com/api/blog',requestOptions)
+        fetch('https://bds-6hmt.onrender.com/api/blog',requestOptions)
             .then(response => response.json())
             .then (data=>{
               this.setState({img:data.img,link:data.link,tittle:data.tittle,dataLoaded:true})
@@ -33,7 +33,7 @@ class BlogAdmin extends React.Component {
             headers: {'Authorization':' Bearer '+cookies.get("token"), 'Content-Type': 'application/json' },
             body: JSON.stringify({tittle:String(tittle),img:String(img),link:String(link),type:this.props.type})
     };
-        fetch('https://backend-bds.herokuapp.com/api/updateblog', requestOptions)
+        fetch('https://bds-6hmt.onrender.com/api/updateblog', requestOptions)
         .then(response =>{console.log(response);if (response.status===200){alert("cambios guardados")}else{alert("error"+response.status)}})
         .catch(error => console.log(error))
     }

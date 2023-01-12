@@ -21,7 +21,7 @@ class Contacto extends React.Component {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({mail:String(email),name:String(name),text:String(text)})
         };
-        fetch('https://backend-bds.herokuapp.com/mail/send', requestOptions)
+        fetch('https://bds-6hmt.onrender.com/mail/send', requestOptions)
         .then(response =>{if (response.status===200){
               this.setState({response:"Mensaje enviado",mensaje:true,sending:false})
               setTimeout(()=>{ this.setState({invisible:'visible',mensaje:false})},5000)

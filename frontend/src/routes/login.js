@@ -27,8 +27,8 @@ class Login extends React.Component {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({user:String(user),pass:String(pass)})
     };
-    // https://backend-bds.herokuapp.com/api/login
-        fetch('https://backend-bds.herokuapp.com/api/login', requestOptions)
+    // https://bds-6hmt.onrender.com/api/login
+        fetch('https://bds-6hmt.onrender.com/api/login', requestOptions)
         .then(response =>{return response.json()})
         .then(data =>{
             console.log(data)

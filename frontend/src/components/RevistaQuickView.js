@@ -19,7 +19,7 @@ class RevistaQuickView extends React.Component {
         .catch(err=>{console.log(err, ' error')})
         */
        /*Mongo DB*/
-       fetch("https://backend-bds.herokuapp.com/api/revista")
+       fetch("https://bds-6hmt.onrender.com/api/revista")
         .then(response=>{return response.json()})
         .then(data=>{this.setState({data:data})})
         .then(()=>this.setState({dataLoaded:true}))

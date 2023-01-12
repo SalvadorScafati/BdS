@@ -22,7 +22,7 @@ class Adminmain extends React.Component {
             const requestOptions = {
                 headers: { 'Authorization':' Bearer '+cookies.get("token") },
             }
-            fetch("https://backend-bds.herokuapp.com/api/validtoken",requestOptions)
+            fetch("https://bds-6hmt.onrender.com/api/validtoken",requestOptions)
             .then(response =>{if(response.status!==200){cookies.remove("token");this.setState({redirect:true})}})
         }
     }

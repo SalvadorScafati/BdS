@@ -83,7 +83,7 @@ class BlogContent extends React.Component {
                  headers:{'Content-Type': 'application/json' },
                  body:JSON.stringify({type:this.props.type})
              }
-            fetch('https://backend-bds.herokuapp.com/api/blog',requestOptions)
+            fetch('https://bds-6hmt.onrender.com/api/blog',requestOptions)
             .then(response => response.json())
             .then (data=>{
               this.setState({img:data.img,link:data.link,tittle:data.tittle,dataLoaded:true})
