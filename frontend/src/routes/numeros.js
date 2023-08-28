@@ -3,6 +3,7 @@ import NavBar from '../components/navbar';
 import PopupNumero from '../components/popUpNumero';
 import '../styles/Numeros.css';
 import Footer from '../components/footer';
+import LoadingLoop from '../components/loadingLoop';
 
 class Numeros extends React.Component {
 
@@ -101,7 +102,7 @@ class Numeros extends React.Component {
                     </div>)}
                     </div> 
                 </div>
-                :<h1 style={{"marginTop":"200px"}} >loading ...</h1>}
+                :<LoadingLoop/>}
             <Footer />
             </div>
         );

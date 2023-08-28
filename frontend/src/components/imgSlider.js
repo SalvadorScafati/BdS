@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/imgSlider.css';
+import LoadingLoop from './loadingLoop';
 
 class ImgSlider  extends React.Component {
 
@@ -15,8 +16,6 @@ class ImgSlider  extends React.Component {
         .then(data=>{this.setState({data:data.img,autor:data.autor,})})
         .then(()=>{this.setState({dataLoaded:true})})
         .catch(err=>{console.log(err, ' error')})
-       
-        
       }
 
     componentDidUpdate(prevProps,prevState){
@@ -33,13 +32,13 @@ class ImgSlider  extends React.Component {
 
     random(){
        this.iniateArray()
-       let x=Math.floor(Math.random(10)*10);
+       let x = Math.floor(Math.random() * this.state.data.length);
        let l=this.state.background;
        l[x]="#f0cf14"
        this.setState({valor:x,background:l})
-    //    setTimeout(() => {
-    //         this.random()      
-    //    }, 20000);
+        //setTimeout(() => {
+        //     this.random()      
+        //}, 20000);
     }
 
     changeColor(i){
@@ -62,8 +61,7 @@ class ImgSlider  extends React.Component {
                 </div> 
             } 
             {!this.state.dataLoaded &&
-                <div className='imgSliderImg' >
-              </div> 
+              <LoadingLoop />
             }
         </div>  );
     }

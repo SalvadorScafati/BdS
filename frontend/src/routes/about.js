@@ -97,6 +97,8 @@ class About extends React.Component {
                          <Persona>- Pablo Manzano</Persona>    
                          <Categoria>Community Manager</Categoria>
                          <Persona>- Matuziken Knigth</Persona>
+                         <Categoria>Desarrollador Web</Categoria>
+                         <Persona>- Salvador Scafati</Persona>
                        </Container>
                     </Staff>
             <Footer/>
