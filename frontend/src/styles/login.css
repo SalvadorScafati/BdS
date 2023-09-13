@@ -1,3 +1,4 @@
+
 .formContainer{
     margin-top: 10px;
     width:600px;
@@ -6,9 +7,7 @@
     flex-direction: column;
     overflow: hidden;
     align-items: center;
-    border-radius: 26px;
     background-color: rgb(221, 221, 221);
-    border: 4px solid black;
     min-width: 150px;
 }
 
@@ -23,7 +22,7 @@
     padding-left: 10px;
     width: 100%;
     margin-top: 0%;
-    background-color: rgb(13, 102, 180);
+    background-color: rgb(136, 188, 233);
 }
 
 .form > button{
@@ -37,8 +36,9 @@
     transition: all 0.4s;
 }
 
-.login > button:hover{
-    background-color: rgb(184, 42, 17);
+.form > button:hover{
+    background-color: rgb(58, 165, 151);
+    cursor: pointer;
 }
 
 .form > input,.login > label{

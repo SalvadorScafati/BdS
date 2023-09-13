@@ -4,9 +4,10 @@ import ImgSlider from '../components/imgSlider';
 import NavBar from '../components/navbar';
 import RevistaQuickView from '../components/RevistaQuickView';
 import NavRedes from '../components/navRedes';
-import SpotifyItem from '../components/spotifyItem';
 import Footer from '../components/footer';
-import BlogContent from '../components/blogContent';
+import Noticias from '../components/noticias';
+//import SpotifyItem from '../components/spotifyItem';
+//import BlogContent from '../components/blogContent';
 
 class Home extends React.Component {
 
@@ -22,7 +23,8 @@ class Home extends React.Component {
                 <NavRedes />
                 <h2 style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern2.png"})`}}  id="revistaquicktittle" >Últimos números</h2>
                 <RevistaQuickView/>
-                <h2 style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern1.png"})`}} id="blogtittle">Noticias</h2>
+                {
+                /*
                 <div className='news' style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/brickwall2.png"})`,backgroundRepeat:"repeat",backgroundPositionX:"center"}}>
                 <div className='home_blogContainer' >
                 <BlogContent type="main" img={process.env.PUBLIC_URL +"/icons/agendavar.png"} className="spotifyItem1"/>
@@ -33,6 +35,10 @@ class Home extends React.Component {
                 <iframe className="youtubeVideo"  style={{"borderRadius":"25px","marginTop":"10px"}} width="360" height="215" src="https://www.youtube.com/embed/K3sVxpkk9X0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
                 </div>
                 </div>
+                */
+                }
+                <h2 style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern1.png"})`}} id="blogtittle">Noticias</h2>
+                <Noticias />
                 <Footer />
             </div>
         );

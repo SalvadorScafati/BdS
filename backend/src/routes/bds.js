@@ -7,8 +7,8 @@ const adminSchema = require("../models/admin.js")
 
 
 
-router.post("/blog",(req,res)=>{
-    blogSchema.findOne({type:req.body.type})
+router.get("/blog",(req,res)=>{
+    blogSchema.find().sort( { date : -1})
         .then((data)=>{console.log(data);res.json(data)})
         .catch((err)=>console.log(err))
 })
@@ -66,12 +66,71 @@ router.post("/updateblog",verifyToken,(req,res)=>{
         res.sendStatus(403);
     }else{
       console.log(req.body)
-       blogSchema.updateOne({type:req.body.type},{$set:{link:req.body.link,img:req.body.img,tittle:req.body.tittle}})
+       blogSchema.updateOne({_id:req.body._id},{$set:{type:req.body.type,link:req.body.link,img:req.body.img,tittle:req.body.tittle,text:req.body.text,autor:req.body.autor,date:req.body.date}})
        .then((data)=>{console.log(data);res.sendStatus(200)})
        .catch((err)=>console.log(err))
     }
 });
 })
+
+router.post("/insertblog", verifyToken, (req, res) => {
+  jwt.verify(req.token, '.-tokensecret-.', (error, authData) => {
+    if (error) {
+      res.sendStatus(403);
+    } else {
+      console.log(req.body);
+
+      const newBlog = new blogSchema({
+        type: req.body.type,
+        link: req.body.link,
+        img: req.body.img,
+        tittle: req.body.tittle,
+        text: req.body.text,
+        autor: req.body.autor,
+        date: req.body.date
+      });
+
+      newBlog
+        .save()
+        .then((data) => {
+          console.log(data);
+          res.sendStatus(200);
+        })
+        .catch((err) => {
+          console.log(err);
+          res.sendStatus(500); // Internal Server Error
+        });
+    }
+  });
+});
+
+router.post("/deleteblog", verifyToken, (req, res) => {
+  jwt.verify(req.token, '.-tokensecret-.', (error, authData) => {
+    if (error) {
+      res.sendStatus(403);
+    } else {
+      const blogId = req.body.id;
+      console.log(blogId);
+      // Delete the blog by its ID
+      blogSchema
+        .findByIdAndRemove(blogId)
+        .then((data) => {
+          if (data) {
+            console.log(data);
+            res.sendStatus(200); // Blog successfully deleted
+          } else {
+            console.log(blogId);
+            res.sendStatus(404); // Blog not found
+          }
+        })
+        .catch((err) => {
+          console.log(err);
+          res.sendStatus(500); // Internal Server Error
+        });
+    }
+  });
+});
+
 
 const jwt = require("jsonwebtoken");
 function verifyToken(req, res, next){

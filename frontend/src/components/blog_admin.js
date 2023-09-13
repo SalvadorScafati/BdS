@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/login.css"
 import Cookies from 'universal-cookie';
+import LoadingLoop from './loadingLoop';
 const cookies=new Cookies();
 
 class BlogAdmin extends React.Component {
@@ -53,7 +54,7 @@ class BlogAdmin extends React.Component {
                     <button onClick={()=>{this.submit(this.state.tittle,this.state.img,this.state.link)}}>Guardar cambios</button>
                 </form>
         </div>
-        :<h1>loading ... </h1>}
+        :<LoadingLoop />}
         </div>);
     }
 }

@@ -51,7 +51,7 @@ class Login extends React.Component {
                     <label>USER </label>
                     <input onChange={(e) =>{this.setState({ user: e.target.value })} } type="text" name='fname'/>
                     <label> password </label>
-                    <input onChange={(e) =>{this.setState({ pass: e.target.value })} } type="text" name='fpassword'/> 
+                    <input onChange={(e) =>{this.setState({ pass: e.target.value })} } type="password" name='fpassword'/> 
                     <button onClick={()=>{this.loginquery(this.state.user,this.state.pass)}}>login</button>
                 </form>
                 </div></div>;
