@@ -106,11 +106,11 @@ function NoticiasItem({data,modificar}) {
   const {tittle,_id} = data;
 
 
-  function handleDelete(){
+   async function handleDelete(){
     const blogData = {
       id: _id,
     };
-    deleteBlog(blogData)
+    await deleteBlog(blogData);
     window.location.reload();
   }
 

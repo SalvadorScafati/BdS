@@ -30,13 +30,13 @@ import '../styles/adminmain.css';
     };
 
     async function update(data){
-      updateBlog(data);
+      await updateBlog(data);
       modificar(data,true)
       salir();
    }
 
    async function insert(data){
-    insertBlog(data);
+    await insertBlog(data);
     modificar(data,false)
     salir();
    }
