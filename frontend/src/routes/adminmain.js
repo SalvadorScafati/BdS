@@ -54,15 +54,27 @@ function Adminmain() {
   setSeleccion(data)
  }
 
- function handleUpdate(data){
+ function handleUpdate(data,actualizar){
+  if (actualizar){
     const updatedBlog= blog.map((obj) =>
-      obj._id === data._id ? data : obj
-    );
-    setBlogs(updatedBlog);
+    obj._id === data._id ? data : obj
+  );
+  setBlogs(updatedBlog);
+  } else {
+    window.location.reload(); 
+    /*
+    AGREGAR METODO DE INSERT PARA QUE
+    DEVUELVA EL ID Y AGREGARLO AL DATA
+    PARA ASI EVITAR EL REFRESH DE LA 
+    PAGINA.
+    const updatedBlog = blog.slice()
+    updatedBlog.push(data)
+    setBlogs(updatedBlog);*/
+  }
  }
 
  function handleAgregar(){
-  setSeleccion({id:'nuevo'})
+  setSeleccion({_id:'nuevo'})
  }
 
  if (blog.length === 0){

@@ -31,14 +31,16 @@ import '../styles/adminmain.css';
 
     async function update(data){
       updateBlog(data);
-      modificar(data)
+      modificar(data,true)
       salir();
    }
 
    async function insert(data){
     insertBlog(data);
+    modificar(data,false)
     salir();
    }
+
     return (
       <div>
         <form onSubmit={handleSubmit} className='form-container'>
