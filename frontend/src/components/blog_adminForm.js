@@ -25,7 +25,6 @@ import '../styles/adminmain.css';
       if (formData._id === 'nuevo') {
         insert(formData);
       } else {
-        console.log(data);
         update(formData);
       }
     };
@@ -40,7 +39,6 @@ import '../styles/adminmain.css';
     insertBlog(data);
     salir();
    }
-
     return (
       <div>
         <form onSubmit={handleSubmit} className='form-container'>
@@ -93,10 +91,10 @@ import '../styles/adminmain.css';
             <label htmlFor="author">Autor:</label>
             <input
               type="text"
-              name="author" // Note the typo, it should be "author"
-              id="author"
+              name="autor" // Note the typo, it should be "author"
+              id="autor"
               className='input'
-              value={formData.author}
+              value={formData.autor}
               onChange={handleChange}
             />
           </div>
