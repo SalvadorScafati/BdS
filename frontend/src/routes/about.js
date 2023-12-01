@@ -86,6 +86,7 @@ class About extends React.Component {
                          <Persona>- Juan José Mendoza </Persona>
                          <Persona>- Walter Romero</Persona>
                          <Categoria>Redacción</Categoria>
+                         <Persona>- Hernán Martínez</Persona>
                          <Persona>- Javier Geist</Persona>
                          <Categoria>Corrección</Categoria>
                          <Persona>- Carolina Fernández </Persona>
@@ -99,6 +100,15 @@ class About extends React.Component {
                          <Persona>- Matuziken Knigth</Persona>
                          <Categoria>Desarrollador Web</Categoria>
                          <Persona>- Salvador Scafati</Persona>
+                         <Categoria>Colaboradores</Categoria>
+                         <Persona>- Natalia Aruguete</Persona>
+                        <Persona>- Florencia Bonfiglio</Persona>
+                        <Persona>- Ernesto Calvo</Persona>
+                        <Persona>- Diego Escolar</Persona>
+                        <Persona>- Natacha Koss</Persona>
+                        <Persona>- Miranda Lida</Persona>
+                        <Persona>- Verónica Perera</Persona>
+                        <Persona>- Matías Tejeda</Persona>
                        </Container>
                     </Staff>
             <Footer/>
