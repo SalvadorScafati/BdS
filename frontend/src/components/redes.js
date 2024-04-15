@@ -69,7 +69,6 @@ class Redes extends React.Component {
                             <h2>Redacción</h2>
                                 <ul>
                                     <li>Felipe Benegas Lynch</li>
-                                    <li>Hernán Martínez</li>
                                     <li>Javier Geist</li>
                                 </ul>
                             <h2>Arte</h2>
