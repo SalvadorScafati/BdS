@@ -74,38 +74,9 @@
     }
 }
 
-.redesContainer{
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    z-index: 3;
-    flex-direction: row;
-    background-color: rgb(0, 0, 0);
-    justify-content: space-between;
-    border-radius: 25px 0 0 0;
-    width: 50%;
-}
-
-.redesicon{
-    justify-content: baseline;
-    z-index: 1;
-    width: 80px;
-    margin-right: 1px;
-    padding-right: 1%;
-    height: auto;
-    transition: all 0.2s;
-
-    
-}
 
 
-.redesicon:hover{
-    cursor: pointer;
-    z-index: 1;
-    border-collapse: collapse;
-    transform: rotate(30deg);
-    transform:translate(-10px,-10px)
-}
+
 
 .miniNavBar{    
  margin-top: -14px;
@@ -143,23 +114,7 @@
 }
 
 
-@media screen and (max-width: 1020px) {
-    .redesContainer{
-        z-index: 1;
-        display: flex;
-        position: relative;
-        width: fit-content;
-        height: 50%;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-top: -30px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-radius: 10px;
-        margin-left: 10px;
-        padding-right: 1px;
-    }
-}
+
 
 @media screen and (max-width: 620px) {
     
@@ -182,9 +137,7 @@
         font-size: 16px;
     }
 
-    .redesicon{
-        width: 40px;
-    }
+  
 
     .scroller::-webkit-scrollbar {
         width: 12px;

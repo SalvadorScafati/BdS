@@ -6,6 +6,8 @@ import RevistaQuickView from '../components/RevistaQuickView';
 import NavRedes from '../components/navRedes';
 import Footer from '../components/footer';
 import Noticias from '../components/noticias';
+import Cafecito from '../components/cafecito';
+import Issu from '../components/issu';
 //import SpotifyItem from '../components/spotifyItem';
 //import BlogContent from '../components/blogContent';
 
@@ -21,7 +23,9 @@ class Home extends React.Component {
                 <NavBar />
                 <ImgSlider />     
                 <NavRedes />
+                <Cafecito />
                 <h2 style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern2.png"})`}}  id="revistaquicktittle" >Últimos números</h2>
+                <Issu />
                 <RevistaQuickView/>
                 {
                 /*
@@ -37,7 +41,9 @@ class Home extends React.Component {
                 </div>
                 */
                 }
+
                 <h2 style={{"backgroundImage": `url(${process.env.PUBLIC_URL+"./icons/pattern1.png"})`}} id="blogtittle">Noticias</h2>
+                
                 <Noticias />
                 <Footer />
             </div>
